@@ -1,0 +1,2183 @@
+{
+  "multi_pattern_classes": [
+    {
+      "class_name": "CH.ifa.draw.figures.LineConnection",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 8
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.TextFigure",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 8
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.PolyLineFigure",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 8
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.PolygonFigure",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 8
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.RoundRectangleFigure",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 8
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Figure",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Command",
+        "Prototype"
+      ],
+      "pattern_count": 7
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.EllipseFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 7
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.net.NodeFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype",
+        "Strategy"
+      ],
+      "pattern_count": 7
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.pert.PertDependency",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.GroupFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.pert.PertFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.StandardDrawing",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.ImageFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.RectangleFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.DiamondFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.TriangleFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.NumberTextFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.BorderDecorator",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.ElbowConnection",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.LineFigure",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Decorator",
+        "Prototype"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "com.taursys.xml.Form",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "com.taursys.servlet.ServletForm",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory",
+        "Facade"
+      ],
+      "pattern_count": 6
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.StandardDrawingView",
+      "patterns": [
+        "Adapter",
+        "State",
+        "Observer",
+        "Command",
+        "Strategy"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.Component",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.DispatchingContainer",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.DocumentElement",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.servlet.DefaultMessageForm",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.Template",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer",
+      "patterns": [
+        "Adapter",
+        "Composite",
+        "Template Method",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.Parameter",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.HTMLCheckBox",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.SelectField",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.HTMLSelect",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.TextField",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.HTMLAnchorURL",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.HTMLInputText",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.html.HTMLTextArea",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "com.taursys.xml.Trigger",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer",
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 5
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.ConnectionHandle",
+      "patterns": [
+        "Adapter",
+        "Strategy",
+        "Factory Method",
+        "Prototype"
+      ],
+      "pattern_count": 4
+    },
+    {
+      "class_name": "com.taursys.servlet.test.TestComponent",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 4
+    },
+    {
+      "class_name": "com.taursys.xml.event.test.TestComponent",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 4
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.JavaParser",
+      "patterns": [
+        "Factory Method",
+        "Composite",
+        "Proxy",
+        "Interpreter"
+      ],
+      "pattern_count": 4
+    },
+    {
+      "class_name": "junit.tests.TestListenerTest",
+      "patterns": [
+        "Composite",
+        "Decorator",
+        "Observer"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.HandleTracker",
+      "patterns": [
+        "Adapter",
+        "State",
+        "Factory Method"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.NullHandle",
+      "patterns": [
+        "Adapter",
+        "Null Object",
+        "Factory Method"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.PolygonHandle",
+      "patterns": [
+        "Adapter",
+        "Strategy",
+        "Factory Method"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.ConnectionFigure",
+      "patterns": [
+        "Adapter",
+        "Strategy",
+        "Prototype"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.AbstractFigure",
+      "patterns": [
+        "Factory Method",
+        "Template Method",
+        "Strategy"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.ConnectionTool",
+      "patterns": [
+        "State",
+        "Strategy",
+        "Prototype"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "com.taursys.html.HTMLComponentFactory",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Singleton"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "com.taursys.xml.CheckBoxField",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Composite"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "com.taursys.servlet.test.TestParameter",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Composite"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "com.taursys.xml.event.test.TestParameter",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory",
+        "Composite"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "com.taursys.xml.Button",
+      "patterns": [
+        "Composite",
+        "Template Method",
+        "Observer"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.Page",
+      "patterns": [
+        "Bridge",
+        "Adapter",
+        "Command"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor",
+      "patterns": [
+        "Template Method",
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor",
+      "patterns": [
+        "Template Method",
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor",
+      "patterns": [
+        "Template Method",
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor",
+      "patterns": [
+        "Template Method",
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter",
+      "patterns": [
+        "Strategy",
+        "Iterator",
+        "Command"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.nutch.db.WebDBWriter",
+      "patterns": [
+        "Strategy",
+        "Iterator",
+        "Command"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.JavaParserTokenManager",
+      "patterns": [
+        "Factory Method",
+        "Composite",
+        "Proxy"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.CipherParameters",
+      "patterns": [
+        "Factory Method",
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 3
+    },
+    {
+      "class_name": "diagram.DefaultFigureEditor",
+      "patterns": [
+        "Abstract Factory",
+        "Composite"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.DiagramUI",
+      "patterns": [
+        "Abstract Factory",
+        "Composite"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.ToolPalette",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.AbstractTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.CardinalityTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.ClipboardTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.EditingTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.FigureDraggingTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.FigureShappingTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.FigureTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.LinkShappingTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.LinkTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.AssociationTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.CompositionTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.DependencyTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.GeneralizationTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "uml.ui.RealizationTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "diagram.tool.SelectionTool",
+      "patterns": [
+        "Composite",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.jmonkey.office.lexi.support.Editor",
+      "patterns": [
+        "Builder",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.jmonkey.office.lexi.support.editors.HTMLEditor",
+      "patterns": [
+        "Builder",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "java.awt.event.FocusListener",
+      "patterns": [
+        "Adapter",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "javax.swing.event.DocumentListener",
+      "patterns": [
+        "Adapter",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "java.awt.event.MouseListener",
+      "patterns": [
+        "Adapter",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.acm.seguin.ide.jbuilder.UMLNode",
+      "patterns": [
+        "Adapter",
+        "Builder"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.acm.seguin.parser.Node",
+      "patterns": [
+        "Builder",
+        "Visitor"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory",
+      "patterns": [
+        "Factory Method",
+        "Singleton"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.acm.seguin.summary.FileSummary",
+      "patterns": [
+        "State",
+        "Visitor"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.openide.nodes.Node",
+      "patterns": [
+        "Adapter",
+        "Abstract Factory"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.Specification",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.editor.SyntaxSupport",
+      "patterns": [
+        "Abstract Factory",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.editor.DocOp",
+      "patterns": [
+        "Abstract Factory",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.vcs.VcsFileSystem",
+      "patterns": [
+        "Adapter",
+        "Abstract Factory"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.editor.EditorDebug",
+      "patterns": [
+        "Abstract Factory",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.editor.DocOp.SyntaxUpdateRenderer",
+      "patterns": [
+        "Abstract Factory",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.openide.filesystems.Repository",
+      "patterns": [
+        "Adapter",
+        "Abstract Factory"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.nodes.TableNode.ColumnPasteType",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.infos.ColumnNodeInfo",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.infos.TableNodeInfo",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.infos.ViewNodeInfo",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.nodes.IndexNode.IndexPasteType",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.actions.AddIndexAction",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.actions.AddToIndexAction",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.actions.CreateViewAction",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.infos.IndexNodeInfo",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.infos.ProcedureListNodeInfo",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.nodes.ColumnNode",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.nodes.TableNode",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.modules.db.explorer.nodes.ViewNode",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.AbstractCommand",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.ColumnCommand",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.ModifyColumn",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.RemoveColumn",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.RenameColumn",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.ColumnListCommand",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.AddColumn",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateIndex",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateTable",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CommentTable",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CommentView",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateProcedure",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateFunction",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateTrigger",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.CreateView",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.RenameTable",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.netbeans.lib.ddl.impl.RenameView",
+      "patterns": [
+        "Abstract Factory",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.framework.Test",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.TestImplementorTest.DoubleTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ActiveTestTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.AssertTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.extensions.ExceptionTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExceptionTestCaseTest.ThrowExceptionTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExceptionTestCaseTest.ThrowNoExceptionTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExceptionTestCaseTest.ThrowRuntimeExceptionTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExceptionTestCaseTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExtensionTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.Failure",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.samples.money.MoneyTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.NoTestCases",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.NotPublicTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.NotVoidTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.OneTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.InheritedTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.OverrideTestCase",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.RepeatedTestTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.samples.SimpleTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.SorterTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.StackFilterTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.Success",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ActiveTestTest.SuccessTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.RepeatedTestTest.SuccessTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.SuiteTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.TestCaseClassLoaderTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.TestCaseTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.TestImplementorTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.TextRunnerTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.ExtensionTest.TornDown",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.samples.VectorTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.tests.WasRun",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.extensions.TestDecorator",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.extensions.RepeatedTest",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.extensions.TestSetup",
+      "patterns": [
+        "Composite",
+        "Decorator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "junit.swingui.TestSelector",
+      "patterns": [
+        "Iterator",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "java.util.Enumeration",
+      "patterns": [
+        "Bridge",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Handle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.ChangeConnectionEndHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.ChangeConnectionStartHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.ElbowHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.LocatorHandle",
+      "patterns": [
+        "Adapter",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.EastHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.FontSizeHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.NorthEastHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.NorthHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.NorthWestHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.GroupHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.PolyLineHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.SouthEastHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.SouthHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.SouthWestHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.WestHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.PolygonScaleHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.TriangleRotationHandle",
+      "patterns": [
+        "Adapter",
+        "Factory Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Locator",
+      "patterns": [
+        "Adapter",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.application.DrawApplication",
+      "patterns": [
+        "Composite",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.applet.DrawApplet",
+      "patterns": [
+        "Composite",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.javadraw.JavaDrawApp",
+      "patterns": [
+        "Composite",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.GroupCommand",
+      "patterns": [
+        "Composite",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Drawing",
+      "patterns": [
+        "Observer",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+      "patterns": [
+        "Composite",
+        "State"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.DecoratorFigure",
+      "patterns": [
+        "Decorator",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Connector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.ChopBoxConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.ChopEllipseConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.contrib.ChopPolygonConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.PolyLineConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.LocatorConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.figures.ShortestDistanceConnector",
+      "patterns": [
+        "Factory Method",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.framework.Tool",
+      "patterns": [
+        "Factory Method",
+        "State"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.DragTracker",
+      "patterns": [
+        "Factory Method",
+        "State"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.SelectAreaTracker",
+      "patterns": [
+        "Factory Method",
+        "State"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.SelectionTool",
+      "patterns": [
+        "Factory Method",
+        "State"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "CH.ifa.draw.standard.CreationTool",
+      "patterns": [
+        "State",
+        "Prototype"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.html.test.HTMLComponentFactoryTest",
+      "patterns": [
+        "Abstract Factory",
+        "Observer"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.ComponentFactory",
+      "patterns": [
+        "Factory Method",
+        "Abstract Factory"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.dom.DocumentAdapter",
+      "patterns": [
+        "Adapter",
+        "Facade"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.dom.DOM_1_20000929_DocumentAdapter",
+      "patterns": [
+        "Adapter",
+        "Strategy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.debug.Debug",
+      "patterns": [
+        "Adapter",
+        "Singleton"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.event.CloseFormDispatcher",
+      "patterns": [
+        "Composite",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.event.OpenFormDispatcher",
+      "patterns": [
+        "Composite",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.event.InitFormDispatcher",
+      "patterns": [
+        "Composite",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.event.InitContextDispatcher",
+      "patterns": [
+        "Composite",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "com.taursys.xml.Container",
+      "patterns": [
+        "Composite",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBReader.EnumCall",
+      "patterns": [
+        "Bridge",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBReader.LinkEnumCall",
+      "patterns": [
+        "Bridge",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBReader.PageEnumCall",
+      "patterns": [
+        "Bridge",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBReader.PageByMD5EnumCall",
+      "patterns": [
+        "Bridge",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.EditSectionGroupWriter.PageURLExtractor",
+      "patterns": [
+        "Bridge",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.EditSectionGroupWriter.PageMD5Extractor",
+      "patterns": [
+        "Bridge",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.EditSectionGroupWriter.LinkURLExtractor",
+      "patterns": [
+        "Bridge",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.EditSectionGroupWriter.LinkMD5Extractor",
+      "patterns": [
+        "Bridge",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.io.WritableComparable",
+      "patterns": [
+        "Bridge",
+        "Adapter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.Link",
+      "patterns": [
+        "Bridge",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBWriter.CloseProcessor",
+      "patterns": [
+        "Template Method",
+        "Command"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.WebDBWriter.LinksByMD5Processor",
+      "patterns": [
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.WebDBWriter.LinksByURLProcessor",
+      "patterns": [
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.WebDBWriter.PagesByMD5Processor",
+      "patterns": [
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.WebDBWriter.PagesByURLProcessor",
+      "patterns": [
+        "Command",
+        "Memento"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.IWebDBWriter",
+      "patterns": [
+        "Strategy",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.IWebDBReader",
+      "patterns": [
+        "Strategy",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.DistributedWebDBReader",
+      "patterns": [
+        "Strategy",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.nutch.db.WebDBReader",
+      "patterns": [
+        "Strategy",
+        "Iterator"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.JavaParserVisitorAdapter",
+      "patterns": [
+        "Adapter",
+        "Visitor"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ant.PMDTask",
+      "patterns": [
+        "Adapter",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.TargetJDK1_4",
+      "patterns": [
+        "Factory Method",
+        "Composite"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.Node",
+      "patterns": [
+        "Composite",
+        "Visitor"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.JavaParserConstants",
+      "patterns": [
+        "Factory Method",
+        "Proxy"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "net.sourceforge.pmd.ast.SimpleNode",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.BlockCipher",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.modes.CFBBlockCipher",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.modes.SICBlocCipher",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.modes.PGPCFBBlockCipher",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.BufferedBlockCipher",
+      "patterns": [
+        "Visitor",
+        "Interpreter"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.PBEParametersGenerator",
+      "patterns": [
+        "Factory Method",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator",
+      "patterns": [
+        "Factory Method",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    },
+    {
+      "class_name": "org.bouncycastle.crypto.generators.PKCS12ParametersGenerator",
+      "patterns": [
+        "Factory Method",
+        "Template Method"
+      ],
+      "pattern_count": 2
+    }
+  ],
+  "total_classes": 249
+}
