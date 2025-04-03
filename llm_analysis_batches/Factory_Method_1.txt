@@ -1,0 +1,58 @@
+# Analysis of Factory Method Design Pattern Implementations
+
+Please analyze the following implementations of the Factory Method design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Factory Method in 3 - JRefactory v2.6.24 (ID: 32)
+
+### Class Structure:
+- **product**: com.borland.primetime.ide.NodeViewer
+- **concreteProduct**: org.acm.seguin.ide.jbuilder.UMLNodeViewer
+- **creator**: com.borland.primetime.ide.NodeViewerFactory
+- **concreteCreator**: org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory
+
+## Implementation 2: Factory Method in 6 - JHotDraw v5.1 (ID: 77)
+
+### Class Structure:
+- **product**: CH.ifa.draw.framework.Connector
+- **concreteProduct**: CH.ifa.draw.standard.ChopBoxConnector, CH.ifa.draw.figures.ChopEllipseConnector, CH.ifa.draw.contrib.ChopPolygonConnector, CH.ifa.draw.figures.PolyLineConnector, CH.ifa.draw.standard.LocatorConnector, CH.ifa.draw.figures.ShortestDistanceConnector
+- **creator**: CH.ifa.draw.framework.Figure
+- **concreteCreator**: CH.ifa.draw.standard.AbstractFigure, CH.ifa.draw.figures.EllipseFigure, CH.ifa.draw.contrib.PolygonFigure, CH.ifa.draw.figures.RoundRectangleFigure, CH.ifa.draw.figures.PolyLineFigure
+
+## Implementation 3: Factory Method in 6 - JHotDraw v5.1 (ID: 78)
+
+### Class Structure:
+- **product**: CH.ifa.draw.framework.Handle
+- **concreteProduct**: CH.ifa.draw.standard.EastHandle, CH.ifa.draw.standard.NorthHandle, CH.ifa.draw.standard.NorthEastHandle, CH.ifa.draw.standard.NorthWestHandle, CH.ifa.draw.standard.SouthHandle, CH.ifa.draw.standard.SouthEastHandle, CH.ifa.draw.standard.SouthWestHandle, CH.ifa.draw.standard.WestHandle, CH.ifa.draw.contrib.PolygonHandle, CH.ifa.draw.contrib.PolygonScaleHandle, CH.ifa.draw.contrib.TriangleRotationHandle, CH.ifa.draw.standard.NullHandle, CH.ifa.draw.figures.FontSizeHandle, CH.ifa.draw.standard.ConnectionHandle, CH.ifa.draw.figures.GroupHandle, CH.ifa.draw.standard.ChangeConnectionStartHandle, CH.ifa.draw.figures.PolyLineHandle, CH.ifa.draw.standard.ChangeConnectionEndHandle, CH.ifa.draw.figures.ElbowHandle
+- **creator**: CH.ifa.draw.framework.Figure
+- **concreteCreator**: CH.ifa.draw.figures.EllipseFigure, CH.ifa.draw.figures.ImageFigure, CH.ifa.draw.contrib.PolygonFigure, CH.ifa.draw.figures.RectangleFigure, CH.ifa.draw.contrib.DiamondFigure, CH.ifa.draw.contrib.TriangleFigure, CH.ifa.draw.figures.RoundRectangleFigure, CH.ifa.draw.figures.TextFigure, CH.ifa.draw.samples.net.NodeFigure, CH.ifa.draw.figures.NumberTextFigure, CH.ifa.draw.figures.GroupFigure, CH.ifa.draw.samples.pert.PertFigure, CH.ifa.draw.standard.StandardDrawing, CH.ifa.draw.samples.javadraw.BouncingDrawing, CH.ifa.draw.samples.javadraw.AnimationDecorator, CH.ifa.draw.figures.BorderDecorator, CH.ifa.draw.figures.PolyLineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency, CH.ifa.draw.figures.LineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency
+
+## Implementation 4: Factory Method in 6 - JHotDraw v5.1 (ID: 79)
+
+### Class Structure:
+- **product**: CH.ifa.draw.framework.Tool
+- **concreteProduct**: CH.ifa.draw.standard.HandleTracker, CH.ifa.draw.standard.DragTracker, CH.ifa.draw.standard.SelectAreaTracker
+- **concreteCreator**: CH.ifa.draw.standard.SelectionTool
+
+## Implementation 5: Factory Method in 8 - MapperXML v1.9.7 (ID: 100)
+
+### Class Structure:
+- **creator**: com.taursys.xml.ComponentFactory
+- **conreteCreator**: com.taursys.html.HTMLComponentFactory
+- **product**: com.taursys.xml.Component
+- **concreteProduct**: com.taursys.xml.DispatchingContainer, com.taursys.xml.DocumentElement, com.taursys.xml.Form, com.taursys.servlet.ServletForm, com.taursys.servlet.DefaultMessageForm, com.taursys.xml.Template, com.taursys.html.test.HTMLComponentFactoryTest.TestContainer, com.taursys.xml.Parameter, com.taursys.xml.CheckBoxField, com.taursys.html.HTMLCheckBox, com.taursys.xml.SelectField, com.taursys.html.HTMLSelect, com.taursys.servlet.test.TestComponent, com.taursys.xml.event.test.TestComponent, com.taursys.xml.TextField, com.taursys.html.HTMLAnchorURL, com.taursys.html.HTMLInputText, com.taursys.html.HTMLTextArea, com.taursys.servlet.test.TestParameter, com.taursys.xml.event.test.TestParameter, com.taursys.xml.Trigger
+
+## Overall Analysis
+
+Based on these 5 implementations of the Factory Method pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.

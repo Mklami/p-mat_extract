@@ -1,0 +1,34 @@
+# Analysis of Builder Design Pattern Implementations
+
+Please analyze the following implementations of the Builder design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Builder in 11 - PMD v1.8 (ID: 127)
+
+### Class Structure:
+- **director**: net.sourceforge.pmd.ant.Formatter
+- **builder**: net.sourceforge.pmd.renderers.CVSRenderer
+- **concreteBuilder**: net.sourceforge.pmd.renderers.IDEAJRenderer, net.sourceforge.pmd.renderers.EmacsRenderer, net.sourceforge.pmd.renderers.PapariTextRenderer, net.sourceforge.pmd.renderers.SummaryHTMLRenderer, net.sourceforge.pmd.renderers.VBHTMLRenderer, net.sourceforge.pmd.renderers.HTMLRenderer, net.sourceforge.pmd.renderers.XMLRenderer, net.sourceforge.pmd.renderers.TextRenderer
+
+## Implementation 2: Builder in 13 - Software architecture design patterns in Java (ID: 142)
+
+### Class Structure:
+- **director**: src.BUILDER.UIDirector
+- **builder**: src.BUILDER.HIBuilder
+- **concreteBuilder**: src.BUILDER.EmpSrchBuilder, src.BUILDER.CandSrchBuilder
+- **product**: src.BUILDER.SearchManager
+
+## Overall Analysis
+
+Based on these 2 implementations of the Builder pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.

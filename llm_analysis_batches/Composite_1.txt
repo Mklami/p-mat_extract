@@ -1,0 +1,93 @@
+# Analysis of Composite Design Pattern Implementations
+
+Please analyze the following implementations of the Composite design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Composite in 1 - QuickUML 2001 (ID: 4)
+
+### Class Structure:
+- **client**: uml.ui.ToolPalette
+- **component**: diagram.tool.Tool
+- **composite**: diagram.tool.CompositeTool
+- **leave**: diagram.tool.CompositeTool, diagram.tool.AbstractTool, uml.ui.CardinalityTool, diagram.tool.ClipboardTool, diagram.tool.EditingTool, diagram.tool.FigureDraggingTool, diagram.tool.FigureShappingTool, diagram.tool.FigureTool, diagram.tool.LinkShappingTool, diagram.tool.LinkTool, uml.ui.AssociationTool, uml.ui.CompositionTool, uml.ui.DependencyTool, uml.ui.GeneralizationTool, uml.ui.RealizationTool, diagram.tool.SelectionTool
+
+## Implementation 2: Composite in 1 - QuickUML 2001 (ID: 5)
+
+### Class Structure:
+- **client**: diagram.Diagram, diagram.DiagramUI
+- **component**: diagram.DefaultFigureEditor
+- **composite**: diagram.DefaultLinkEditor
+- **leave**: uml.diagram.ClassEditor, uml.diagram.AssociationLinkEditor, uml.diagram.CompositionLinkEditor, uml.diagram.DependencyLinkEditor, uml.diagram.GeneralizationLinkEditor, uml.diagram.RealizationLinkEditor, uml.diagram.InterfaceEditor, uml.diagram.NoteEditor
+
+### Developer Comments:
+As rightly pointed out by Sultan Alhusain: 
+"The composite does not actually call any methods defined by the
+Component. Although component and composite do have a method with
+similar name (getDecoratedBounds), all method invocations in the
+composite class are defined and performed by the DefaultLabelRenderer
+class, which also have a method named (getDecoratedBounds). The
+DefaultLabelRenderer class extends JTextField and does not implement
+or inherit neither the Component OR Composite classes."
+(Personal e-mail from p08000620@myemail.dmu.ac.uk on 13/01/19.)
+Therefore, this microarchitecture is removed from P-MARt.
+
+## Implementation 3: Composite in 5 - JUnit v3.7 (ID: 65)
+
+### Class Structure:
+- **component**: junit.framework.Test
+- **composite**: junit.framework.TestSuite, junit.extensions.ActiveTestSuite
+- **leave**: junit.tests.TestImplementorTest.DoubleTestCase, junit.tests.ActiveTestTest, junit.tests.AssertTest, junit.extensions.ExceptionTestCase, junit.tests.ExceptionTestCaseTest.ThrowExceptionTestCase, junit.tests.ExceptionTestCaseTest.ThrowNoExceptionTestCase, junit.tests.ExceptionTestCaseTest.ThrowRuntimeExceptionTestCase, junit.tests.ExceptionTestCaseTest, junit.tests.ExtensionTest, junit.tests.Failure, junit.samples.money.MoneyTest, junit.tests.NoTestCases, junit.tests.NotPublicTestCase, junit.tests.NotVoidTestCase, junit.tests.OneTestCase, junit.tests.InheritedTestCase, junit.tests.OverrideTestCase, junit.tests.RepeatedTestTest, junit.samples.SimpleTest, junit.tests.SorterTest, junit.tests.StackFilterTest, junit.tests.Success, junit.tests.ActiveTestTest.SuccessTest, junit.tests.RepeatedTestTest.SuccessTest, junit.tests.SuiteTest, junit.tests.TestCaseClassLoaderTest, junit.tests.TestCaseTest, junit.tests.TestImplementorTest, junit.tests.TestListenerTest, junit.tests.TextRunnerTest, junit.tests.ExtensionTest.TornDown, junit.samples.VectorTest, junit.tests.WasRun, junit.extensions.TestDecorator, junit.extensions.RepeatedTest, junit.extensions.TestSetup, junit.tests.ExtensionTest.TornDown
+
+## Implementation 4: Composite in 6 - JHotDraw v5.1 (ID: 75)
+
+### Class Structure:
+- **client**: CH.ifa.draw.figures.GroupCommand, CH.ifa.draw.samples.pert.PertDependency, CH.ifa.draw.samples.pert.PertFigureCreationTool, CH.ifa.draw.applet.DrawApplet, CH.ifa.draw.application.DrawApplication, CH.ifa.draw.samples.javadraw.JavaDrawViewer, CH.ifa.draw.samples.javadraw.JavaDrawApp, CH.ifa.draw.samples.javadraw.JavaDrawApplet
+- **component**: CH.ifa.draw.framework.Figure
+- **composite**: CH.ifa.draw.standard.CompositeFigure, CH.ifa.draw.figures.GroupFigure, CH.ifa.draw.samples.pert.PertFigure, CH.ifa.draw.standard.StandardDrawing, CH.ifa.draw.samples.javadraw.BouncingDrawing
+- **leave**: CH.ifa.draw.figures.EllipseFigure, CH.ifa.draw.figures.ImageFigure, CH.ifa.draw.contrib.PolygonFigure, CH.ifa.draw.figures.RectangleFigure, CH.ifa.draw.contrib.DiamondFigure, CH.ifa.draw.contrib.TriangleFigure, CH.ifa.draw.figures.RoundRectangleFigure, CH.ifa.draw.figures.TextFigure, CH.ifa.draw.samples.net.NodeFigure, CH.ifa.draw.figures.NumberTextFigure, CH.ifa.draw.figures.GroupFigure, CH.ifa.draw.samples.pert.PertFigure, CH.ifa.draw.standard.StandardDrawing, CH.ifa.draw.samples.javadraw.BouncingDrawing, CH.ifa.draw.samples.javadraw.AnimationDecorator, CH.ifa.draw.figures.BorderDecorator, CH.ifa.draw.figures.PolyLineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency, CH.ifa.draw.figures.LineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency
+
+## Implementation 5: Composite in 8 - MapperXML v1.9.7 (ID: 98)
+
+### Class Structure:
+- **client**: com.taursys.xml.render.AbstractRenderer, com.taursys.xml.event.CloseFormDispatcher, com.taursys.xml.event.OpenFormDispatcher, com.taursys.xml.event.InitFormDispatcher, com.taursys.xml.event.InitContextDispatcher
+- **component**: com.taursys.xml.Component
+- **composite**: com.taursys.xml.Container
+- **leave**: com.taursys.xml.DispatchingContainer, com.taursys.xml.DocumentElement, com.taursys.xml.Form, com.taursys.servlet.ServletForm, com.taursys.servlet.DefaultMessageForm, com.taursys.xml.Template, com.taursys.html.test.HTMLComponentFactoryTest.TestContainer, com.taursys.xml.Parameter, com.taursys.xml.CheckBoxField, com.taursys.html.HTMLCheckBox, com.taursys.xml.SelectField, com.taursys.html.HTMLSelect, com.taursys.servlet.test.TestComponent, com.taursys.xml.event.test.TestComponent, com.taursys.xml.TextField, com.taursys.html.HTMLAnchorURL, com.taursys.html.HTMLInputText, com.taursys.html.HTMLTextArea, com.taursys.servlet.test.TestParameter, com.taursys.xml.event.test.TestParameter, com.taursys.xml.Trigger, com.taursys.xml.Button, com.taursys.servlet.test.TestComponent, com.taursys.xml.event.test.TestComponent
+
+### Developer Comments:
+From Sultan Alhusain on 13/01/19:					
+"There exist two way association and method invocation between the
+Component and the Composite classes. Actually, each object of the
+type Component has a "parent" of the type Composite. Also, two of the
+classes that were listed as being Leafs (DispatchingContainer and
+TestContainer) were actually subclasses of the Composite class.
+Moreover, the Component and the Composite classes have no similar
+methods, which would have the mean by which individual components and
+composition of them can be treated uniformaly."
+From Yann-Gal Guhneuc on 13/04/21:
+"As far as I can tell, a Component knows its parent just for the sake 
+of simplicity, through the use of the method
+	public com.taursys.xml.Container getParent() {...}
+so I would still consider that Component plays the role of Component 
+and that Container plays the role of Composite (add, remove methods 
+plus invocations of various methods on components). You are right 
+that the two classes DispatchingContainer and TestContainer must not 
+be leaves! The fact that Component and Composite do not share 
+methods, to me, points to a bad design or to reuse (both classes 
+being abstract)."
+Therefore, this microarchitecture is kept but should be used with caution.
+
+## Overall Analysis
+
+Based on these 5 implementations of the Composite pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.

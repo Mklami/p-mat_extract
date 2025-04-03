@@ -1,0 +1,76 @@
+# Analysis of Memento Design Pattern Implementations
+
+Please analyze the following implementations of the Memento design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Memento in 10 - Nutch v0.4 (ID: 115)
+
+### Class Structure:
+- **memento**: net.nutch.db.EditSectionGroupWriter.LinkURLExtractor, net.nutch.db.EditSectionGroupWriter.LinkMD5Extractor, net.nutch.db.EditSectionGroupWriter.PageURLExtractor, net.nutch.db.EditSectionGroupWriter.PageMD5Extractor
+- **originator**: net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor, net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor, net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor, net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor
+- **caretaker**: net.nutch.db.EditSectionGroupWriter
+
+### Developer Comments:
+Ici, nous avons trouve ce Memento par deduction a partir du
+						Command, trouve precedemment. Puisque par la definition, donne
+						par le GoF, un Command est sense encapsuler une requete sous
+						forme d'objet. Nous pourrions donc, manipuler ces objets dans
+						des listes, les enregistrer, les supprimer, ..., et donc les
+						manipuler ulterieurement. D'ou l'idee que lorsque l'on trouve
+						un Command, il pourrait avoir un Memento pas loin afin de gerer
+						les requetes sous formes d'objets.
+
+## Implementation 2: Memento in 10 - Nutch v0.4 (ID: 116)
+
+### Class Structure:
+- **memento**: net.nutch.io.SequenceFile.Writer
+- **originator**: net.nutch.db.WebDBWriter.LinksByMD5Processor, net.nutch.db.WebDBWriter.LinksByURLProcessor, net.nutch.db.WebDBWriter.PagesByMD5Processor, net.nutch.db.WebDBWriter.PagesByURLProcessor
+- **caretaker**: Originator
+
+### Developer Comments:
+Nous pensons etre en presence d'une structure presentant des
+						similitudes avec un memento, mais pour l'instant nous
+						n'avons pas encore pu determiner l'objet sense representer
+						le Caretaker. Ce pourrait-il que l'objet Originator puisse
+						aussi jouer le role de Caretaker ??
+
+## Implementation 3: Memento in 13 - Software architecture design patterns in Java (ID: 161)
+
+### Class Structure:
+- **memento**: src.MEMENTO.MementoHandler
+- **originator**: src.MEMENTO.DataConverter
+- **caretaker**: java.io.Serializable
+
+### Developer Comments:
+Java.io.Serializable is correct.
+
+## Implementation 4: Memento in 14 - DrJava v20020619 (ID: 413)
+
+### Class Structure:
+
+### Developer Comments:
+DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.
+								Client non precise.
+
+## Implementation 5: Memento in 16 - DrJava v20020804 (ID: 413)
+
+### Class Structure:
+
+### Developer Comments:
+DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.
+								Client non precise.
+
+## Overall Analysis
+
+Based on these 5 implementations of the Memento pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.

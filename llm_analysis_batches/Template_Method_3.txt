@@ -1,0 +1,56 @@
+# Analysis of Template Method Design Pattern Implementations
+
+Please analyze the following implementations of the Template Method design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Template Method in 13 - Software architecture design patterns in Java (ID: 153)
+
+### Class Structure:
+- **abstractClasse**: src.TemplateMethod.CreditCard
+- **concreteClasse**: src.TemplateMethod.DinerCard, src.TemplateMethod.MaserCard, src.TemplateMethod.VisaCard
+
+## Implementation 2: Template Method in Design Pattern Group (ID: 144)
+
+### Class Structure:
+- **abstractsClasse**: org.bouncycastle.crypto.PBEParametersGenerator
+- **concretesClasse**: org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator, org.bouncycastle.crypto.generators.PKCS12ParametersGenerator
+
+### Developer Comments:
+Ici, rien de spécial, à moins que l'on jette un coup d'oeil sur le magnifique Diagramme "Azureus_FactoryMethod_TemplateMethod_01".
+						On remarque donc un bel example de Factory Method dérivé d'un Template Method
+
+## Implementation 3: Template Method in 15 - DrJava v20020703 (ID: 2222)
+
+### Class Structure:
+
+### Developer Comments:
+La mthode getType() est la primitive operation et getHighlightState() le TemplateMethod
+
+## Implementation 4: Template Method in 15 - DrJava v20020703 (ID: 2223)
+
+### Class Structure:
+
+### Developer Comments:
+La mthode applyRule(DefinitionsDocument doc) est la primitive operation et indentLine() le TemplateMethod. Le design pattern strategy (2070) est connect  ce template method
+
+## Implementation 5: Template Method in 15 - DrJava v20020703 (ID: 2224)
+
+### Class Structure:
+
+### Developer Comments:
+La mthode indentLine(DefinitionsDocument doc) est la primitive operation et indentLine(DefinitionsDocument doc, int pos) le TemplateMethod. Le design pattern strategy (2080) est connect  ce template method
+
+## Overall Analysis
+
+Based on these 5 implementations of the Template Method pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.

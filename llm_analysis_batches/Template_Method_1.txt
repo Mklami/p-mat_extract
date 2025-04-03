@@ -1,0 +1,55 @@
+# Analysis of Template Method Design Pattern Implementations
+
+Please analyze the following implementations of the Template Method design pattern across different projects.
+
+For each implementation:
+1. Evaluate how well it follows the design pattern principles
+2. Identify strengths and weaknesses
+3. Suggest refactoring opportunities
+4. Rate the implementation on a scale of 1-10
+
+## Implementation 1: Template Method in 6 - JHotDraw v5.1 (ID: 93)
+
+### Class Structure:
+- **abstractClasse**: CH.ifa.draw.standard.AbstractFigure
+- **concreteClasse**: CH.ifa.draw.figures.EllipseFigure, CH.ifa.draw.figures.ImageFigure, CH.ifa.draw.contrib.PolygonFigure, CH.ifa.draw.figures.RectangleFigure, CH.ifa.draw.contrib.DiamondFigure, CH.ifa.draw.contrib.TriangleFigure, CH.ifa.draw.figures.RoundRectangleFigure, CH.ifa.draw.figures.TextFigure, CH.ifa.draw.samples.net.NodeFigure, CH.ifa.draw.figures.NumberTextFigure, CH.ifa.draw.figures.GroupFigure, CH.ifa.draw.samples.pert.PertFigure, CH.ifa.draw.standard.StandardDrawing, CH.ifa.draw.samples.javadraw.BouncingDrawing, CH.ifa.draw.samples.javadraw.AnimationDecorator, CH.ifa.draw.figures.BorderDecorator, CH.ifa.draw.figures.PolyLineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency, CH.ifa.draw.figures.LineFigure, CH.ifa.draw.figures.LineConnection, CH.ifa.draw.figures.ElbowConnection, CH.ifa.draw.samples.pert.PertDependency
+
+## Implementation 2: Template Method in 6 - JHotDraw v5.1 (ID: 94)
+
+### Class Structure:
+- **abstractClasse**: CH.ifa.draw.figures.AttributeFigure
+- **concreteClasse**: CH.ifa.draw.figures.EllipseFigure, CH.ifa.draw.figures.ImageFigure, CH.ifa.draw.contrib.PolygonFigure, CH.ifa.draw.figures.RectangleFigure, CH.ifa.draw.contrib.DiamondFigure, CH.ifa.draw.contrib.TriangleFigure, CH.ifa.draw.figures.RoundRectangleFigure, CH.ifa.draw.figures.TextFigure, CH.ifa.draw.samples.net.NodeFigure, CH.ifa.draw.figures.NumberTextFigure
+
+## Implementation 3: Template Method in 8 - MapperXML v1.9.7 (ID: 106)
+
+### Class Structure:
+- **abstractClasse**: com.taursys.xml.Component
+- **concreteClasse**: com.taursys.xml.DispatchingContainer, com.taursys.xml.DocumentElement, com.taursys.xml.Form, com.taursys.servlet.ServletForm, com.taursys.servlet.DefaultMessageForm, com.taursys.xml.Template, com.taursys.html.test.HTMLComponentFactoryTest.TestContainer, com.taursys.xml.Parameter, com.taursys.xml.CheckBox, com.taursys.html.HTMLCheckBox, com.taursys.xml.SelectField, com.taursys.html.HTMLSelect, com.taursys.xml.TextField, com.taursys.html.HTMLAnchorURL, com.taursys.html.HTMLInputText, com.taursys.html.HTMLTextArea, com.taursys.xml.Trigger, com.taursys.xml.Button
+
+## Implementation 4: Template Method in 8 - MapperXML v1.9.7 (ID: 107)
+
+### Class Structure:
+- **abstractClasse**: com.taursys.xml.Container
+- **concreteClasse**: com.taursys.xml.DispatchingContainer, com.taursys.xml.DocumentElement, com.taursys.xml.Form, com.taursys.servlet.ServletForm, com.taursys.servlet.DefaultMessageForm, com.taursys.xml.Template
+
+### Developer Comments:
+Cette micro-architecture est en fait une sous micro-archictecture de la precedente.
+
+## Implementation 5: Template Method in 8 - MapperXML v1.9.7 (ID: 108)
+
+### Class Structure:
+- **abstractClasse**: com.taursys.xml.AbstractField
+- **concreteClasse**: com.taursys.xml.CheckBox, com.taursys.html.HTMLCheckBox, com.taursys.xml.SelectField, com.taursys.html.HTMLSelect, com.taursys.xml.TextField, com.taursys.html.HTMLAnchorURL, com.taursys.html.HTMLInputText, com.taursys.html.HTMLTextArea
+
+### Developer Comments:
+Cette micro-architecture est en fait une sous micro-archictecture de la precedente.
+
+## Overall Analysis
+
+Based on these 5 implementations of the Template Method pattern:
+
+1. What are common implementation approaches?
+2. What are the best practices demonstrated?
+3. What are common pitfalls or anti-patterns?
+4. What would an ideal implementation look like?
+5. Provide a generic refactored example that addresses the common issues.
