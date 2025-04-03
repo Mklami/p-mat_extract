@@ -1,0 +1,232 @@
+{
+  "project_name": "1 - QuickUML 2001",
+  "patterns_used": [
+    "Abstract Factory",
+    "Builder",
+    "Command",
+    "Composite",
+    "Observer",
+    "Singleton"
+  ],
+  "pattern_count": 6,
+  "class_participation": {
+    "diagram.DefaultFigureEditor": [
+      "Abstract Factory",
+      "Composite"
+    ],
+    "diagram.DiagramUI": [
+      "Abstract Factory",
+      "Composite"
+    ],
+    "diagram.FigureRenderer": [
+      "Abstract Factory"
+    ],
+    "diagram.DefaultFigureRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.ClassRenderer": [
+      "Abstract Factory"
+    ],
+    "diagram.DefaultLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.AssociationLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.CompositionLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.DependencyLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.GeneralizationLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.RealizationLinkRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.InterfaceRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.NoteRenderer": [
+      "Abstract Factory"
+    ],
+    "diagram.DefaultLabelRenderer": [
+      "Abstract Factory"
+    ],
+    "uml.diagram.SinkLabelRenderer": [
+      "Abstract Factory"
+    ],
+    "diagram.LinkLabel": [
+      "Abstract Factory"
+    ],
+    "uml.ui.BuildAction": [
+      "Builder"
+    ],
+    "uml.builder.CodeBuilder": [
+      "Builder"
+    ],
+    "uml.builder.AssociationBuilder": [
+      "Builder"
+    ],
+    "uml.builder.ClassBuilder": [
+      "Builder"
+    ],
+    "uml.builder.CompositionBuilder": [
+      "Builder"
+    ],
+    "uml.builder.InheritanceBuilder": [
+      "Builder"
+    ],
+    "uml.builder.CPlusPlusBuilder": [
+      "Builder"
+    ],
+    "uml.builder.JavaBuilder": [
+      "Builder"
+    ],
+    "uml.builder.RealizationBuilder": [
+      "Builder"
+    ],
+    "uml.builder.MetaAssociation": [
+      "Builder"
+    ],
+    "uml.builder.MetaClass": [
+      "Builder"
+    ],
+    "uml.builder.MetaComposition": [
+      "Builder"
+    ],
+    "uml.ui.DiagramContainer": [
+      "Command"
+    ],
+    "javax.swing.JMenuItem": [
+      "Command"
+    ],
+    "uml.ui.ExportAction": [
+      "Command"
+    ],
+    "uml.ui.DiagramContainer.ExportGIFAction": [
+      "Command"
+    ],
+    "uml.ui.DiagramContainer.OpenAction": [
+      "Command"
+    ],
+    "uml.ui.DiagramContainer.SaveAction": [
+      "Command"
+    ],
+    "uml.ui.ToolPalette": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.Tool": [
+      "Composite"
+    ],
+    "diagram.tool.CompositeTool": [
+      "Composite"
+    ],
+    "diagram.tool.AbstractTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.CardinalityTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.ClipboardTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.EditingTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.FigureDraggingTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.FigureShappingTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.FigureTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.LinkShappingTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.LinkTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.AssociationTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.CompositionTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.DependencyTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.GeneralizationTool": [
+      "Composite",
+      "Observer"
+    ],
+    "uml.ui.RealizationTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.tool.SelectionTool": [
+      "Composite",
+      "Observer"
+    ],
+    "diagram.Diagram": [
+      "Composite"
+    ],
+    "diagram.DefaultLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.ClassEditor": [
+      "Composite"
+    ],
+    "uml.diagram.AssociationLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.CompositionLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.DependencyLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.GeneralizationLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.RealizationLinkEditor": [
+      "Composite"
+    ],
+    "uml.diagram.InterfaceEditor": [
+      "Composite"
+    ],
+    "uml.diagram.NoteEditor": [
+      "Composite"
+    ],
+    "diagram.tool.ToolListener": [
+      "Observer"
+    ],
+    "uml.ui.IconManager": [
+      "Singleton"
+    ]
+  },
+  "pattern_frequency": {
+    "Abstract Factory": 1,
+    "Builder": 1,
+    "Command": 1,
+    "Composite": 1,
+    "Observer": 1,
+    "Singleton": 1
+  }
+}
