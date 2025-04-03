@@ -1,0 +1,17 @@
+{
+  "pattern_type": "FactoryMethod",
+  "implementations": [
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "418",
+      "roles": {},
+      "comments": "il n'y a pas de creators"
+    }
+  ],
+  "total_implementations": 1,
+  "projects_using": [
+    "17 - DrJava v20030203"
+  ],
+  "common_classes": {},
+  "common_roles": {}
+}

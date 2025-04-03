@@ -1,0 +1,94 @@
+{
+  "pattern_type": "Memento",
+  "implementations": [
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "115",
+      "roles": {
+        "memento": [
+          "net.nutch.db.EditSectionGroupWriter.LinkURLExtractor",
+          "net.nutch.db.EditSectionGroupWriter.LinkMD5Extractor",
+          "net.nutch.db.EditSectionGroupWriter.PageURLExtractor",
+          "net.nutch.db.EditSectionGroupWriter.PageMD5Extractor"
+        ],
+        "originator": [
+          "net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor",
+          "net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor"
+        ],
+        "caretaker": [
+          "net.nutch.db.EditSectionGroupWriter"
+        ]
+      },
+      "comments": "Ici, nous avons trouve ce Memento par deduction a partir du\n\t\t\t\t\t\tCommand, trouve precedemment. Puisque par la definition, donne\n\t\t\t\t\t\tpar le GoF, un Command est sense encapsuler une requete sous\n\t\t\t\t\t\tforme d'objet. Nous pourrions donc, manipuler ces objets dans\n\t\t\t\t\t\tdes listes, les enregistrer, les supprimer, ..., et donc les\n\t\t\t\t\t\tmanipuler ulterieurement. D'ou l'idee que lorsque l'on trouve\n\t\t\t\t\t\tun Command, il pourrait avoir un Memento pas loin afin de gerer\n\t\t\t\t\t\tles requetes sous formes d'objets."
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "116",
+      "roles": {
+        "memento": [
+          "net.nutch.io.SequenceFile.Writer"
+        ],
+        "originator": [
+          "net.nutch.db.WebDBWriter.LinksByMD5Processor",
+          "net.nutch.db.WebDBWriter.LinksByURLProcessor",
+          "net.nutch.db.WebDBWriter.PagesByMD5Processor",
+          "net.nutch.db.WebDBWriter.PagesByURLProcessor"
+        ],
+        "caretaker": [
+          "Originator"
+        ]
+      },
+      "comments": "Nous pensons etre en presence d'une structure presentant des\n\t\t\t\t\t\tsimilitudes avec un memento, mais pour l'instant nous\n\t\t\t\t\t\tn'avons pas encore pu determiner l'objet sense representer\n\t\t\t\t\t\tle Caretaker. Ce pourrait-il que l'objet Originator puisse\n\t\t\t\t\t\taussi jouer le role de Caretaker ??"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "161",
+      "roles": {
+        "memento": [
+          "src.MEMENTO.MementoHandler"
+        ],
+        "originator": [
+          "src.MEMENTO.DataConverter"
+        ],
+        "caretaker": [
+          "java.io.Serializable"
+        ]
+      },
+      "comments": "Java.io.Serializable is correct."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "413",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "413",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "426",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise."
+    }
+  ],
+  "total_implementations": 6,
+  "projects_using": [
+    "17 - DrJava v20030203",
+    "14 - DrJava v20020619",
+    "10 - Nutch v0.4",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "memento": 3,
+    "originator": 3,
+    "caretaker": 3
+  }
+}

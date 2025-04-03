@@ -1,0 +1,841 @@
+{
+  "pattern_type": "Adapter",
+  "implementations": [
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "13",
+      "roles": {
+        "client": [
+          "org.acm.seguin.awt.OrderableList"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.awt.MoveItemAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.awt.OrderableListModel"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "14",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.cafe.CafeSetup"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.cafe.ReloadActionAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.ide.common.MultipleDirClassDiagramReloader"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "15",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.command.CommandLineMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.command.ZoomAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.line.LinedPanel"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "16",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.common.ClassListPanel"
+        ],
+        "target": [
+          "java.awt.event.MouseAdapter"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.common.JumpToTypeAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.UMLPackage"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "17",
+      "roles": {
+        "client": [
+          "org.acm.seguin.uml.UMLPopupMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.common.SourceBrowserAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.ide.common.SourceBrowser"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "18",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.command.CommandLineMenu",
+          "org.acm.seguin.ide.elixir.UndoMenuItem"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.common.UndoAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.refactor.undo.UndoAction"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "19",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.jbuilder.UMLNode"
+        ],
+        "target": [
+          "org.acm.seguin.ide.jbuilder.BrowserAdapter"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.jbuilder.NewProjectAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.ide.common.MultipleDirClassDiagramReloader"
+        ]
+      },
+      "comments": "BrowserAdapter is a class providing an empty implementation of interface com.borland.primetime.ide.BrowserListener."
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "20",
+      "roles": {
+        "client": [],
+        "target": [
+          "org.acm.seguin.ide.jbuilder.BrowserAdapter"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.jbuilder.RefactoringAdapter"
+        ],
+        "adaptee": []
+      },
+      "comments": "BrowserAdapter is a class providing an empty implementation of interface com.borland.primetime.ide.BrowserListener."
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "21",
+      "roles": {
+        "client": [
+          "org.acm.seguin.uml.UMLPopupMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.ConvertAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.UMLField",
+          "org.acm.seguin.uml.UMLType"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "22",
+      "roles": {
+        "client": [
+          "org.acm.seguin.uml.line.SizableLabel",
+          "org.acm.seguin.uml.UMLField",
+          "org.acm.seguin.uml.UMLMethod",
+          "org.acm.seguin.uml.UMLNestedType",
+          "org.acm.seguin.uml.UMLType"
+        ],
+        "target": [
+          "java.awt.event.MouseAdapter"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.UMLMouseAdapter"
+        ],
+        "adaptee": [
+          "javaw.swing.JPopupMenu"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "23",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.jbuilder.JPGFileAction",
+          "org.acm.seguin.ide.command.CommandLineMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.jpg.SaveAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.jpg.Save"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "24",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.jbuilder.UMLNode"
+        ],
+        "target": [
+          "org.acm.seguin.ide.jbuilder.JBuilderAction"
+        ],
+        "adapter": [
+          "org.acm.seguin.ide.jbuilder.JPGFileAction"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.jpg.SaveAdapter"
+        ]
+      },
+      "comments": "JBuilderAction is an abstract class implementing interface ???.UpdateAction."
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "25",
+      "roles": {
+        "client": [
+          "org.acm.seguin.uml.line.SizableLabel",
+          "org.acm.seguin.uml.UMLField",
+          "org.acm.seguin.uml.UMLLine",
+          "org.acm.seguin.uml.UMLMethod",
+          "org.acm.seguin.uml.UMLNestedType",
+          "org.acm.seguin.uml.UMLType"
+        ],
+        "target": [
+          "java.awt.event.MouseListener",
+          "java.awt.event.MouseMotionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.line.DragPanelAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.line.EndPointPanel",
+          "org.acm.seguin.uml.line.LinedPanel"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "26",
+      "roles": {
+        "client": [
+          "org.acm.seguin.uml.UMLPackage"
+        ],
+        "target": [
+          "java.awt.event.MouseListener",
+          "java.awt.event.MouseMotionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.line.LineMouseAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.line.LinedPanel"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "27",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.command.CommandLineMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.print.PrintAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.print.PrintingThread"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "28",
+      "roles": {
+        "client": [
+          "org.acm.seguin.ide.command.CommandLineMenu"
+        ],
+        "target": [
+          "java.awt.event.ActionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.print.PrintSetupAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.print.UMLPagePrinter"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "29",
+      "roles": {
+        "client": [
+          "javax.swing.JTextField"
+        ],
+        "target": [
+          "java.awt.event.ActionListener",
+          "javax.swing.event.DocumentListener",
+          "java.awt.event.FocusListener",
+          "javax.swing.event.ListDataListener",
+          "javax.swing.event.ListSelectionListener"
+        ],
+        "adapter": [
+          "org.acm.seguin.uml.refactor.SignatureUpdateAdapter"
+        ],
+        "adaptee": [
+          "org.acm.seguin.uml.refactor.ExtractMethodDialog"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "51",
+      "roles": {
+        "client": [
+          "org.netbeans.modules.form.FormManager2"
+        ],
+        "target": [
+          "org.netbeans.modules.form.FormListener"
+        ],
+        "adapter": [
+          "org.netbeans.modules.form.FormAdapter"
+        ],
+        "adaptee": [
+          "org.netbeans.modules.form.compat2.layouts.GridBagControlCenter",
+          "org.netbeans.modules.form.compat2.layouts.GridBagCustomizer.GBContainerProxy",
+          "org.netbeans.modules.form.JavaCodeGenerator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "52",
+      "roles": {
+        "client": [
+          "org.openidex.search.Scanner",
+          "org.netbeans.modules.search.SearchResultIntersection"
+        ],
+        "target": [
+          "org.openidex.search.ScannerListener"
+        ],
+        "adapter": [
+          "org.netbeans.modules.search.SearchTaskImpl.AcceptAdapter",
+          "org.netbeans.modules.search.SearchResultIntersection"
+        ],
+        "adaptee": [
+          "org.openide.nodes.NodeAcceptor",
+          "org.openidex.search.ScannerListener"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "53",
+      "roles": {
+        "client": [
+          "org.openide.filesystems.Repository",
+          "org.openide.util.WeakListener.Repository",
+          "org.openide.util.WeakListener",
+          "org.openide.util.WeakListener.Factory",
+          "org.openide.util.WeakListener12",
+          "org.openide.util.WeakListener13",
+          "org.netbeans.modules.form.FormEditorModule"
+        ],
+        "target": [
+          "org.openide.filesystems.RepositoryListener"
+        ],
+        "adapter": [
+          "org.netbeans.core.ClassLoaderSupport",
+          "org.netbeans.core.DataSystem",
+          "org.netbeans.core.FSPoolNode",
+          "org.netbeans.modules.javadoc.search.JavaDocChildren",
+          "org.netbeans.core.Packages",
+          "org.openide.util.WeakListener.Repository",
+          "org.netbeans.modules.objectbrowser.TreeNode.RootChildren",
+          "org.netbeans.modules.vcs.VcsCache"
+        ],
+        "adaptee": [
+          "org.openide.filesystems.FileObject",
+          "org.netbeans.core.DataSystem.DSMap",
+          "org.openide.filesystems.FileSystem",
+          "org.openide.filesystems.RepositoryListener",
+          "org.netbeans.modules.vcs.VcsFileSystem"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "54",
+      "roles": {
+        "client": [
+          "org.openide.loaders.DataLoaderPool",
+          "org.openide.util.WeakListener",
+          "org.openide.util.WeakListener.Factory",
+          "org.openide.util.WeakListener12",
+          "org.openide.util.WeakListener13"
+        ],
+        "target": [
+          "org.openide.loaders.OperationListener"
+        ],
+        "adapter": [
+          "org.openide.util.WeakListener.Operation",
+          "org.openide.loaders.OperationAdapter",
+          "org.netbeans.modules.projects.Listener",
+          "org.netbeans.core.NbMainExplorer.RepositoryTab"
+        ],
+        "adaptee": [
+          "org.openide.loaders.OperationListener",
+          "org.openide.util.RequestProcessor"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "55",
+      "roles": {
+        "client": [
+          "org.openide.explorer.propertysheet.BeansDetails",
+          "org.openide.nodes.Node",
+          "org.netbeans.modules.form.palette.ComponentPalette",
+          "org.openide.util.WeakListener.Node",
+          "org.openide.util.WeakListener",
+          "org.openide.util.WeakListener.Factory",
+          "org.openide.util.WeakListener12",
+          "org.openide.util.WeakListener13",
+          "org.netbeans.core.execution.ProcessNode"
+        ],
+        "target": [
+          "org.openide.nodes.NodeListener"
+        ],
+        "adapter": [
+          "org.netbeans.modules.projects.settings.GlobalOptionsChildren.ChildrenAdapter",
+          "org.openide.nodes.FilterNode.ChildrenAdapter",
+          "org.netbeans.core.ControlPanelNode.ControlPanelChildren",
+          "org.openide.loaders.DataFolder.Listener",
+          "org.openide.awt.MenuBar.MenuFolder",
+          "org.openide.util.WeakListener.Node",
+          "org.openide.nodes.FilterNode.NodeAdapter",
+          "org.openide.loaders.DataShadow.PropL",
+          "org.openide.nodes.NodeAdapter",
+          "org.openide.explorer.propertysheet.PropertySheet.BeansListener",
+          "org.openide.nodes.ChildrenArray",
+          "org.openide.util.actions.CookieAction.CookiesChangeListener",
+          "org.openide.explorer.ExplorerManager.Listener",
+          "org.openide.windows.TopComponent.NodeName",
+          "org.openide.util.actions.ProjectSensitiveAction.NodesL",
+          "org.netbeans.modules.form.palette.PaletteButton",
+          "org.openide.explorer.view.VisualizerNode"
+        ],
+        "adaptee": [
+          "org.netbeans.modules.projects.settings.GlobalOptionsChildren",
+          "org.openide.nodes.FilterNode.Children",
+          "org.openide.nodes.Children.Keys",
+          "org.openide.nodes.Index.Support",
+          "org.openide.nodes.NodeListener",
+          "org.openide.nodes.FilterNode",
+          "org.openide.explorer.propertysheet.PropertySheet",
+          "org.openide.explorer.propertysheet.BeansDetails",
+          "org.openide.util.actions.CookieAction",
+          "org.openide.explorer.ExplorerManager",
+          "org.openide.windows.TopComponent",
+          "org.openide.util.actions.ProjectSensitiveAction",
+          "org.netbeans.modules.form.palette.PaletteButton",
+          "org.openide.explorer.view.VisualizerEvent"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "56",
+      "roles": {
+        "client": [
+          "org.netbeans.modules.debugger.support.nodes.ThreadNode"
+        ],
+        "target": [],
+        "adapter": [
+          "org.netbeans.modules.debugger.support.nodes.ThreadNode.ThreadListener"
+        ],
+        "adaptee": [
+          "org.netbeans.modules.debugger.support.nodes.ThreadNode",
+          "org.netbeans.modules.debugger.support.AbstractDebugger",
+          "org.netbeans.modules.debugger.support.AbstractThread"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "57",
+      "roles": {
+        "client": [
+          "org.openide.awt.SpinButton"
+        ],
+        "target": [
+          "org.openide.awt.SpinButtonListener"
+        ],
+        "adapter": [
+          "org.openide.awt.SpinButtonAdapter"
+        ],
+        "adaptee": []
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "58",
+      "roles": {
+        "client": [
+          "org.openide.filesystems.AbstractFileObject.Invalid",
+          "org.openide.filesystems.AbstractFolder",
+          "org.openide.filesystems.FileObject"
+        ],
+        "target": [
+          "org.openide.filesystems.FileChangeListener"
+        ],
+        "adapter": [
+          "org.netbeans.core.ClassLoaderSupport",
+          "org.openide.util.WeakListener.FileChange",
+          "org.openide.filesystems.FileChangeAdapter",
+          "org.openide.loaders.MultiDataObject.EntryL",
+          "org.netbeans.modules.corba.IDLDataObject.FileListener",
+          "org.openide.loaders.FolderList",
+          "org.openide.loaders.XMLDataObject.InfoParser",
+          "org.openide.filesystems.MultiFileObject",
+          "org.netbeans.core.Packages"
+        ],
+        "adaptee": [
+          "org.openide.filesystems.FileObject",
+          "org.openide.filesystems.FileChangeListener",
+          "org.openide.loaders.DataObject",
+          "org.netbeans.modules.corba.IDLDataObject",
+          "org.openide.loaders.XMLDataObject"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "73",
+      "roles": {
+        "client": [
+          "CH.ifa.draw.standard.StandardDrawingView",
+          "CH.ifa.draw.standard.HandleTracker"
+        ],
+        "target": [
+          "CH.ifa.draw.framework.Handle"
+        ],
+        "adapter": [
+          "CH.ifa.draw.standard.ChangeConnectionEndHandle",
+          "CH.ifa.draw.standard.ChangeConnectionStartHandle",
+          "CH.ifa.draw.figures.ElbowHandle",
+          "CH.ifa.draw.standard.LocatorHandle",
+          "CH.ifa.draw.standard.ConnectionHandle",
+          "CH.ifa.draw.standard.EastHandle",
+          "CH.ifa.draw.figures.FontSizeHandle",
+          "CH.ifa.draw.standard.NorthEastHandle",
+          "CH.ifa.draw.standard.NorthHandle",
+          "CH.ifa.draw.standard.NorthWestHandle",
+          "CH.ifa.draw.standard.NullHandle",
+          "CH.ifa.draw.figures.GroupHandle",
+          "CH.ifa.draw.figures.PolyLineHandle",
+          "CH.ifa.draw.standard.SouthEastHandle",
+          "CH.ifa.draw.standard.SouthHandle",
+          "CH.ifa.draw.standard.SouthWestHandle",
+          "CH.ifa.draw.standard.WestHandle",
+          "CH.ifa.draw.contrib.PolygonHandle",
+          "CH.ifa.draw.contrib.PolygonScaleHandle",
+          "CH.ifa.draw.figures.RadiusHandle",
+          "CH.ifa.draw.contrib.TriangleRotationHandle"
+        ],
+        "adaptee": [
+          "CH.ifa.draw.framework.Figure",
+          "CH.ifa.draw.framework.ConnectionFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.framework.Locator",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "96",
+      "roles": {
+        "client": [
+          "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer",
+          "com.taursys.xml.Form"
+        ],
+        "target": [
+          "com.taursys.dom.DocumentAdapter"
+        ],
+        "adapter": [
+          "com.taursys.dom.DOM_1_20000929_DocumentAdapter"
+        ],
+        "adaptee": [
+          "org.w3c.dom.Document"
+        ]
+      },
+      "comments": "Here is a quote from \"http://mapper.sourceforge.net/quickguidexml.shtml\" :\n\t\t\t\t\t\t\" MapperXML uses a DocumentAdapter to hold and manipulate the DOM Document. The DocumentAdapter protects \n\t\t\t\t\t\tthe application from differences between the DOM versions. The World Wide Web Consortium's Java Language \n\t\t\t\t\t\tBinding for the DOM, has changed the DOM's interface as new versions are released. The different versions\n\t\t\t\t\t\thave added and removed methods (normally a bad thing to do in Java). This created a challenge to be able\n\t\t\t\t\t\tto design an application that could work with any version. Using an Adapter pattern solved the problem.\n\t\t\t\t\t\tThere can be different implementations of the DocumentAdapter interface that can work with the various\n\t\t\t\t\t\tversions of the DOM. The current version of MapperXML contains a single, general purpose adapte,:\n\t\t\t\t\t\tDOM_1_20000929_DocumentAdapter, which works with most DOM versions. \""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "97",
+      "roles": {
+        "client": [
+          "com.taursys.debug.Debug"
+        ],
+        "target": [
+          "com.taursys.debug.LoggerAdapter"
+        ],
+        "adapter": [
+          "com.taursys.debug.SimpleLogger"
+        ],
+        "adaptee": [
+          "java.lang.System"
+        ]
+      },
+      "comments": "From Sultan Alhusain on 13/01/19:\t\t\t\t\t\n\"I believe the Adaptee role is played by java.io.PrintStream class as\nthe invoked method (println) is in this class. A static reference for\nthis class (java.io.PrintStream) is stored in the field (err) of the\nSystem class.\"\nFrom Yann-Gal Guhneuc on 13/04/21:\n\"Yes, you mean that in the method:\n\tprivate void printMessage(int level, Object message) {...}\nit is really \"err\" that is adapted rather than \"System\", actually \nthe best would be to say that it is \"System.err\" really but it would \nnot match the definition of the pattern and would not fit in the XML \nfile.\"\nTherefore, this microarchitecture is kept but should be used with caution."
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "120",
+      "roles": {
+        "target": [
+          "net.nutch.io.Writable",
+          "net.nutch.io.WritableComparable"
+        ],
+        "client": [
+          "net.nutch.db.WebDBWriter.PageInstructionWriter"
+        ],
+        "adaptee": [
+          "Cloneable"
+        ],
+        "adapter": [
+          "net.nutch.db.Page"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "121",
+      "roles": {
+        "target": [
+          "net.nutch.io.Writable"
+        ],
+        "client": [
+          "\"Still searching\""
+        ],
+        "adaptee": [
+          "Cloneable"
+        ],
+        "adapter": [
+          "net.nutch.pagedb.FetchListEntry"
+        ]
+      },
+      "comments": "Bon ok, il manque le client..., mais a part ca..."
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "125",
+      "roles": {
+        "adaptee": [
+          "net.sourceforge.pmd.ast.JavaParserVisitorAdapter"
+        ],
+        "adapter": [
+          "net.sourceforge.pmd.AbstractRule"
+        ],
+        "target": [
+          "net.sourceforge.pmd.Rule"
+        ],
+        "client": [
+          "net.sourceforge.pmd.ant.PMDTask"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "148",
+      "roles": {
+        "client": [
+          "src.ADAPTER.obj.Customer"
+        ],
+        "target": [
+          "src.ADAPTER.obj.CAAddress"
+        ],
+        "adapter": [
+          "src.ADAPTER.obj.CAAddressAdapter"
+        ],
+        "adaptee": [
+          "src.ADAPTER.obj.AddressManager",
+          "src.ADAPTER.obj.AddressValidator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "411",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "416",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2868",
+      "roles": {},
+      "comments": "Les methodes Request() tant interpret et setPackageScope et la methode SpecificRequest serait interpret de IInterpreterExtension."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2868",
+      "roles": {},
+      "comments": "Les methodes Request() tant interpret et setPackageScope et la methode SpecificRequest serait interpret de IInterpreterExtension."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "416",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "430",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2868",
+      "roles": {},
+      "comments": "Les methodes Request() tant interpret et setPackageScope et la methode SpecificRequest serait interpret de IInterpreterExtension."
+    }
+  ],
+  "total_implementations": 39,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "17 - DrJava v20030203",
+    "11 - PMD v1.8",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "14 - DrJava v20020619",
+    "6 - JHotDraw v5.1",
+    "10 - Nutch v0.4",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "4 - Netbeans v1.0.x",
+    "8 - MapperXML v1.9.7"
+  ],
+  "common_classes": {
+    "java.awt.event.ActionListener": 10,
+    "org.acm.seguin.ide.common.MultipleDirClassDiagramReloader": 2,
+    "org.acm.seguin.ide.command.CommandLineMenu": 5,
+    "org.acm.seguin.uml.line.LinedPanel": 3,
+    "java.awt.event.MouseAdapter": 2,
+    "org.acm.seguin.uml.UMLPackage": 2,
+    "org.acm.seguin.uml.UMLPopupMenu": 2,
+    "org.acm.seguin.ide.jbuilder.UMLNode": 2,
+    "org.acm.seguin.ide.jbuilder.BrowserAdapter": 2,
+    "org.acm.seguin.uml.UMLField": 3,
+    "org.acm.seguin.uml.UMLType": 3,
+    "org.acm.seguin.uml.line.SizableLabel": 2,
+    "org.acm.seguin.uml.UMLMethod": 2,
+    "org.acm.seguin.uml.UMLNestedType": 2,
+    "org.acm.seguin.ide.jbuilder.JPGFileAction": 2,
+    "org.acm.seguin.uml.jpg.SaveAdapter": 2,
+    "java.awt.event.MouseListener": 2,
+    "java.awt.event.MouseMotionListener": 2,
+    "org.netbeans.modules.search.SearchResultIntersection": 2,
+    "org.openidex.search.ScannerListener": 2,
+    "org.openide.util.WeakListener.Repository": 2,
+    "org.openide.util.WeakListener": 3,
+    "org.openide.util.WeakListener.Factory": 3,
+    "org.openide.util.WeakListener12": 3,
+    "org.openide.util.WeakListener13": 3,
+    "org.openide.filesystems.RepositoryListener": 2,
+    "org.netbeans.core.ClassLoaderSupport": 2,
+    "org.netbeans.core.Packages": 2,
+    "org.openide.filesystems.FileObject": 3,
+    "org.openide.loaders.OperationListener": 2,
+    "org.openide.explorer.propertysheet.BeansDetails": 2,
+    "org.openide.util.WeakListener.Node": 2,
+    "org.openide.nodes.NodeListener": 2,
+    "org.netbeans.modules.form.palette.PaletteButton": 2,
+    "org.netbeans.modules.debugger.support.nodes.ThreadNode": 2,
+    "org.openide.filesystems.FileChangeListener": 2,
+    "net.nutch.io.Writable": 2,
+    "Cloneable": 2
+  },
+  "common_roles": {
+    "client": 32,
+    "target": 32,
+    "adapter": 32,
+    "adaptee": 32
+  }
+}

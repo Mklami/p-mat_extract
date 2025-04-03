@@ -1,0 +1,23 @@
+{
+  "pattern_type": "Chain of Responsibility",
+  "implementations": [
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "149",
+      "roles": {
+        "client": [
+          "src.ChainOfResponsability.PRManager"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 1,
+  "projects_using": [
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "client": 1
+  }
+}

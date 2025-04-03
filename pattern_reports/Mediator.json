@@ -1,0 +1,43 @@
+{
+  "pattern_type": "Mediator",
+  "implementations": [
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "152",
+      "roles": {
+        "colleagueclasse": [
+          "src.MEDIATOR.DeleteButton"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "152",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "3901",
+      "roles": {},
+      "comments": "Le mediator et le concreteMediator sont les memes. Il y a un heritage double pour le colleague. \n\t                DocumentDebugAction et DebugAction herite de EventRequest. DebugManager appelle EventRequest a l'aide de la methode getProperty(). De plus, ce patron est lie a un template methode (2225)."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "3901",
+      "roles": {},
+      "comments": "Le mediator et le concreteMediator sont les memes. Il y a un heritage double pour le colleague. \n\t                DocumentDebugAction et DebugAction herite de EventRequest. DebugManager appelle EventRequest a l'aide de la methode getProperty. De plus, ce patron est lie a un template methode (2225)."
+    }
+  ],
+  "total_implementations": 4,
+  "projects_using": [
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "18 - DrJava v20040326"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "colleagueclasse": 1
+  }
+}

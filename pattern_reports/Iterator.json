@@ -1,0 +1,238 @@
+{
+  "pattern_type": "Iterator",
+  "implementations": [
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "60",
+      "roles": {
+        "client": [
+          "org.openide.WizardDescriptor"
+        ],
+        "aggregate": [],
+        "concreteAggregate": [
+          "org.openide.WizardDescriptor"
+        ],
+        "iterator": [
+          "org.openide.WizardDescriptor.Iterator"
+        ],
+        "concreteIterator": [
+          "org.openide.WizardDescriptor.ArrayIterator"
+        ]
+      },
+      "comments": "This instance is only somewhat like an Iterator design pattern because there are no real aggregate and concrete aggregate."
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "61",
+      "roles": {
+        "client": [],
+        "aggregate": [],
+        "concreteAggregate": [
+          "char[]"
+        ],
+        "iterator": [
+          "java.text.CharacterIterator"
+        ],
+        "concreteIterator": [
+          "org.netbeans.editor.ext.CharacterArrayIterator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "62",
+      "roles": {
+        "client": [
+          "org.netbeans.editor.EditorDebug",
+          "org.netbeans.editor.DocOp",
+          "org.netbeans.editor.DocOp.SyntaxUpdateRenderer",
+          "org.netbeans.editor.EditorDebug",
+          "org.netbeans.editor.SyntaxSupport"
+        ],
+        "aggregate": [],
+        "concreteAggregate": [
+          "char[]"
+        ],
+        "iterator": [
+          "java.text.CharacterIterator"
+        ],
+        "concreteIterator": [
+          "org.netbeans.editor.SyntaxSeg.Slot"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "63",
+      "roles": {
+        "client": [
+          "org.netbeans.editor.DocOp"
+        ],
+        "aggregate": [],
+        "concreteAggregate": [
+          "org.netbeans.editor.SyntaxSeg.Slot"
+        ],
+        "iterator": [
+          "java.text.CharacterIterator"
+        ],
+        "concreteIterator": [
+          "org.netbeans.editor.SyntaxSeg"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "64",
+      "roles": {
+        "client": [
+          "org.openide.text.DefaultPrintable"
+        ],
+        "aggregate": [],
+        "concreteAggregate": [
+          "org.openide.text.AttributedCharacters"
+        ],
+        "iterator": [
+          "java.text.CharacterIterator"
+        ],
+        "concreteIterator": [
+          "org.openide.text.AttributedCharacters.AttributedCharacterIteratorImpl",
+          "org.netbeans.modules.editor.PrintSupport.NbPrintContainer"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "67",
+      "roles": {
+        "client": [
+          "junit.swingui.TestSelector"
+        ],
+        "aggregate": [
+          "junit.runner.TestCollector"
+        ],
+        "concreteAggregate": [
+          "junit.runner.LoadingTestCollector",
+          "junit.runner.SimpleTestCollector"
+        ],
+        "iterator": [
+          "java.util.Enumeration"
+        ],
+        "concreteIterator": [
+          "java.util.Hashtable.Enumerator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "124",
+      "roles": {
+        "iterator": [
+          "net.nutch.db.IWebDBReader"
+        ],
+        "concreteIterator": [
+          "net.nutch.db.DistributedWebDBReader",
+          "net.nutch.db.WebDBReader"
+        ],
+        "aggregate": [
+          "net.nutch.db.IWebDBWriter"
+        ],
+        "concreteAggregate": [
+          "net.nutch.db.DistributedWebDBWriter",
+          "net.nutch.db.WebDBWriter"
+        ],
+        "client": [
+          "net.nutch.tools.DistributedAnalysisTool"
+        ]
+      },
+      "comments": "Ici, nous avons trouve un Iterator a partir de deux Strategy.\n\t\t\t\t\t\tEn fait, nous avons mis en evidance un objet commun. Un client\n\t\t\t\t\t\tqui lui utilise les deux Strategy, par suite nous avons remarque\n\t\t\t\t\t\tque les Objets ConcreteStrategy interagissent entre les deux\n\t\t\t\t\t\tStrategy."
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "133",
+      "roles": {
+        "iterator": [
+          "java.lang.Iterator"
+        ],
+        "concreteIterator": [
+          "net.sourceforge.pmd.jaxen.NodeIterator"
+        ],
+        "aggregate": [
+          "org.jaxen.DefaultNavigator"
+        ],
+        "concreteAggregate": [
+          "net.sourceforge.pmd.jaxen.DocumentNavigator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "145",
+      "roles": {
+        "client": [
+          "src.ITERATOR.Internal.SearchManager"
+        ],
+        "aggregate": [],
+        "concreteAggregate": [
+          "src.ITERATOR.Internal.AllCandidates"
+        ],
+        "iterator": [
+          "src.ITERATOR.External.CertifiedCandidates"
+        ],
+        "concreteIterator": [
+          "src.ITERATOR.External.AllCandidates"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "401",
+      "roles": {},
+      "comments": "Nous avons pas l'iterator, mais nous avons la classe ReducedModelComment qui cree un Iterator a travers la classe TokenList (ConcreteAgregate)"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "401",
+      "roles": {},
+      "comments": "Nous avons pas l'iterator, mais nous avons la classe ReducedModelComment qui cree un Iterator a travers la classe TokenList (ConcreteAgregate)"
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "429",
+      "roles": {},
+      "comments": "Nous avons pas l'iterator, mais nous avons la classe ReducedModelComment qui cree un Iterator a travers la classe TokenList (ConcreteAgregate)"
+    }
+  ],
+  "total_implementations": 12,
+  "projects_using": [
+    "5 - JUnit v3.7",
+    "17 - DrJava v20030203",
+    "11 - PMD v1.8",
+    "14 - DrJava v20020619",
+    "10 - Nutch v0.4",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "4 - Netbeans v1.0.x"
+  ],
+  "common_classes": {
+    "org.openide.WizardDescriptor": 2,
+    "char[]": 2,
+    "java.text.CharacterIterator": 4,
+    "org.netbeans.editor.EditorDebug": 2,
+    "org.netbeans.editor.DocOp": 2,
+    "org.netbeans.editor.SyntaxSeg.Slot": 2
+  },
+  "common_roles": {
+    "client": 8,
+    "aggregate": 9,
+    "concreteAggregate": 9,
+    "iterator": 9,
+    "concreteIterator": 9
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "pattern_type": "Bridge",
+  "implementations": [
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "111",
+      "roles": {
+        "abstraction": [
+          "net.nutch.db.DistributedWebDBReader.EnumCall"
+        ],
+        "refinedAbstraction": [
+          "net.nutch.db.DistributedWebDBReader.LinkEnumCall",
+          "net.nutch.db.DistributedWebDBReader.PageEnumCall",
+          "net.nutch.db.DistributedWebDBReader.PageByMD5EnumCall"
+        ],
+        "implementor": [
+          "java.util.Enumeration"
+        ],
+        "concreteImplementor": [
+          "net.nutch.db.DBSectionReader.MapEnumerator",
+          "net.nutch.db.DBSectionReader.IndexEnumerator",
+          "net.nutch.db.DBSectionReader.TableEnumerator",
+          "net.nutch.db.DistributedWebDBReader.MetaEnumerator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "112",
+      "roles": {
+        "abstraction": [
+          "net.nutch.db.EditSectionGroupWriter.KeyExtractor"
+        ],
+        "refinedAbstraction": [
+          "net.nutch.db.EditSectionGroupWriter.PageURLExtractor",
+          "net.nutch.db.EditSectionGroupWriter.PageMD5Extractor",
+          "net.nutch.db.EditSectionGroupWriter.LinkURLExtractor",
+          "net.nutch.db.EditSectionGroupWriter.LinkMD5Extractor"
+        ],
+        "implementor": [
+          "net.nutch.io.WritableComparable"
+        ],
+        "concreteImplementor": [
+          "net.nutch.db.Link",
+          "net.nutch.db.Page",
+          "net.nutch.db.WebDBWriter.PageInstruction",
+          "net.nutch.db.WebDBWriter.LinkInstruction",
+          "net.nutch.db.DistributedWebDBWriter.PageInstruction",
+          "net.nutch.db.DistributedWebDBWriter.LinkInstruction",
+          "net.nutch.io.IntWritable",
+          "net.nutch.io.LongWritable",
+          "net.nutch.io.MD5Hash",
+          "net.nutch.io.UTF8"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "151",
+      "roles": {
+        "abstraction": [
+          "src.BRIDGE.FileLoger"
+        ],
+        "refinedAbstraction": [
+          "src.BRIDGE.ConsoleLogger",
+          "src.BRIDGE.FileLogger"
+        ],
+        "implementor": [
+          "src.BRIDGE.EncreyptedMessage"
+        ],
+        "concreteImplementor": [
+          "src.BRIDGE.TextMessage"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "145",
+      "roles": {
+        "abstraction": [
+          "org.bouncycastle.crypto.CipherKeyGenerator"
+        ],
+        "refinedAbstraction": [
+          "org.bouncycastle.crypto.generators.DESKeyGenerator"
+        ],
+        "implementor": [
+          "org.bouncycastle.crypto.KeyGenerationParameters"
+        ],
+        "concretesImplementor": [
+          "org.bouncycastle.crypto.params.RSAKeyGenerationParameters",
+          "org.bouncycastle.crypto.params.ECKeyGenerationParameters",
+          "org.bouncycastle.crypto.params.ElGamalKeyGenerationParameters",
+          "org.bouncycastle.crypto.params.DSAKeyGenerationParameters",
+          "org.bouncycastle.crypto.params.DHKeyGenerationParameters"
+        ]
+      },
+      "comments": "Ici, ni l'objet \"Abstraction\", ni l'objet \"Implementor\" ne sont des interfaces, comme propose le GoF\n\t\t\t\t\t\tLa raison pour lequelle nous pensons \u00eatre en pr\u00e9sence d'un bridge, c'est par la motivation.\n\t\t\t\t\t\tEn fait, nous supposons que la volont\u00e9 du programmeur est de creer une class \"DESKeyGenerator\", dont le but est de g\u00e9n\u00e9rer des cl\u00e9es,\n\t\t\t\t\t\tpouvant s'adapter et surtout interchanger des jeux de parametres de clees different. Dans ce but, l'esprit du \"Bridge\" \u00e0 \u00e9t\u00e9 respect\u00e9.\n\t\t\t\t\t\tPourquoi nous pensons, ici, que avoir des \"Class\" au lieu de \"AbstractClass\" n'est pas si important, c'est que une interface nous oblige\n\t\t\t\t\t\t\u00e0 avoir une certaine structure dans les class enfants. Mais en regardant de plus pr\u00e8s le code source, nous constatons que toutes les \"ConcreteImplementor\"\n\t\t\t\t\t\tposs\u00e8dent une structure plus ou moins identique. Donc suivent la m\u00eame \"ligne\" de programmation.\n\t\t\t\t\t\tEn conclusion, nous sommes bien en pr\u00e9sence d'un bridge, mais l'utilisation de \"Class\" au lieu de \"AbstractClass\" ne nous garantis pas que toutes les\n\t\t\t\t\t\tenfants des Objets \"Abstraction\" et \"Implementor\" constitue des \u00e9l\u00e9ments du Bridge."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "1041",
+      "roles": {},
+      "comments": "Le Bridge ici, est form de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu evolution."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "1041",
+      "roles": {},
+      "comments": "Le Bridge ici, est form de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu2 evolution."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "1041",
+      "roles": {},
+      "comments": "Le Bridge ici, est form de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu evolution."
+    }
+  ],
+  "total_implementations": 7,
+  "projects_using": [
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "10 - Nutch v0.4",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "Design Pattern Group"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "abstraction": 4,
+    "refinedAbstraction": 4,
+    "implementor": 4,
+    "concreteImplementor": 3,
+    "concretesImplementor": 1
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "pattern_type": "Decorator",
+  "implementations": [
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "66",
+      "roles": {
+        "component": [
+          "junit.framework.Test"
+        ],
+        "concreteComponent": [
+          "junit.tests.TestImplementorTest.DoubleTestCase",
+          "junit.tests.ActiveTestTest",
+          "junit.tests.AssertTest",
+          "junit.extensions.ExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowNoExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowRuntimeExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest",
+          "junit.tests.ExtensionTest",
+          "junit.tests.Failure",
+          "junit.samples.money.MoneyTest",
+          "junit.tests.NoTestCases",
+          "junit.tests.NotPublicTestCase",
+          "junit.tests.NotVoidTestCase",
+          "junit.tests.OneTestCase",
+          "junit.tests.InheritedTestCase",
+          "junit.tests.OverrideTestCase",
+          "junit.tests.RepeatedTestTest",
+          "junit.samples.SimpleTest",
+          "junit.tests.SorterTest",
+          "junit.tests.StackFilterTest",
+          "junit.tests.Success",
+          "junit.tests.ActiveTestTest.SuccessTest",
+          "junit.tests.RepeatedTestTest.SuccessTest",
+          "junit.tests.SuiteTest",
+          "junit.tests.TestCaseClassLoaderTest",
+          "junit.tests.TestCaseTest",
+          "junit.tests.TestImplementorTest",
+          "junit.tests.TestListenerTest",
+          "junit.tests.TextRunnerTest",
+          "junit.tests.ExtensionTest.TornDown",
+          "junit.samples.VectorTest",
+          "junit.tests.WasRun"
+        ],
+        "decorator": [],
+        "concreteDecorator": [
+          "junit.extensions.TestDecorator",
+          "junit.extensions.RepeatedTest",
+          "junit.extensions.TestSetup",
+          "junit.tests.ExtensionTest.TornDown"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "76",
+      "roles": {
+        "component": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "concreteComponent": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ],
+        "decorator": [
+          "CH.ifa.draw.standard.DecoratorFigure"
+        ],
+        "concreteDecorator": [
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "147",
+      "roles": {
+        "component": [
+          "src.DECORATOR.LoggerFactory"
+        ],
+        "concreteComponent": [
+          "src.DECORATOR.FileLogger"
+        ],
+        "decorator": [
+          "src.DECORATOR.LoggerDecorator"
+        ],
+        "concreteDecorator": [
+          "src.DECORATOR.EncryptLogger",
+          "src.DECORATOR.HTMLLogger"
+        ],
+        "client": [
+          "src.DECORATOR.DecoratorClient"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 3,
+  "projects_using": [
+    "13 - Software architecture design patterns in Java",
+    "5 - JUnit v3.7",
+    "6 - JHotDraw v5.1"
+  ],
+  "common_classes": {
+    "junit.tests.ExtensionTest.TornDown": 2,
+    "CH.ifa.draw.figures.LineConnection": 2,
+    "CH.ifa.draw.figures.ElbowConnection": 2,
+    "CH.ifa.draw.samples.pert.PertDependency": 2
+  },
+  "common_roles": {
+    "component": 3,
+    "concreteComponent": 3,
+    "decorator": 3,
+    "concreteDecorator": 3,
+    "client": 1
+  }
+}

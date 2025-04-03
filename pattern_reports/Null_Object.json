@@ -1,0 +1,23 @@
+{
+  "pattern_type": "Null Object",
+  "implementations": [
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "80",
+      "roles": {
+        "nullObject": [
+          "CH.ifa.draw.standard.NullHandle"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 1,
+  "projects_using": [
+    "6 - JHotDraw v5.1"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "nullObject": 1
+  }
+}

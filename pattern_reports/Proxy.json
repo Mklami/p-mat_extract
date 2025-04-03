@@ -1,0 +1,85 @@
+{
+  "pattern_type": "Proxy",
+  "implementations": [
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "134",
+      "roles": {
+        "proxie": [
+          "net.sourceforge.pmd.ast.JavaParser"
+        ],
+        "subject": [
+          "net.sourceforge.pmd.ast.JavaParserConstants"
+        ],
+        "realSubject": [
+          "net.sourceforge.pmd.ast.JavaParserTokenManager"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "159",
+      "roles": {
+        "proxie": [
+          "src.PROXY.server.CustomerFacade"
+        ],
+        "subject": [
+          "src.PROXY.server.CustomerIntr"
+        ],
+        "realSubject": [
+          "src.PROXY.server.CreditCard",
+          "src.PROXY.server.Address",
+          "src.PROXY.server.Account"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "400",
+      "roles": {},
+      "comments": "CompilerProxy appelle le subject CompilerInterface par la methode compile.C'est pour cela qu'on pense que le Subject et le RealSubject sont les memes."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2040",
+      "roles": {},
+      "comments": "Proxy refer to subject, realSubject and subject interface are the same"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2040",
+      "roles": {},
+      "comments": "Proxy refer to subject, realSubject and subject interface are the same"
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "424",
+      "roles": {},
+      "comments": "CompilerProxy appelle le subject CompilerInterface par la methode compile.C'est pour cela qu'on pense que le Subject et le RealSubject sont les memes. \n\t\t Les acteurs n'ont pas changer de la premiere version il y a eu seulement changement dans le nombre de classes que le proxy controle qui ont augmente."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2040",
+      "roles": {},
+      "comments": "Proxy refer to subject, realSubject and subject interface are the same"
+    }
+  ],
+  "total_implementations": 7,
+  "projects_using": [
+    "17 - DrJava v20030203",
+    "11 - PMD v1.8",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "14 - DrJava v20020619",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "proxie": 2,
+    "subject": 2,
+    "realSubject": 2
+  }
+}

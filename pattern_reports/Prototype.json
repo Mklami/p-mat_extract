@@ -1,0 +1,94 @@
+{
+  "pattern_type": "Prototype",
+  "implementations": [
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "83",
+      "roles": {
+        "client": [
+          "CH.ifa.draw.standard.ConnectionHandle",
+          "CH.ifa.draw.standard.ConnectionTool"
+        ],
+        "prototype": [
+          "CH.ifa.draw.framework.ConnectionFigure"
+        ],
+        "concretePrototype": [
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "84",
+      "roles": {
+        "client": [
+          "CH.ifa.draw.standard.CreationTool"
+        ],
+        "prototype": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "concretePrototype": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "141",
+      "roles": {
+        "client": [
+          "src.PROTOTYPE.AccountPrototypeFactory"
+        ],
+        "prototype": [
+          "src.PROTOTYPE.Permission"
+        ],
+        "concretePrototype": [
+          "src.PROTOTYPE.UserAccount"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 3,
+  "projects_using": [
+    "13 - Software architecture design patterns in Java",
+    "6 - JHotDraw v5.1"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.figures.LineConnection": 3,
+    "CH.ifa.draw.figures.ElbowConnection": 3,
+    "CH.ifa.draw.samples.pert.PertDependency": 3
+  },
+  "common_roles": {
+    "client": 3,
+    "prototype": 3,
+    "concretePrototype": 3
+  }
+}

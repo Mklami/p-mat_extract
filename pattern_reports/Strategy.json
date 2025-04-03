@@ -1,0 +1,232 @@
+{
+  "pattern_type": "Strategy",
+  "implementations": [
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "89",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.standard.AbstractFigure",
+          "CH.ifa.draw.standard.DecoratorFigure",
+          "CH.ifa.draw.framework.ConnectionFigure",
+          "CH.ifa.draw.standard.ConnectionTool",
+          "CH.ifa.draw.standard.ChangeConnectionHandle",
+          "CH.ifa.draw.standard.ConnectionHandle"
+        ],
+        "strategie": [
+          "CH.ifa.draw.framework.Connector"
+        ],
+        "concreteStrategie": [
+          "CH.ifa.draw.standard.ChopBoxConnector",
+          "CH.ifa.draw.figures.ChopEllipseConnector",
+          "CH.ifa.draw.contrib.ChopPolygonConnector",
+          "CH.ifa.draw.figures.PolyLineConnector",
+          "CH.ifa.draw.standard.LocatorConnector",
+          "CH.ifa.draw.figures.ShortestDistanceConnector"
+        ]
+      },
+      "comments": "The ConnectionFigure interface defines actually the Strategy design pattern."
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "90",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.standard.StandardDrawingView"
+        ],
+        "strategie": [
+          "CH.ifa.draw.framework.Painter"
+        ],
+        "concreteStrategie": [
+          "CH.ifa.draw.standard.BufferedUpdateStrategy",
+          "CH.ifa.draw.samples.javadraw.PatternPainter",
+          "CH.ifa.draw.standard.SimpleUpdateStrategy"
+        ]
+      },
+      "comments": "The DrawingView interface defines actually the Strategy design pattern."
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "91",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.contrib.PolygonHandle",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.standard.LocatorConnector",
+          "CH.ifa.draw.standard.LocatorHandle"
+        ],
+        "strategie": [
+          "CH.ifa.draw.framework.Locator"
+        ],
+        "concreteStrategie": [
+          "CH.ifa.draw.figures.ElbowTextLocator",
+          "CH.ifa.draw.standard.OffsetLocator",
+          "CH.ifa.draw.figures.PolyLineLocator",
+          "CH.ifa.draw.standard.RelativeLocator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "92",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.standard.StandardDrawingView"
+        ],
+        "strategie": [
+          "CH.ifa.draw.framework.PointConstrainer"
+        ],
+        "concreteStrategie": [
+          "CH.ifa.draw.standard.GridConstrainer"
+        ]
+      },
+      "comments": "The DrawingView interface defines actually the Strategy design pattern."
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "105",
+      "roles": {
+        "context": [
+          "com.taursys.dom.DOM_1_20000929_DocumentAdapter"
+        ],
+        "strategie": [
+          "com.taursys.dom.AbstractWriter"
+        ],
+        "concreteStrategie": [
+          "com.taursys.dom.XMLWriter"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "122",
+      "roles": {
+        "strategie": [
+          "net.nutch.db.IWebDBWriter"
+        ],
+        "concreteStrategie": [
+          "net.nutch.db.DistributedWebDBWriter",
+          "net.nutch.db.WebDBWriter"
+        ],
+        "context": [
+          "net.nutch.db.WebDBInjector"
+        ]
+      },
+      "comments": "Il nous manquait qu'un Client pour avoir un Flyweight!!!\n\t\t\t\t\t\tSentiment de frustration !!!"
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "123",
+      "roles": {
+        "strategie": [
+          "net.nutch.db.IWebDBReader"
+        ],
+        "concreteStrategie": [
+          "net.nutch.db.DistributedWebDBReader",
+          "net.nutch.db.WebDBReader"
+        ],
+        "context": [
+          "net.nutch.tools.FetchListTool"
+        ]
+      },
+      "comments": "Il nous manquait qu'un Client pour avoir un Flyweight!!!\n\t\t\t\t\t\tSentiment de frustration !!!"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "154",
+      "roles": {
+        "strategie": [
+          "src.STRATEGY.EncryptionStrategy"
+        ],
+        "context": [
+          "src.STRATEGY.FileLogger",
+          "src.STRATEGY.EncryptLogger",
+          "src.STRATEGY.LoggerClient"
+        ],
+        "concreteStrategie": [
+          "src.STRATEGY.SubstitutionCypher",
+          "src.STRATEGY.SimpleEncryption",
+          "src.STRATEGY.CaesarCypher"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "414",
+      "roles": {},
+      "comments": "Il n'y a pas de client"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2070",
+      "roles": {},
+      "comments": "La mthode applyRule est commune  tous les tests et elle varie selon arguments passs. Indenter appelle indentLine qui appelle applyRule"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2070",
+      "roles": {},
+      "comments": "La mthode applyRule est commune  tous les tests et elle varie selon arguments passs. Indenter appelle indentLine qui appelle applyRule"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2071",
+      "roles": {},
+      "comments": "Ce strategy est group avec un state et un template methode. La difference est fait  selon les methodes utiliss.\n\t                    Le strategy utilise la methode updateconfig() et via update pour la class ConfigPanel"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "414",
+      "roles": {},
+      "comments": "Il n'y a pas de client"
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "427",
+      "roles": {},
+      "comments": "Il n'y a pas de client"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2070",
+      "roles": {},
+      "comments": "La mthode applyRule est commune  tous les tests et elle varie selon arguments passs. Indenter appelle indentLine qui appelle applyRule"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2071",
+      "roles": {},
+      "comments": "Ce strategy est group avec un state et un template methode. La difference est fait  selon les methodes utiliss.\n\t                    Le strategy utilise la methode updateconfig() et via update pour la class ConfigPanel"
+    }
+  ],
+  "total_implementations": 16,
+  "projects_using": [
+    "17 - DrJava v20030203",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "14 - DrJava v20020619",
+    "10 - Nutch v0.4",
+    "6 - JHotDraw v5.1",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.standard.LocatorConnector": 2,
+    "CH.ifa.draw.standard.StandardDrawingView": 2
+  },
+  "common_roles": {
+    "context": 8,
+    "strategie": 8,
+    "concreteStrategie": 8
+  }
+}

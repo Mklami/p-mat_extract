@@ -1,0 +1,358 @@
+{
+  "pattern_type": "Observer",
+  "implementations": [
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "6",
+      "roles": {
+        "subject": [
+          "diagram.tool.AbstractTool"
+        ],
+        "concreteSubject": [
+          "uml.ui.CardinalityTool",
+          "diagram.tool.ClipboardTool",
+          "diagram.tool.EditingTool",
+          "diagram.tool.FigureDraggingTool",
+          "diagram.tool.FigureShappingTool",
+          "diagram.tool.FigureTool",
+          "diagram.tool.LinkShappingTool",
+          "diagram.tool.LinkTool",
+          "uml.ui.AssociationTool",
+          "uml.ui.CompositionTool",
+          "uml.ui.DependencyTool",
+          "uml.ui.GeneralizationTool",
+          "uml.ui.RealizationTool",
+          "diagram.tool.SelectionTool"
+        ],
+        "observer": [
+          "diagram.tool.ToolListener"
+        ],
+        "concreteObserver": [
+          "uml.ui.ToolPalette"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "2 - Lexi v0.1.1 alpha",
+      "micro_id": "9",
+      "roles": {
+        "subject": [
+          "com.jmonkey.office.lexi.support.Editor"
+        ],
+        "concreteSubject": [
+          "com.jmonkey.office.lexi.support.editors.HTMLEditor"
+        ],
+        "observer": [
+          "java.awt.event.FocusListener",
+          "java.beans.VetoableChangeListener",
+          "javax.swing.event.ChangeListener",
+          "javax.swing.event.DocumentListener",
+          "javax.swing.event.HyperlinkListener",
+          "javax.swing.event.UndoableEditListener"
+        ],
+        "concreteObserver": [
+          "com.jmonkey.office.lexi.support.editors.HTMLEditor.E"
+        ]
+      },
+      "comments": "From Sultan Alhusain on 13/01/19:\n\"The concreteSubject here holds what can be described as a singleton\nset of listeners contained in the nested class E. For me, the\nconcreteSubject is simply implementing listeners that are provided by\na library. So, it is not actually a Publish-Subscribe relationship\nwhere observers attach/detach themselves.\"\nFrom Yann-Gal Guhneuc on 13/04/21\n\"Yes, I actually remember that one! We had a discussion with the \nstudents about whether or not it qualify of Observer. Indeed, you are \ncorrect that there is no \"attach\" / \"detach\" but simply a lazy \ninstantiation. I think the argument in favour was that class E still \nimplemented lots of Listener interfaces.\"\nTherefore, this microarchitecture is kept but should be used with caution."
+    },
+    {
+      "project": "2 - Lexi v0.1.1 alpha",
+      "micro_id": "10",
+      "roles": {
+        "subject": [
+          "com.jmonkey.office.lexi.support.Editor"
+        ],
+        "concreteSubject": [
+          "com.jmonkey.office.lexi.support.editors.HTMLEditor"
+        ],
+        "observer": [
+          "java.awt.event.MouseListener",
+          "java.awt.event.KeyListener"
+        ],
+        "concreteObserver": [
+          "com.jmonkey.office.lexi.support.editors.HTMLEditor"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "68",
+      "roles": {
+        "subject": [],
+        "concreteSubject": [
+          "junit.framework.TestResult"
+        ],
+        "observer": [
+          "junit.framework.TestListener"
+        ],
+        "concreteObserver": [
+          "junit.awtui.TestRunner",
+          "junit.ui.TestRunner",
+          "junit.swingui.TestRunner",
+          "junit.textui.TestRunner",
+          "junit.tests.TestListenerTest",
+          "junit.swingui.TestSuitePanel"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "69",
+      "roles": {
+        "subject": [
+          "java.awt.Component"
+        ],
+        "concreteSubject": [
+          "junit.swingui.TestSelector"
+        ],
+        "observer": [
+          "java.awt.event.MouseListener"
+        ],
+        "concreteObserver": [
+          "junit.swingui.TestSelector.DoubleClickListener"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "70",
+      "roles": {
+        "subject": [
+          "java.awt.Component"
+        ],
+        "concreteSubject": [
+          "junit.swingui.TestSelector"
+        ],
+        "observer": [
+          "java.awt.event.KeyListener"
+        ],
+        "concreteObserver": [
+          "junit.swingui.TestSelector.KeySelectListener"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "81",
+      "roles": {
+        "subject": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "concreteSubject": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ],
+        "observer": [
+          "CH.ifa.draw.framework.FigureChangeListener"
+        ],
+        "concreteObserver": [
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.standard.FigureChangeEventMulticaster",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "82",
+      "roles": {
+        "subject": [
+          "CH.ifa.draw.framework.Drawing"
+        ],
+        "concreteSubject": [
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing"
+        ],
+        "observer": [
+          "CH.ifa.draw.framework.DrawingChangeListener"
+        ],
+        "concreteObserver": [
+          "CH.ifa.draw.standard.StandardDrawingView"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "101",
+      "roles": {
+        "subject": [
+          "com.taursys.xml.Component"
+        ],
+        "concreteSubject": [
+          "com.taursys.xml.DispatchingContainer",
+          "com.taursys.xml.DocumentElement",
+          "com.taursys.xml.Form",
+          "com.taursys.servlet.ServletForm",
+          "com.taursys.servlet.DefaultMessageForm",
+          "com.taursys.xml.Template",
+          "com.taursys.html.test.HTMLComponentFactoryTest",
+          "com.taursys.xml.Parameter",
+          "com.taursys.xml.CheckboxField",
+          "com.taursys.html.HTMLCheckBox",
+          "com.taursys.xml.SelectField",
+          "com.taursys.html.HTMLSelect",
+          "com.taursys.servlet.test.ServletInputDispatcherTest.TestComponent",
+          "com.taursys.xml.event.test.InputDispatcherTest.TestComponent",
+          "com.taursys.xml.TextField",
+          "com.taursys.html.HTMLAnchorURL",
+          "com.taursys.html.HTMLInputText",
+          "com.taursys.html.HTMLTextArea",
+          "com.taursys.servlet.test.ServletParameterDispatcherTest.TestParameter",
+          "com.taursys.xml.test.ParameterDispatcherTest.TestParameter",
+          "com.taursys.xml.Trigger",
+          "com.taursys.xml.Button",
+          "com.taursys.servlet.test.TestComponent",
+          "com.taursys.xml.event.test.TestComponent"
+        ],
+        "observer": [
+          "com.taursys.xml.event.ParameterListener",
+          "com.taursys.xml.event.RecycleListener",
+          "com.taursys.xml.event.RenderListener",
+          "com.taursys.xml.TriggerListener"
+        ],
+        "concreteObserver": []
+      },
+      "comments": "From Sultan Alhusain on 13/01/19:\t\t\t\t\t\n\"I think each of the classes listed under the concreteObservers tag is \nactually defining the interface for one type of Listeners (observers), \nwhich makes them observers and NOT concrete observers. I think the fact \nthat all of these interfaces extends java.util.EventListener class does \nnot make it the Observer because it was extended for functionality (not\ndesign) purposes.\"\nFrom Yann-Gal Guhneuc on 13/04/21:\n\"I agree that they should be the Observers, not ConcreteObservers but \nI believe, given what's happening to them in Component, that they do \nfulfill the intent of the Observer pattern.\"\nTherefore, this microarchitecture is kept but should be used with caution.\t\t\t\t\t\n\nFor com.taursys.xml.event.RenderListener, the concrete observers are anonymous classes instantiated in classes:\n- com.taursys.examples.simpleweb.InventoryEditPage;\n- and, com.taursys.examples.simpleweb.RenderPage.\nwhile for com.taursys.xml.TriggerListener, there are anonymous classes instiantiated in:\n- com.taursys.examples.simpleweb.ActionPage;\n- and, com.taursys.examples.simpleweb.UploadPage."
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "136",
+      "roles": {
+        "subject": [
+          "net.sourceforge.pmd.util.viewer.model.ViewerModel"
+        ],
+        "concreteSubject": [
+          "net.sourceforge.pmd.util.viewer.model.ViewerModel"
+        ],
+        "observer": [
+          "net.sourceforge.pmd.util.viewer.model.ViewerModelListener"
+        ],
+        "concreteObserver": [
+          "net.sourceforge.pmd.util.viewer.gui.ASTPanel",
+          "net.sourceforge.pmd.util.viewer.gui.EvaluationResultsPanel",
+          "net.sourceforge.pmd.util.viewer.gui.MainFrame",
+          "net.sourceforge.pmd.util.viewer.gui.SourceCodePanel",
+          "net.sourceforge.pmd.util.viewer.gui.XPathPanel"
+        ]
+      },
+      "comments": "There is no interface playing the role of a subject. As a matter of fact, we think ViewerModel is the only\n\t\t\t\t\t\tconcrete class from which the observers are listening to, observing its state and updating its data ."
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "137",
+      "roles": {
+        "observer": [
+          "net.sourceforge.pmd.ReportListener"
+        ],
+        "concreteObserver": [
+          "test.net.sourceforge.pmd.ReportTest",
+          "test.net.sourceforge.pmd.rules.design.UseSingletonRuleTest"
+        ],
+        "subject": [],
+        "concreteSubject": [
+          "net.sourceforge.pmd.Report"
+        ]
+      },
+      "comments": "Il nous manque la classe qui joue le role de subject!"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "157",
+      "roles": {
+        "subject": [
+          "src.OBSERVER.MonthlyReport"
+        ],
+        "concreteSubject": [
+          "src.OBSERVER.ReportManager",
+          "src.OBSERVER.SupervisorView"
+        ],
+        "observer": [
+          "src.OBSERVER.Observer"
+        ],
+        "concreteObserver": [
+          "src.OBSERVER.YTDChart"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 12,
+  "projects_using": [
+    "5 - JUnit v3.7",
+    "1 - QuickUML 2001",
+    "11 - PMD v1.8",
+    "2 - Lexi v0.1.1 alpha",
+    "6 - JHotDraw v5.1",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7"
+  ],
+  "common_classes": {
+    "com.jmonkey.office.lexi.support.Editor": 2,
+    "com.jmonkey.office.lexi.support.editors.HTMLEditor": 3,
+    "java.awt.event.MouseListener": 2,
+    "java.awt.event.KeyListener": 2,
+    "java.awt.Component": 2,
+    "junit.swingui.TestSelector": 2,
+    "CH.ifa.draw.figures.TextFigure": 2,
+    "CH.ifa.draw.samples.net.NodeFigure": 2,
+    "CH.ifa.draw.figures.NumberTextFigure": 2,
+    "CH.ifa.draw.figures.GroupFigure": 2,
+    "CH.ifa.draw.samples.pert.PertFigure": 2,
+    "CH.ifa.draw.standard.StandardDrawing": 4,
+    "CH.ifa.draw.samples.javadraw.BouncingDrawing": 4,
+    "CH.ifa.draw.samples.javadraw.AnimationDecorator": 2,
+    "CH.ifa.draw.figures.BorderDecorator": 2,
+    "CH.ifa.draw.figures.LineConnection": 3,
+    "CH.ifa.draw.figures.ElbowConnection": 3,
+    "CH.ifa.draw.samples.pert.PertDependency": 3,
+    "net.sourceforge.pmd.util.viewer.model.ViewerModel": 2
+  },
+  "common_roles": {
+    "subject": 12,
+    "concreteSubject": 12,
+    "observer": 12,
+    "concreteObserver": 12
+  }
+}

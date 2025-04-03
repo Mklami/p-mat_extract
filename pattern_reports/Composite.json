@@ -1,0 +1,305 @@
+{
+  "pattern_type": "Composite",
+  "implementations": [
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "4",
+      "roles": {
+        "client": [
+          "uml.ui.ToolPalette"
+        ],
+        "component": [
+          "diagram.tool.Tool"
+        ],
+        "composite": [
+          "diagram.tool.CompositeTool"
+        ],
+        "leave": [
+          "diagram.tool.CompositeTool",
+          "diagram.tool.AbstractTool",
+          "uml.ui.CardinalityTool",
+          "diagram.tool.ClipboardTool",
+          "diagram.tool.EditingTool",
+          "diagram.tool.FigureDraggingTool",
+          "diagram.tool.FigureShappingTool",
+          "diagram.tool.FigureTool",
+          "diagram.tool.LinkShappingTool",
+          "diagram.tool.LinkTool",
+          "uml.ui.AssociationTool",
+          "uml.ui.CompositionTool",
+          "uml.ui.DependencyTool",
+          "uml.ui.GeneralizationTool",
+          "uml.ui.RealizationTool",
+          "diagram.tool.SelectionTool"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "5",
+      "roles": {
+        "client": [
+          "diagram.Diagram",
+          "diagram.DiagramUI"
+        ],
+        "component": [
+          "diagram.DefaultFigureEditor"
+        ],
+        "composite": [
+          "diagram.DefaultLinkEditor"
+        ],
+        "leave": [
+          "uml.diagram.ClassEditor",
+          "uml.diagram.AssociationLinkEditor",
+          "uml.diagram.CompositionLinkEditor",
+          "uml.diagram.DependencyLinkEditor",
+          "uml.diagram.GeneralizationLinkEditor",
+          "uml.diagram.RealizationLinkEditor",
+          "uml.diagram.InterfaceEditor",
+          "uml.diagram.NoteEditor"
+        ]
+      },
+      "comments": "As rightly pointed out by Sultan Alhusain: \n\"The composite does not actually call any methods defined by the\nComponent. Although component and composite do have a method with\nsimilar name (getDecoratedBounds), all method invocations in the\ncomposite class are defined and performed by the DefaultLabelRenderer\nclass, which also have a method named (getDecoratedBounds). The\nDefaultLabelRenderer class extends JTextField and does not implement\nor inherit neither the Component OR Composite classes.\"\n(Personal e-mail from p08000620@myemail.dmu.ac.uk on 13/01/19.)\nTherefore, this microarchitecture is removed from P-MARt."
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "65",
+      "roles": {
+        "client": [],
+        "component": [
+          "junit.framework.Test"
+        ],
+        "composite": [
+          "junit.framework.TestSuite",
+          "junit.extensions.ActiveTestSuite"
+        ],
+        "leave": [
+          "junit.tests.TestImplementorTest.DoubleTestCase",
+          "junit.tests.ActiveTestTest",
+          "junit.tests.AssertTest",
+          "junit.extensions.ExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowNoExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest.ThrowRuntimeExceptionTestCase",
+          "junit.tests.ExceptionTestCaseTest",
+          "junit.tests.ExtensionTest",
+          "junit.tests.Failure",
+          "junit.samples.money.MoneyTest",
+          "junit.tests.NoTestCases",
+          "junit.tests.NotPublicTestCase",
+          "junit.tests.NotVoidTestCase",
+          "junit.tests.OneTestCase",
+          "junit.tests.InheritedTestCase",
+          "junit.tests.OverrideTestCase",
+          "junit.tests.RepeatedTestTest",
+          "junit.samples.SimpleTest",
+          "junit.tests.SorterTest",
+          "junit.tests.StackFilterTest",
+          "junit.tests.Success",
+          "junit.tests.ActiveTestTest.SuccessTest",
+          "junit.tests.RepeatedTestTest.SuccessTest",
+          "junit.tests.SuiteTest",
+          "junit.tests.TestCaseClassLoaderTest",
+          "junit.tests.TestCaseTest",
+          "junit.tests.TestImplementorTest",
+          "junit.tests.TestListenerTest",
+          "junit.tests.TextRunnerTest",
+          "junit.tests.ExtensionTest.TornDown",
+          "junit.samples.VectorTest",
+          "junit.tests.WasRun",
+          "junit.extensions.TestDecorator",
+          "junit.extensions.RepeatedTest",
+          "junit.extensions.TestSetup",
+          "junit.tests.ExtensionTest.TornDown"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "75",
+      "roles": {
+        "client": [
+          "CH.ifa.draw.figures.GroupCommand",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+          "CH.ifa.draw.applet.DrawApplet",
+          "CH.ifa.draw.application.DrawApplication",
+          "CH.ifa.draw.samples.javadraw.JavaDrawViewer",
+          "CH.ifa.draw.samples.javadraw.JavaDrawApp",
+          "CH.ifa.draw.samples.javadraw.JavaDrawApplet"
+        ],
+        "component": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "composite": [
+          "CH.ifa.draw.standard.CompositeFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing"
+        ],
+        "leave": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "98",
+      "roles": {
+        "client": [
+          "com.taursys.xml.render.AbstractRenderer",
+          "com.taursys.xml.event.CloseFormDispatcher",
+          "com.taursys.xml.event.OpenFormDispatcher",
+          "com.taursys.xml.event.InitFormDispatcher",
+          "com.taursys.xml.event.InitContextDispatcher"
+        ],
+        "component": [
+          "com.taursys.xml.Component"
+        ],
+        "composite": [
+          "com.taursys.xml.Container"
+        ],
+        "leave": [
+          "com.taursys.xml.DispatchingContainer",
+          "com.taursys.xml.DocumentElement",
+          "com.taursys.xml.Form",
+          "com.taursys.servlet.ServletForm",
+          "com.taursys.servlet.DefaultMessageForm",
+          "com.taursys.xml.Template",
+          "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer",
+          "com.taursys.xml.Parameter",
+          "com.taursys.xml.CheckBoxField",
+          "com.taursys.html.HTMLCheckBox",
+          "com.taursys.xml.SelectField",
+          "com.taursys.html.HTMLSelect",
+          "com.taursys.servlet.test.TestComponent",
+          "com.taursys.xml.event.test.TestComponent",
+          "com.taursys.xml.TextField",
+          "com.taursys.html.HTMLAnchorURL",
+          "com.taursys.html.HTMLInputText",
+          "com.taursys.html.HTMLTextArea",
+          "com.taursys.servlet.test.TestParameter",
+          "com.taursys.xml.event.test.TestParameter",
+          "com.taursys.xml.Trigger",
+          "com.taursys.xml.Button",
+          "com.taursys.servlet.test.TestComponent",
+          "com.taursys.xml.event.test.TestComponent"
+        ]
+      },
+      "comments": "From Sultan Alhusain on 13/01/19:\t\t\t\t\t\n\"There exist two way association and method invocation between the\nComponent and the Composite classes. Actually, each object of the\ntype Component has a \"parent\" of the type Composite. Also, two of the\nclasses that were listed as being Leafs (DispatchingContainer and\nTestContainer) were actually subclasses of the Composite class.\nMoreover, the Component and the Composite classes have no similar\nmethods, which would have the mean by which individual components and\ncomposition of them can be treated uniformaly.\"\nFrom Yann-Gal Guhneuc on 13/04/21:\n\"As far as I can tell, a Component knows its parent just for the sake \nof simplicity, through the use of the method\n\tpublic com.taursys.xml.Container getParent() {...}\nso I would still consider that Component plays the role of Component \nand that Container plays the role of Composite (add, remove methods \nplus invocations of various methods on components). You are right \nthat the two classes DispatchingContainer and TestContainer must not \nbe leaves! The fact that Component and Composite do not share \nmethods, to me, points to a bad design or to reuse (both classes \nbeing abstract).\"\nTherefore, this microarchitecture is kept but should be used with caution."
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "128",
+      "roles": {
+        "composite": [
+          "net.sourceforge.pmd.TargetJDK1_4",
+          "net.sourceforge.pmd.ast.JavaCharStream"
+        ],
+        "component": [
+          "net.sourceforge.pmd.ast.CharStream"
+        ],
+        "leave": [
+          "net.sourceforge.pmd.ast.SimpleStream"
+        ],
+        "client": [
+          "net.sourceforge.pmd.ast.JavaParser",
+          "net.sourceforge.pmd.ast.JavaParserTokenManager"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "129",
+      "roles": {
+        "composite": [
+          "net.sourceforge.pmd.ast.ASTVariableDeclaratorID"
+        ],
+        "component": [
+          "net.sourceforge.pmd.ast.Node"
+        ],
+        "leave": [
+          "net.sourceforge.pmd.ast.SimpleStream"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "143",
+      "roles": {
+        "client": [
+          "src.COMPOSITE.CompositeDemo"
+        ],
+        "component": [
+          "src.COMPOSITE.FileSystemComponent"
+        ],
+        "composite": [
+          "src.COMPOSITE.CompositeException"
+        ],
+        "leave": [
+          "src.COMPOSITE.FileComponent",
+          "src.COMPOSITE.DirComponent"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 8,
+  "projects_using": [
+    "5 - JUnit v3.7",
+    "1 - QuickUML 2001",
+    "11 - PMD v1.8",
+    "6 - JHotDraw v5.1",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7"
+  ],
+  "common_classes": {
+    "diagram.tool.CompositeTool": 2,
+    "junit.tests.ExtensionTest.TornDown": 2,
+    "CH.ifa.draw.samples.pert.PertDependency": 3,
+    "CH.ifa.draw.figures.GroupFigure": 2,
+    "CH.ifa.draw.samples.pert.PertFigure": 2,
+    "CH.ifa.draw.standard.StandardDrawing": 2,
+    "CH.ifa.draw.samples.javadraw.BouncingDrawing": 2,
+    "CH.ifa.draw.figures.LineConnection": 2,
+    "CH.ifa.draw.figures.ElbowConnection": 2,
+    "com.taursys.servlet.test.TestComponent": 2,
+    "com.taursys.xml.event.test.TestComponent": 2,
+    "net.sourceforge.pmd.ast.SimpleStream": 2
+  },
+  "common_roles": {
+    "client": 7,
+    "component": 8,
+    "composite": 8,
+    "leave": 8
+  }
+}

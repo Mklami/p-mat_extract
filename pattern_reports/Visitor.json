@@ -1,0 +1,277 @@
+{
+  "pattern_type": "Visitor",
+  "implementations": [
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "37",
+      "roles": {
+        "visitor": [
+          "org.acm.seguin.parser.JavaParserVisitor"
+        ],
+        "concreteVisitor": [
+          "org.acm.seguin.parser.ChildrenVisitor",
+          "org.acm.seguin.parser.ChildrenVisitor",
+          "org.acm.seguin.refactor.field.AddFieldVisitor",
+          "org.acm.seguin.refactor.type.AddImplementedInterfaceVisitor",
+          "org.acm.seguin.refactor.method.AddMethodVisitor",
+          "org.acm.seguin.refactor.method.FindLocalVariableDeclVisitor",
+          "org.acm.seguin.refactor.method.IdentifyMethodVisitor",
+          "org.acm.seguin.refactor.method.ChangeMethodScopeVisitor",
+          "org.acm.seguin.refactor.method.RemoveMethodVisitor",
+          "org.acm.seguin.refactor.method.RenameParameterVisitor",
+          "org.acm.seguin.refactor.method.MoveMethodVisitor",
+          "org.acm.seguin.refactor.field.RemoveFieldVisitor",
+          "org.acm.seguin.refactor.field.RemoveFieldVisitor",
+          "org.acm.seguin.refactor.type.RenameParentVisitor",
+          "org.acm.seguin.refactor.type.RenameTypeVisitor",
+          "org.acm.seguin.tools.international.StringListVisitor",
+          "org.acm.seguin.parser.query.CompareParseTreeVisitor",
+          "org.acm.seguin.parser.query.EqualTree",
+          "org.acm.seguin.summary.LineCountVisitor",
+          "org.acm.seguin.summary.SummaryLoadVisitor",
+          "org.acm.seguin.pretty.PrettyPrintVisitor",
+          "org.acm.seguin.pretty.SpecialTokenVisitor",
+          "org.acm.seguin.tools.stub.StubPrintVisitor"
+        ],
+        "element": [
+          "org.acm.seguin.parser.Node"
+        ],
+        "concreteElement": [
+          "org.acm.seguin.parser.ast.SimpleNode",
+          "org.acm.seguin.parser.ast.ASTAdditiveExpression",
+          "org.acm.seguin.parser.ast.ASTAllocationExpression",
+          "org.acm.seguin.parser.ast.ASTAndExpression",
+          "org.acm.seguin.parser.ast.ASTArgumentList",
+          "org.acm.seguin.parser.ast.ASTArguments",
+          "org.acm.seguin.parser.ast.ASTArrayDimsAndInits",
+          "org.acm.seguin.parser.ast.ASTArrayInitializer",
+          "org.acm.seguin.parser.ast.ASTAssignmentOperator",
+          "org.acm.seguin.parser.ast.ASTBlock",
+          "org.acm.seguin.parser.ast.ASTBlockStatement",
+          "org.acm.seguin.parser.ast.ASTBooleanLiteral",
+          "org.acm.seguin.parser.ast.ASTBreakStatement",
+          "org.acm.seguin.parser.ast.ASTCastExpression",
+          "org.acm.seguin.parser.ast.ASTCastLookahead",
+          "org.acm.seguin.parser.ast.ASTClassBody",
+          "org.acm.seguin.parser.ast.ASTClassBodyDeclaration",
+          "org.acm.seguin.parser.ast.ASTClassDeclaration",
+          "org.acm.seguin.parser.ast.ASTCompilationUnit",
+          "org.acm.seguin.parser.ast.ASTConditionalAndExpression",
+          "org.acm.seguin.parser.ast.ASTConditionalExpression",
+          "org.acm.seguin.parser.ast.ASTConditionalOrExpression",
+          "org.acm.seguin.parser.ast.ASTConstructorDeclaration",
+          "org.acm.seguin.parser.ast.ASTContinueStatement",
+          "org.acm.seguin.parser.ast.ASTDoStatement",
+          "org.acm.seguin.parser.ast.ASTEmptyStatement",
+          "org.acm.seguin.parser.ast.ASTEqualityExpression",
+          "org.acm.seguin.parser.ast.ASTExclusiveOrExpression",
+          "org.acm.seguin.parser.ast.ASTExplicitConstructorInvocation",
+          "org.acm.seguin.parser.ast.ASTExpression",
+          "org.acm.seguin.parser.ast.ASTFieldDeclaration",
+          "org.acm.seguin.parser.ast.ASTForInit",
+          "org.acm.seguin.parser.ast.ASTForStatement",
+          "org.acm.seguin.parser.ast.ASTForUpdate",
+          "org.acm.seguin.parser.ast.ASTFormalParameter",
+          "org.acm.seguin.parser.ast.ASTFormalParameters",
+          "org.acm.seguin.parser.ast.ASTIfStatement",
+          "org.acm.seguin.parser.ast.ASTImportDeclaration",
+          "org.acm.seguin.parser.ast.ASTInclusiveOrExpression",
+          "org.acm.seguin.parser.ast.ASTInitializer",
+          "org.acm.seguin.parser.ast.ASTInstanceOfExpression",
+          "org.acm.seguin.parser.ast.ASTInterfaceBody",
+          "org.acm.seguin.parser.ast.ASTInterfaceDeclaration",
+          "org.acm.seguin.parser.ast.ASTInterfaceMemberDeclaration",
+          "org.acm.seguin.parser.ast.ASTLabeledStatement",
+          "org.acm.seguin.parser.ast.ASTLiteral",
+          "org.acm.seguin.parser.ast.ASTLocalVariableDeclaration",
+          "org.acm.seguin.parser.ast.ASTMethodDeclaration",
+          "org.acm.seguin.parser.ast.ASTMethodDeclarationLookahead",
+          "org.acm.seguin.parser.ast.ASTMethodDeclarator",
+          "org.acm.seguin.parser.ast.ASTMultiplicativeExpression",
+          "org.acm.seguin.parser.ast.ASTName",
+          "org.acm.seguin.parser.ast.ASTNameList",
+          "org.acm.seguin.parser.ast.ASTNestedClassDeclaration",
+          "org.acm.seguin.parser.ast.ASTNestedInterfaceDeclaration",
+          "org.acm.seguin.parser.ast.ASTNullLiteral",
+          "org.acm.seguin.parser.ast.ASTPackageDeclaration",
+          "org.acm.seguin.parser.ast.ASTPostfixExpression",
+          "org.acm.seguin.parser.ast.ASTPreDecrementExpression",
+          "org.acm.seguin.parser.ast.ASTPreIncrementExpression",
+          "org.acm.seguin.parser.ast.ASTPrimaryExpression",
+          "org.acm.seguin.parser.ast.ASTPrimaryPrefix",
+          "org.acm.seguin.parser.ast.ASTPrimarySuffix",
+          "org.acm.seguin.parser.ast.ASTPrimitiveType",
+          "org.acm.seguin.parser.ast.ASTRelationalExpression",
+          "org.acm.seguin.parser.ast.ASTResultType",
+          "org.acm.seguin.parser.ast.ASTReturnStatement",
+          "org.acm.seguin.parser.ast.ASTShiftExpression",
+          "org.acm.seguin.parser.ast.ASTStatement",
+          "org.acm.seguin.parser.ast.ASTStatementExpression",
+          "org.acm.seguin.parser.ast.ASTStatementExpressionList",
+          "org.acm.seguin.parser.ast.ASTSwitchLabel",
+          "org.acm.seguin.parser.ast.ASTSwitchStatement",
+          "org.acm.seguin.parser.ast.ASTSynchronizedStatement",
+          "org.acm.seguin.parser.ast.ASTThrowStatement",
+          "org.acm.seguin.parser.ast.ASTTryStatement",
+          "org.acm.seguin.parser.ast.ASTType",
+          "org.acm.seguin.parser.ast.ASTTypeDeclaration",
+          "org.acm.seguin.parser.ast.ASTUnaryExpression",
+          "org.acm.seguin.parser.ast.ASTUnaryExpressionNotPlusMinus",
+          "org.acm.seguin.parser.ast.ASTUnmodifiedClassDeclaration",
+          "org.acm.seguin.parser.ast.ASTUnmodifiedInterfaceDeclaration",
+          "org.acm.seguin.parser.ast.ASTVariableDeclarator",
+          "org.acm.seguin.parser.ast.ASTVariableDeclaratorId",
+          "org.acm.seguin.parser.ast.ASTVariableInitializer",
+          "org.acm.seguin.parser.ast.ASTWhileStatement"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "38",
+      "roles": {
+        "visitor": [
+          "org.acm.seguin.summary.SummaryVisitor"
+        ],
+        "concreteVisitor": [
+          "org.acm.seguin.metrics.GatherData",
+          "org.acm.seguin.summary.TraversalVisitor",
+          "org.acm.seguin.refactor.method.AddMethodTypeVisitor",
+          "org.acm.seguin.summary.query.ChildClassSearcher",
+          "org.acm.seguin.refactor.method.NearMissVisitor",
+          "org.acm.seguin.summary.PrintVisitor",
+          "org.acm.seguin.refactor.field.RemoveFieldFromSubclassVisitor",
+          "org.acm.seguin.refactor.method.RemoveMethodFromSubclassVisitor",
+          "org.acm.seguin.refactor.field.RenameSystemTraversal",
+          "org.acm.seguin.refactor.EliminatePackageImportVisitor",
+          "org.acm.seguin.refactor.type.MoveClassVisitor",
+          "org.acm.seguin.refactor.type.RenameClassVisitor",
+          "org.acm.seguin.refactor.type.RemoveClassVisitor"
+        ],
+        "element": [
+          "org.acm.seguin.summary.Summary"
+        ],
+        "concreteElement": [
+          "org.acm.seguin.summary.FieldAccessSummary",
+          "org.acm.seguin.summary.FileSummary",
+          "org.acm.seguin.summary.ImportSummary",
+          "org.acm.seguin.summary.MessageSendSummary",
+          "org.acm.seguin.summary.MethodSummary",
+          "org.acm.seguin.summary.PackageSummary",
+          "org.acm.seguin.summary.TypeDeclSummary",
+          "org.acm.seguin.summary.TypeSummary",
+          "org.acm.seguin.summary.VariableSummary",
+          "org.acm.seguin.summary.FieldSummary",
+          "org.acm.seguin.summary.LocalVariableSummary",
+          "org.acm.seguin.summary.ParameterSummary"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "138",
+      "roles": {
+        "element": [
+          "net.sourceforge.pmd.ast.Node"
+        ],
+        "objectStructure": [
+          "net.sourceforge.pmd.ast.SimpleNode"
+        ],
+        "concreteElement": [
+          "net.sourceforge.pmd.ast.ASTVariableDeclaratorId"
+        ],
+        "visitor": [
+          "net.sourceforge.pmd.ast.JavaParserVisitor"
+        ],
+        "concreteVisitor": [
+          "net.sourceforge.pmd.ast.JavaParserVisitorAdapter"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "144",
+      "roles": {
+        "visitor": [
+          "src.VISITOR.OrderVisitor"
+        ],
+        "concreteVisitor": [
+          "src.VISITOR.CaliforniaOrder",
+          "src.VISITOR.NonCaliforniaOrder",
+          "src.VISITOR.OverseasOrder"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "141",
+      "roles": {
+        "visitor": [
+          "org.bouncycastle.crypto.CipherParameters"
+        ],
+        "concreteVisitor": [
+          "org.bouncycastle.crypto.params.ParametersWithRandom",
+          "org.bouncycastle.crypto.params.ParametersWithIV"
+        ],
+        "element": [
+          "org.bouncycastle.crypto.BlockCipher"
+        ],
+        "concreteElement": [
+          "org.bouncycastle.crypto.modes.OFBBlockCipher",
+          "org.bouncycastle.crypto.modes.CBCBlockCipher",
+          "org.bouncycastle.crypto.modes.SICBlocCipher",
+          "org.bouncycastle.crypto.modes.PGPCFBBlockCipher",
+          "org.bouncycastle.crypto.modes.OpenPGPCFBBlockCipher",
+          "org.bouncycastle.crypto.modes.CFBBlockCipher"
+        ],
+        "objectStructure": [
+          "org.bouncycastle.crypto.BufferedBlockCipher"
+        ]
+      },
+      "comments": "En prenant le livre \"Design Pattern\" comme reference, le \"Client\" n'est pas un participant assez important pour etre precise.\n\t\t\t\t\t\tMais nous pensons que, comme ici, nous devons preciser que le \"Client\" peut faire qu'un avec le \"ObjectStructure\".\n\t\t\t\t\t\tEn fait, au cours de notre recherche, nous avons trouve que c'est souvent le cas."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "410",
+      "roles": {},
+      "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "410",
+      "roles": {},
+      "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "428",
+      "roles": {},
+      "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine."
+    }
+  ],
+  "total_implementations": 8,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "17 - DrJava v20030203",
+    "11 - PMD v1.8",
+    "14 - DrJava v20020619",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "Design Pattern Group"
+  ],
+  "common_classes": {
+    "org.acm.seguin.parser.ChildrenVisitor": 2,
+    "org.acm.seguin.refactor.field.RemoveFieldVisitor": 2
+  },
+  "common_roles": {
+    "visitor": 5,
+    "concreteVisitor": 5,
+    "element": 4,
+    "concreteElement": 4,
+    "objectStructure": 2
+  }
+}

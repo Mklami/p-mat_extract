@@ -1,0 +1,344 @@
+{
+  "pattern_type": "Singleton",
+  "implementations": [
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "7",
+      "roles": {
+        "singleton": [
+          "uml.ui.IconManager"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "2 - Lexi v0.1.1 alpha",
+      "micro_id": "11",
+      "roles": {
+        "singleton": [
+          "com.jmonkey.export.Registry"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "2 - Lexi v0.1.1 alpha",
+      "micro_id": "12",
+      "roles": {
+        "singleton": [
+          "com.jmonkey.office.lexi.support.EditorActionManager"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "33",
+      "roles": {
+        "singleton": [
+          "org.acm.seguin.uml.loader.ReloaderSingleton"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "34",
+      "roles": {
+        "singleton": [
+          "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "71",
+      "roles": {
+        "singleton": [
+          "junit.framework.Assert"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "5 - JUnit v3.7",
+      "micro_id": "72",
+      "roles": {
+        "singleton": [
+          "junit.runner.Version"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "85",
+      "roles": {
+        "singleton": [
+          "CH.ifa.draw.util.Clipboard"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "86",
+      "roles": {
+        "singleton": [
+          "CH.ifa.draw.util.Iconkit"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "102",
+      "roles": {
+        "singleton": [
+          "com.taursys.debug.Debug"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "103",
+      "roles": {
+        "singleton": [
+          "com.taursys.html.HTMLComponentFactory"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "104",
+      "roles": {
+        "singleton": [
+          "com.taursys.tools.CodeGenerator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "110",
+      "roles": {
+        "singleton": [
+          "net.nutch.io.NullWritable"
+        ]
+      },
+      "comments": "Un peu facil les singletons ;-p"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "158",
+      "roles": {
+        "singleton": [
+          "src.SINGLETON.FileLogger"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "402",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "403",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "404",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "405",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "406",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "407",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "408",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "409",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "402",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "403",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "404",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "405",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "406",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "407",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "408",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "409",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "419",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "420",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "421",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "422",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "423",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "431",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "432",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "433",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "434",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "435",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "436",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "437",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "438",
+      "roles": {},
+      "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "1040",
+      "roles": {},
+      "comments": ""
+    }
+  ],
+  "total_implementations": 44,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "5 - JUnit v3.7",
+    "1 - QuickUML 2001",
+    "17 - DrJava v20030203",
+    "18 - DrJava v20040326",
+    "2 - Lexi v0.1.1 alpha",
+    "6 - JHotDraw v5.1",
+    "10 - Nutch v0.4",
+    "14 - DrJava v20020619",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "singleton": 14
+  }
+}

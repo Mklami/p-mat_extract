@@ -1,0 +1,52 @@
+{
+  "pattern_type": "Facade",
+  "implementations": [
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "99",
+      "roles": {
+        "facade": [
+          "com.taursys.servlet.ServletForm"
+        ],
+        "subsystemClasse": [
+          "com.taursys.servlet.respond.Responser",
+          "com.taursys.servlet.respond.HTMLResponser",
+          "com.taursys.servlet.Dispatcher",
+          "com.taursys.servlet.ServletFormDispatcher",
+          "com.taursys.servlet.respond.ServletInputDispatcher",
+          "com.taursys.servlet.respond.RenderDispatcher",
+          "com.taursys.servlet.respond.ServletTriggerDispatcher",
+          "com.taursys.servlet.respond.RecycleDispatcher",
+          "com.taursys.servlet.HttpMultiPartServletRequest",
+          "com.taursys.dom.DocumentAdapter"
+        ]
+      },
+      "comments": "The ServletForm class is responsible for proceeding requests originating from the ServletApp.\n\t\t \t\t\t\tIts doGet method determines a default processing cycle which is most often redefined by its \n\t\t\t\t\t\tsubclasses. In this application, only DefaultMessageForm is derived from ServletForm. Anyhow, \n\t\t\t\t\t\tthe client classes are not aware of the subsystem :  \" ServletForm dispatches commands and data\n\t\t\t\t\t\tfrom the request object to the individual components it contains. The dispatching occurs in the\n\t\t\t\t\t\tdoGet method of the ServletForm. [...] The ServletForm is composed of many subcomponents to \n\t\t\t\t\t\tsupport the processing of the request: ServletParameterDispatcher, ServletInputDispatcher,\n\t\t\t\t\t\tRenderDispatcher, ServletTriggerDispatcher, RecycleDispatcher, DocumentAdapter and Responder. \"\n\t\t\t\t\t\t(Quoting from http://mapper.sourceforge.net/mapperxml/pagesforms.shtml)"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "150",
+      "roles": {
+        "facade": [
+          "src.FAADE.server.CustomerFacade"
+        ],
+        "subsystemClasse": [
+          "src.FAADE.server.Account",
+          "src.FAADE.server.Address",
+          "src.FAADE.server.CreditCard"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 2,
+  "projects_using": [
+    "8 - MapperXML v1.9.7",
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "facade": 2,
+    "subsystemClasse": 2
+  }
+}

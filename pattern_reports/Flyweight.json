@@ -1,0 +1,31 @@
+{
+  "pattern_type": "Flyweight",
+  "implementations": [
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "146",
+      "roles": {
+        "flyweightfactorie": [
+          "src.FLYWEIGHT.Approach1.FlyweightFactory"
+        ],
+        "flyweight": [
+          "src.FLYWEIGHT.Approach1.VCard"
+        ],
+        "concreteFlyweight": [
+          "FLYWEIGHT.Approach1.FlyweightTest"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 1,
+  "projects_using": [
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {},
+  "common_roles": {
+    "flyweightfactorie": 1,
+    "flyweight": 1,
+    "concreteFlyweight": 1
+  }
+}

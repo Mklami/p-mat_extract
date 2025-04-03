@@ -1,0 +1,177 @@
+{
+  "pattern_type": "Builder",
+  "implementations": [
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "2",
+      "roles": {
+        "director": [
+          "uml.ui.BuildAction"
+        ],
+        "builder": [
+          "uml.builder.CodeBuilder"
+        ],
+        "concreteBuilder": [
+          "uml.builder.AssociationBuilder",
+          "uml.builder.ClassBuilder",
+          "uml.builder.CompositionBuilder",
+          "uml.builder.InheritanceBuilder",
+          "uml.builder.CPlusPlusBuilder",
+          "uml.builder.JavaBuilder",
+          "uml.builder.RealizationBuilder"
+        ],
+        "product": [
+          "uml.builder.MetaAssociation",
+          "uml.builder.MetaClass",
+          "uml.builder.MetaComposition",
+          "uml.builder.MetaAssociation"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "2 - Lexi v0.1.1 alpha",
+      "micro_id": "8",
+      "roles": {
+        "director": [
+          "com.jmonkey.office.lexi.Main.DocumentFrame"
+        ],
+        "builder": [
+          "com.jmonkey.office.lexi.support.Editor"
+        ],
+        "concreteBuilder": [
+          "com.jmonkey.office.lexi.support.editors.HTMLEditor",
+          "com.jmonkey.office.lexi.support.editors.RTFEditor",
+          "com.jmonkey.office.lexi.support.editors.TEXTEditor"
+        ],
+        "product": []
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "30",
+      "roles": {
+        "director": [
+          "org.acm.seguin.ide.jbuilder.UMLNode"
+        ],
+        "builder": [],
+        "concreteBuilder": [
+          "org.acm.seguin.ide.jbuilder.refactor.MenuBuilder"
+        ],
+        "product": [
+          "???.ActionGroup"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "31",
+      "roles": {
+        "director": [
+          "org.acm.seguin.refactor.method.ExtractMethodRefactoring"
+        ],
+        "builder": [],
+        "concreteBuilder": [
+          "org.acm.seguin.refactor.method.EMBuilder"
+        ],
+        "product": [
+          "org.acm.seguin.parser.Node"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "126",
+      "roles": {
+        "director": [
+          "net.sourceforge.pmd.CommandLineOptions"
+        ],
+        "builder": [
+          "net.sourceforge.pmd.renderers.Renderer"
+        ],
+        "concreteBuilder": [
+          "net.sourceforge.pmd.renderers.IDEAJRenderer",
+          "net.sourceforge.pmd.renderers.EmacsRenderer",
+          "net.sourceforge.pmd.renderers.PapariTextRenderer",
+          "net.sourceforge.pmd.renderers.SummaryHTMLRenderer",
+          "net.sourceforge.pmd.renderers.VBHTMLRenderer",
+          "net.sourceforge.pmd.renderers.HTMLRenderer",
+          "net.sourceforge.pmd.renderers.XMLRenderer",
+          "net.sourceforge.pmd.renderers.TextRenderer"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "127",
+      "roles": {
+        "director": [
+          "net.sourceforge.pmd.ant.Formatter"
+        ],
+        "builder": [
+          "net.sourceforge.pmd.renderers.CVSRenderer"
+        ],
+        "concreteBuilder": [
+          "net.sourceforge.pmd.renderers.IDEAJRenderer",
+          "net.sourceforge.pmd.renderers.EmacsRenderer",
+          "net.sourceforge.pmd.renderers.PapariTextRenderer",
+          "net.sourceforge.pmd.renderers.SummaryHTMLRenderer",
+          "net.sourceforge.pmd.renderers.VBHTMLRenderer",
+          "net.sourceforge.pmd.renderers.HTMLRenderer",
+          "net.sourceforge.pmd.renderers.XMLRenderer",
+          "net.sourceforge.pmd.renderers.TextRenderer"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "142",
+      "roles": {
+        "director": [
+          "src.BUILDER.UIDirector"
+        ],
+        "builder": [
+          "src.BUILDER.HIBuilder"
+        ],
+        "concreteBuilder": [
+          "src.BUILDER.EmpSrchBuilder",
+          "src.BUILDER.CandSrchBuilder"
+        ],
+        "product": [
+          "src.BUILDER.SearchManager"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 7,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "1 - QuickUML 2001",
+    "11 - PMD v1.8",
+    "2 - Lexi v0.1.1 alpha",
+    "13 - Software architecture design patterns in Java"
+  ],
+  "common_classes": {
+    "uml.builder.MetaAssociation": 2,
+    "net.sourceforge.pmd.renderers.IDEAJRenderer": 2,
+    "net.sourceforge.pmd.renderers.EmacsRenderer": 2,
+    "net.sourceforge.pmd.renderers.PapariTextRenderer": 2,
+    "net.sourceforge.pmd.renderers.SummaryHTMLRenderer": 2,
+    "net.sourceforge.pmd.renderers.VBHTMLRenderer": 2,
+    "net.sourceforge.pmd.renderers.HTMLRenderer": 2,
+    "net.sourceforge.pmd.renderers.XMLRenderer": 2,
+    "net.sourceforge.pmd.renderers.TextRenderer": 2
+  },
+  "common_roles": {
+    "director": 7,
+    "builder": 7,
+    "concreteBuilder": 7,
+    "product": 5
+  }
+}

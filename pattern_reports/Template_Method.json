@@ -1,0 +1,449 @@
+{
+  "pattern_type": "Template Method",
+  "implementations": [
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "93",
+      "roles": {
+        "abstractClasse": [
+          "CH.ifa.draw.standard.AbstractFigure"
+        ],
+        "concreteClasse": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "94",
+      "roles": {
+        "abstractClasse": [
+          "CH.ifa.draw.figures.AttributeFigure"
+        ],
+        "concreteClasse": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "106",
+      "roles": {
+        "abstractClasse": [
+          "com.taursys.xml.Component"
+        ],
+        "concreteClasse": [
+          "com.taursys.xml.DispatchingContainer",
+          "com.taursys.xml.DocumentElement",
+          "com.taursys.xml.Form",
+          "com.taursys.servlet.ServletForm",
+          "com.taursys.servlet.DefaultMessageForm",
+          "com.taursys.xml.Template",
+          "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer",
+          "com.taursys.xml.Parameter",
+          "com.taursys.xml.CheckBox",
+          "com.taursys.html.HTMLCheckBox",
+          "com.taursys.xml.SelectField",
+          "com.taursys.html.HTMLSelect",
+          "com.taursys.xml.TextField",
+          "com.taursys.html.HTMLAnchorURL",
+          "com.taursys.html.HTMLInputText",
+          "com.taursys.html.HTMLTextArea",
+          "com.taursys.xml.Trigger",
+          "com.taursys.xml.Button"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "107",
+      "roles": {
+        "abstractClasse": [
+          "com.taursys.xml.Container"
+        ],
+        "concreteClasse": [
+          "com.taursys.xml.DispatchingContainer",
+          "com.taursys.xml.DocumentElement",
+          "com.taursys.xml.Form",
+          "com.taursys.servlet.ServletForm",
+          "com.taursys.servlet.DefaultMessageForm",
+          "com.taursys.xml.Template"
+        ]
+      },
+      "comments": "Cette micro-architecture est en fait une sous micro-archictecture de la precedente."
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "108",
+      "roles": {
+        "abstractClasse": [
+          "com.taursys.xml.AbstractField"
+        ],
+        "concreteClasse": [
+          "com.taursys.xml.CheckBox",
+          "com.taursys.html.HTMLCheckBox",
+          "com.taursys.xml.SelectField",
+          "com.taursys.html.HTMLSelect",
+          "com.taursys.xml.TextField",
+          "com.taursys.html.HTMLAnchorURL",
+          "com.taursys.html.HTMLInputText",
+          "com.taursys.html.HTMLTextArea"
+        ]
+      },
+      "comments": "Cette micro-architecture est en fait une sous micro-archictecture de la precedente."
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "109",
+      "roles": {
+        "abstractClasse": [
+          "com.taursys.xml.event.Dispatcher"
+        ],
+        "concreteClasse": [
+          "com.taursys.xml.event.CloseFormDispatcher",
+          "com.taursys.xml.event.InitContextDispatcher",
+          "com.taursys.xml.event.InitFormDispatcher",
+          "com.taursys.xml.event.InputDispatcher",
+          "com.taursys.xml.event.TemplateInputDispatcher",
+          "com.taursys.xml.event.OpenFormDispatcher",
+          "com.taursys.xml.event.ParameterDispatcher",
+          "com.taursys.xml.event.RecycleDispatcher",
+          "com.taursys.xml.event.RenderDispatcher",
+          "com.taursys.servlet.ServletInputDispatcher",
+          "com.taursys.servlet.ServletParameterDispatcher",
+          "com.taursys.servlet.ServletTriggerDispatcher",
+          "com.taursys.xml.event.TriggerDispatcher",
+          "com.taursys.xml.event.TemplateTriggerDispatcher"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "117",
+      "roles": {
+        "abstractClasse": [
+          "net.nutch.db.DistributedWebDBReader.EnumCall"
+        ],
+        "concreteClasse": [
+          "net.nutch.db.DistributedWebDBReader.PageEnumCall",
+          "net.nutch.db.DistributedWebDBReader.PageByMD5EnumCall",
+          "net.nutch.db.DistributedWebDBReader.LinkEnumCall"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "118",
+      "roles": {
+        "abstractClasse": [
+          "net.nutch.db.DistributedWebDBWriter.CloseProcessor"
+        ],
+        "concreteClasse": [
+          "net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor",
+          "net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "119",
+      "roles": {
+        "abstractClasse": [
+          "net.nutch.db.KeyExtractor"
+        ],
+        "concreteClasse": [
+          "net.nutch.db.PageURLExtractor",
+          "net.nutch.db.PageMD5Extractor",
+          "net.nutch.db.LinkURLExtractor",
+          "net.nutch.db.LinkMD5Extractor"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "135",
+      "roles": {
+        "abstractClasse": [
+          "org.apache.tools.ant.Task"
+        ],
+        "concreteClasse": [
+          "net.sourceforge.pmd.ant.PMDTask"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "153",
+      "roles": {
+        "abstractClasse": [
+          "src.TemplateMethod.CreditCard"
+        ],
+        "concreteClasse": [
+          "src.TemplateMethod.DinerCard",
+          "src.TemplateMethod.MaserCard",
+          "src.TemplateMethod.VisaCard"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "144",
+      "roles": {
+        "abstractsClasse": [
+          "org.bouncycastle.crypto.PBEParametersGenerator"
+        ],
+        "concretesClasse": [
+          "org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator",
+          "org.bouncycastle.crypto.generators.PKCS12ParametersGenerator"
+        ]
+      },
+      "comments": "Ici, rien de sp\u00e9cial, \u00e0 moins que l'on jette un coup d'oeil sur le magnifique Diagramme \"Azureus_FactoryMethod_TemplateMethod_01\".\n\t\t\t\t\t\tOn remarque donc un bel example de Factory Method d\u00e9riv\u00e9 d'un Template Method"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2222",
+      "roles": {},
+      "comments": "La mthode getType() est la primitive operation et getHighlightState() le TemplateMethod"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2223",
+      "roles": {},
+      "comments": "La mthode applyRule(DefinitionsDocument doc) est la primitive operation et indentLine() le TemplateMethod. Le design pattern strategy (2070) est connect  ce template method"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2224",
+      "roles": {},
+      "comments": "La mthode indentLine(DefinitionsDocument doc) est la primitive operation et indentLine(DefinitionsDocument doc, int pos) le TemplateMethod. Le design pattern strategy (2080) est connect  ce template method"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2226",
+      "roles": {},
+      "comments": "La mthode setValue(T value) est la primitive operation et setValue(T value) et/ou resetToCurrent() est le TemplateMethod. Il y a un strategy (2071) et un state (2079) autour."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2080",
+      "roles": {},
+      "comments": "1e template pour former un Bridge"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2090",
+      "roles": {},
+      "comments": "2e template pour former un Bridge"
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2100",
+      "roles": {},
+      "comments": "Brace et Comment fonctionne en parallelle, \n\t                \t\t\tTemplateMethode : insertGapBetweenMultiCharBrace()\n\t                \t\t\tprimitive 1 : public void insertChar(char ch) \n\t                \t\t\tprimitive 2\t: public void insertNewline() \n\t                \t\t\tetc...\n\t                \t\t\tNote : la representation fait par discribe n'est pas complete."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2110",
+      "roles": {},
+      "comments": "TemplateMethode:  getHighlightState()\n\t\t\t\t\t\t\t\t Primitive : gettype()"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2222",
+      "roles": {},
+      "comments": "La mthode getType() est la primitive operation et getHighlightState() le TemplateMethod"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2223",
+      "roles": {},
+      "comments": "La mthode applyRule(DefinitionsDocument doc) est la primitive operation et indentLine() le TemplateMethod. Le design pattern strategy (2070) est connect  ce template method"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2224",
+      "roles": {},
+      "comments": "La mthode indentLine(DefinitionsDocument doc) est la primitive operation et indentLine(DefinitionsDocument doc, int pos) le TemplateMethod. Le design pattern strategy (2080) est connect  ce template method"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2225",
+      "roles": {},
+      "comments": "La mthode _createRequest(ReferenceType ref)) est la primitive operation et createRequest(ReferenceType rt) le TemplateMethod"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2226",
+      "roles": {},
+      "comments": "La mthode setValue(T value) est la primitive operation et setValue(T value) et/ou resetToCurrent() est le TemplateMethod. Il y a un strategy (2071) et un state (2079) autour."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2080",
+      "roles": {},
+      "comments": "1e template pour former un Bridge"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2090",
+      "roles": {},
+      "comments": "2e template pour former un Bridge"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2100",
+      "roles": {},
+      "comments": "Brace et Comment fonctionne en parallelle, \n\t                \t\t\tTemplateMethode : insertGapBetweenMultiCharBrace()\n\t                \t\t\tprimitive 1 : public void insertChar(char ch) \n\t                \t\t\tprimitive 2\t: public void insertNewline() \n\t                \t\t\tetc...\n\t                \t\t\tNote : la representation fait par discribe n'est pas complete."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2110",
+      "roles": {},
+      "comments": "TemplateMethode:  getHighlightState()\n\t\t\t\t\t\t\t\t Primitive : gettype()"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2222",
+      "roles": {},
+      "comments": "La mthode getType() est la primitive operation et getHighlightState() le TemplateMethod"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2223",
+      "roles": {},
+      "comments": "La mthode applyRule(DefinitionsDocument doc) est la primitive operation et indentLine() le TemplateMethod. Le design pattern strategy (2070) est connect  ce template method"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2224",
+      "roles": {},
+      "comments": "La mthode indentLine(DefinitionsDocument doc) est la primitive operation et indentLine(DefinitionsDocument doc, int pos) le TemplateMethod. Le design pattern strategy (2080) est connect  ce template method"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2225",
+      "roles": {},
+      "comments": "La mthode _createRequest(ReferenceType ref)) est la primitive operation et createRequest(ReferenceType rt) le TemplateMethod"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2226",
+      "roles": {},
+      "comments": "La mthode setValue(T value) est la primitive operation et setValue(T value) et/ou resetToCurrent() est le TemplateMethod. Il y a un strategy (2071) et un state (2079) autour."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2080",
+      "roles": {},
+      "comments": "1e template pour former un Bridge"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2090",
+      "roles": {},
+      "comments": "2e template pour former un Bridge"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2100",
+      "roles": {},
+      "comments": "Brace et Comment fonctionne en parallelle, \n\t                \t\t\tTemplateMethode : insertGapBetweenMultiCharBrace()\n\t                \t\t\tprimitive 1 : public void insertChar(char ch) \n\t                \t\t\tprimitive 2\t: public void insertNewline() \n\t                \t\t\tetc...\n\t                \t\t\tNote : la representation fait par discribe n'est pas complete."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2110",
+      "roles": {},
+      "comments": "TemplateMethode:  getHighlightState()\n\t\t\t\t\t\t\t\t Primitive : gettype()"
+    }
+  ],
+  "total_implementations": 38,
+  "projects_using": [
+    "11 - PMD v1.8",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "10 - Nutch v0.4",
+    "6 - JHotDraw v5.1",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7",
+    "Design Pattern Group"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.figures.EllipseFigure": 2,
+    "CH.ifa.draw.figures.ImageFigure": 2,
+    "CH.ifa.draw.contrib.PolygonFigure": 2,
+    "CH.ifa.draw.figures.RectangleFigure": 2,
+    "CH.ifa.draw.contrib.DiamondFigure": 2,
+    "CH.ifa.draw.contrib.TriangleFigure": 2,
+    "CH.ifa.draw.figures.RoundRectangleFigure": 2,
+    "CH.ifa.draw.figures.TextFigure": 2,
+    "CH.ifa.draw.samples.net.NodeFigure": 2,
+    "CH.ifa.draw.figures.NumberTextFigure": 2,
+    "CH.ifa.draw.figures.LineConnection": 2,
+    "CH.ifa.draw.figures.ElbowConnection": 2,
+    "CH.ifa.draw.samples.pert.PertDependency": 2,
+    "com.taursys.xml.DispatchingContainer": 2,
+    "com.taursys.xml.DocumentElement": 2,
+    "com.taursys.xml.Form": 2,
+    "com.taursys.servlet.ServletForm": 2,
+    "com.taursys.servlet.DefaultMessageForm": 2,
+    "com.taursys.xml.Template": 2,
+    "com.taursys.xml.CheckBox": 2,
+    "com.taursys.html.HTMLCheckBox": 2,
+    "com.taursys.xml.SelectField": 2,
+    "com.taursys.html.HTMLSelect": 2,
+    "com.taursys.xml.TextField": 2,
+    "com.taursys.html.HTMLAnchorURL": 2,
+    "com.taursys.html.HTMLInputText": 2,
+    "com.taursys.html.HTMLTextArea": 2
+  },
+  "common_roles": {
+    "abstractClasse": 11,
+    "concreteClasse": 11,
+    "abstractsClasse": 1,
+    "concretesClasse": 1
+  }
+}

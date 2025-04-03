@@ -1,0 +1,328 @@
+{
+  "pattern_type": "Factory Method",
+  "implementations": [
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "32",
+      "roles": {
+        "product": [
+          "com.borland.primetime.ide.NodeViewer"
+        ],
+        "concreteProduct": [
+          "org.acm.seguin.ide.jbuilder.UMLNodeViewer"
+        ],
+        "creator": [
+          "com.borland.primetime.ide.NodeViewerFactory"
+        ],
+        "concreteCreator": [
+          "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "77",
+      "roles": {
+        "product": [
+          "CH.ifa.draw.framework.Connector"
+        ],
+        "concreteProduct": [
+          "CH.ifa.draw.standard.ChopBoxConnector",
+          "CH.ifa.draw.figures.ChopEllipseConnector",
+          "CH.ifa.draw.contrib.ChopPolygonConnector",
+          "CH.ifa.draw.figures.PolyLineConnector",
+          "CH.ifa.draw.standard.LocatorConnector",
+          "CH.ifa.draw.figures.ShortestDistanceConnector"
+        ],
+        "creator": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "concreteCreator": [
+          "CH.ifa.draw.standard.AbstractFigure",
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.PolyLineFigure"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "78",
+      "roles": {
+        "product": [
+          "CH.ifa.draw.framework.Handle"
+        ],
+        "concreteProduct": [
+          "CH.ifa.draw.standard.EastHandle",
+          "CH.ifa.draw.standard.NorthHandle",
+          "CH.ifa.draw.standard.NorthEastHandle",
+          "CH.ifa.draw.standard.NorthWestHandle",
+          "CH.ifa.draw.standard.SouthHandle",
+          "CH.ifa.draw.standard.SouthEastHandle",
+          "CH.ifa.draw.standard.SouthWestHandle",
+          "CH.ifa.draw.standard.WestHandle",
+          "CH.ifa.draw.contrib.PolygonHandle",
+          "CH.ifa.draw.contrib.PolygonScaleHandle",
+          "CH.ifa.draw.contrib.TriangleRotationHandle",
+          "CH.ifa.draw.standard.NullHandle",
+          "CH.ifa.draw.figures.FontSizeHandle",
+          "CH.ifa.draw.standard.ConnectionHandle",
+          "CH.ifa.draw.figures.GroupHandle",
+          "CH.ifa.draw.standard.ChangeConnectionStartHandle",
+          "CH.ifa.draw.figures.PolyLineHandle",
+          "CH.ifa.draw.standard.ChangeConnectionEndHandle",
+          "CH.ifa.draw.figures.ElbowHandle"
+        ],
+        "creator": [
+          "CH.ifa.draw.framework.Figure"
+        ],
+        "concreteCreator": [
+          "CH.ifa.draw.figures.EllipseFigure",
+          "CH.ifa.draw.figures.ImageFigure",
+          "CH.ifa.draw.contrib.PolygonFigure",
+          "CH.ifa.draw.figures.RectangleFigure",
+          "CH.ifa.draw.contrib.DiamondFigure",
+          "CH.ifa.draw.contrib.TriangleFigure",
+          "CH.ifa.draw.figures.RoundRectangleFigure",
+          "CH.ifa.draw.figures.TextFigure",
+          "CH.ifa.draw.samples.net.NodeFigure",
+          "CH.ifa.draw.figures.NumberTextFigure",
+          "CH.ifa.draw.figures.GroupFigure",
+          "CH.ifa.draw.samples.pert.PertFigure",
+          "CH.ifa.draw.standard.StandardDrawing",
+          "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+          "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+          "CH.ifa.draw.figures.BorderDecorator",
+          "CH.ifa.draw.figures.PolyLineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency",
+          "CH.ifa.draw.figures.LineFigure",
+          "CH.ifa.draw.figures.LineConnection",
+          "CH.ifa.draw.figures.ElbowConnection",
+          "CH.ifa.draw.samples.pert.PertDependency"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "79",
+      "roles": {
+        "product": [
+          "CH.ifa.draw.framework.Tool"
+        ],
+        "concreteProduct": [
+          "CH.ifa.draw.standard.HandleTracker",
+          "CH.ifa.draw.standard.DragTracker",
+          "CH.ifa.draw.standard.SelectAreaTracker"
+        ],
+        "creator": [],
+        "concreteCreator": [
+          "CH.ifa.draw.standard.SelectionTool"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "8 - MapperXML v1.9.7",
+      "micro_id": "100",
+      "roles": {
+        "creator": [
+          "com.taursys.xml.ComponentFactory"
+        ],
+        "conreteCreator": [
+          "com.taursys.html.HTMLComponentFactory"
+        ],
+        "product": [
+          "com.taursys.xml.Component"
+        ],
+        "concreteProduct": [
+          "com.taursys.xml.DispatchingContainer",
+          "com.taursys.xml.DocumentElement",
+          "com.taursys.xml.Form",
+          "com.taursys.servlet.ServletForm",
+          "com.taursys.servlet.DefaultMessageForm",
+          "com.taursys.xml.Template",
+          "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer",
+          "com.taursys.xml.Parameter",
+          "com.taursys.xml.CheckBoxField",
+          "com.taursys.html.HTMLCheckBox",
+          "com.taursys.xml.SelectField",
+          "com.taursys.html.HTMLSelect",
+          "com.taursys.servlet.test.TestComponent",
+          "com.taursys.xml.event.test.TestComponent",
+          "com.taursys.xml.TextField",
+          "com.taursys.html.HTMLAnchorURL",
+          "com.taursys.html.HTMLInputText",
+          "com.taursys.html.HTMLTextArea",
+          "com.taursys.servlet.test.TestParameter",
+          "com.taursys.xml.event.test.TestParameter",
+          "com.taursys.xml.Trigger"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "130",
+      "roles": {
+        "creator": [
+          "net.sourceforge.pmd.symboltable.ScopeFactory"
+        ],
+        "concreteCreator": [
+          "net.sourceforge.pmd.symboltable.BasicScopeFactory",
+          "net.sourceforge.pmd.symboltable.ScopeCreationVisitorTest.MySF"
+        ],
+        "product": [
+          "net.sourceforge.pmd.symboltable.Scope"
+        ],
+        "concreteProduct": [
+          "net.sourceforge.pmd.symboltable.ClassScope",
+          "net.sourceforge.pmd.symboltable.AbstractScopeTest.IsEnclosingClassScope",
+          "net.sourceforge.pmd.symboltable.GlobalScope",
+          "net.sourceforge.pmd.symboltable.LocalScope",
+          "net.sourceforge.pmd.symboltable.MethodScope",
+          "net.sourceforge.pmd.symboltable.AbstractScopeTest.MyScope",
+          "net.sourceforge.pmd.symboltable.GlobalScope"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "131",
+      "roles": {
+        "creator": [
+          "net.sourceforge.pmd.TargetJDKVersion"
+        ],
+        "concreteCreator": [
+          "net.sourceforge.pmd.TargetJDK1_4"
+        ],
+        "product": [
+          "net.sourceforge.pmd.ast.JavaParserConstants"
+        ],
+        "concreteProduct": [
+          "net.sourceforge.pmd.ast.JavaParser"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "132",
+      "roles": {
+        "creator": [
+          "net.sourceforge.pmd.TargetJDKVersion"
+        ],
+        "concreteCreator": [
+          "net.sourceforge.pmd.TargetJDK1_4"
+        ],
+        "product": [
+          "net.sourceforge.pmd.ast.JavaParserConstants"
+        ],
+        "concreteProduct": [
+          "net.sourceforge.pmd.ast.JavaParserTokenManager",
+          "net.sourceforge.pmd.ast.JavaParser"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "139",
+      "roles": {
+        "product": [
+          "src.FactoryMethod.After.ConsoleLogger"
+        ],
+        "concreteProduct": [
+          "src.FactoryMethod.After.FileLogger"
+        ],
+        "creator": [
+          "src.FactoryMethod.After.LoggerFactory"
+        ],
+        "concreteCreator": [
+          "src.FactoryMethod.After.LoggerTest"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "143",
+      "roles": {
+        "product": [
+          "org.bouncycastle.crypto.CipherParameters"
+        ],
+        "concretesProduct": [
+          "org.bouncycastle.crypto.params.KeyParameter"
+        ],
+        "creator": [
+          "org.bouncycastle.crypto.PBEParametersGenerator"
+        ],
+        "concretesCreator": [
+          "org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator",
+          "org.bouncycastle.crypto.generators.PKCS12ParametersGenerator"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2020",
+      "roles": {},
+      "comments": "La mthode createDefaultDocument() reprsente la FactoryMethod()"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2020",
+      "roles": {},
+      "comments": "La mthode createDefaultDocument() reprsente la FactoryMethod()"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2020",
+      "roles": {},
+      "comments": "La mthode createDefaultDocument() reprsente la FactoryMethod()"
+    }
+  ],
+  "total_implementations": 13,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "11 - PMD v1.8",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "6 - JHotDraw v5.1",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "8 - MapperXML v1.9.7",
+    "Design Pattern Group"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.framework.Figure": 2,
+    "CH.ifa.draw.figures.EllipseFigure": 2,
+    "CH.ifa.draw.contrib.PolygonFigure": 2,
+    "CH.ifa.draw.figures.RoundRectangleFigure": 2,
+    "CH.ifa.draw.figures.PolyLineFigure": 2,
+    "CH.ifa.draw.figures.LineConnection": 2,
+    "CH.ifa.draw.figures.ElbowConnection": 2,
+    "CH.ifa.draw.samples.pert.PertDependency": 2,
+    "net.sourceforge.pmd.symboltable.GlobalScope": 2,
+    "net.sourceforge.pmd.TargetJDKVersion": 2,
+    "net.sourceforge.pmd.TargetJDK1_4": 2,
+    "net.sourceforge.pmd.ast.JavaParserConstants": 2,
+    "net.sourceforge.pmd.ast.JavaParser": 2
+  },
+  "common_roles": {
+    "product": 10,
+    "concreteProduct": 9,
+    "creator": 10,
+    "concreteCreator": 8,
+    "conreteCreator": 1,
+    "concretesProduct": 1,
+    "concretesCreator": 1
+  }
+}

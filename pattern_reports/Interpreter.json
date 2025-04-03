@@ -1,0 +1,122 @@
+{
+  "pattern_type": "Interpreter",
+  "implementations": [
+    {
+      "project": "11 - PMD v1.8",
+      "micro_id": "111",
+      "roles": {
+        "client": [
+          "net.sourceforge.pmd.ast.JavaParser"
+        ],
+        "context": [
+          "net.sourceforge.pmd.ast.JavaParserState"
+        ],
+        "abstractExpression": [
+          "net.sourceforge.pmd.ast.SimpleNode"
+        ],
+        "terminalExpression": [],
+        "nonTerminalExpression": []
+      },
+      "comments": "The JavaParser class contains an JavaParserState object which keeps track of all of the\n\t\t\t\t\t\tnodes of the abstract syntax tree and the state of its parsing. JavaParser initiliazes \n\t\t\t\t\t\tan object callded JavaParserState, which plays the \"context\" role in the Interpreter pattern.\n\t\t\t\t\t\tThen, the \"CompilationUnit()\" method of the parser is invoked to debute the parsing operation \n\t\t\t\t\t\tof the program represented by the abstract syntax tree. Because of the complexity of the\n\t\t\t\t\t\tgrammar, the authors of PMD have decided to implement the Visitor pattern as to how to \n\t\t\t\t\t\t\"interpret\" the expressions of the AST. Hence, the \"visit\" method applied upon each node \n\t\t\t\t\t\tof the tree\tis used as the \"interpret\" method in the pattern."
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "156",
+      "roles": {
+        "client": [
+          "src.INTERPRETER.Calculator"
+        ],
+        "context": [
+          "src.INTERPRETER.Context"
+        ],
+        "abstractExpression": [
+          "src.INTERPRETER.Expression"
+        ],
+        "terminalExpression": [
+          "src.INTERPRETER.TerminalExpression"
+        ],
+        "nonTerminalExpression": [
+          "src.INTERPRETER.NonterminalExpression"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "139",
+      "roles": {
+        "abstractExpression": [
+          "org.bouncycastle.crypto.BlockCipher"
+        ],
+        "terminalExpression": [
+          "org.bouncycastle.crypto.modes.CFBBlockCipher"
+        ],
+        "nonterminalExpression": [
+          "org.bouncycastle.crypto.modes.OFBBlocCipher",
+          "org.bouncycastle.crypto.modes.CBCBlocCipher",
+          "org.bouncycastle.crypto.modes.SICBlocCipher",
+          "org.bouncycastle.crypto.modes.PGPCFBBlockCipher",
+          "org.bouncycastle.crypto.modes.OpenPGPCFBBlocCipher"
+        ],
+        "context": [
+          "org.bouncycastle.crypto.CipherParameters"
+        ],
+        "client": [
+          "org.bouncycastle.crypto.BufferedBlockCipher"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "140",
+      "roles": {
+        "abstractExpression": [
+          "org.bouncycastle.crypto.BlockCipher"
+        ],
+        "terminalExpression": [
+          "org.bouncycastle.crypto.modes.CFBBlockCipher"
+        ],
+        "nonterminalExpression": [
+          "org.bouncycastle.crypto.modes.OFBBlocCipher",
+          "org.bouncycastle.crypto.modes.CBCBlocCipher",
+          "org.bouncycastle.crypto.modes.SICBlocCipher",
+          "org.bouncycastle.crypto.modes.PGPCFBBlockCipher",
+          "org.bouncycastle.crypto.modes.OpenPGPCFBBlocCipher"
+        ],
+        "context": [
+          "org.bouncycastle.crypto.CipherParameters"
+        ],
+        "client": [
+          "org.bouncycastle.crypto.BufferedBlockCipher"
+        ]
+      },
+      "comments": ""
+    }
+  ],
+  "total_implementations": 4,
+  "projects_using": [
+    "11 - PMD v1.8",
+    "13 - Software architecture design patterns in Java",
+    "Design Pattern Group"
+  ],
+  "common_classes": {
+    "org.bouncycastle.crypto.BlockCipher": 2,
+    "org.bouncycastle.crypto.modes.CFBBlockCipher": 2,
+    "org.bouncycastle.crypto.modes.OFBBlocCipher": 2,
+    "org.bouncycastle.crypto.modes.CBCBlocCipher": 2,
+    "org.bouncycastle.crypto.modes.SICBlocCipher": 2,
+    "org.bouncycastle.crypto.modes.PGPCFBBlockCipher": 2,
+    "org.bouncycastle.crypto.modes.OpenPGPCFBBlocCipher": 2,
+    "org.bouncycastle.crypto.CipherParameters": 2,
+    "org.bouncycastle.crypto.BufferedBlockCipher": 2
+  },
+  "common_roles": {
+    "client": 4,
+    "context": 4,
+    "abstractExpression": 4,
+    "terminalExpression": 4,
+    "nonTerminalExpression": 2,
+    "nonterminalExpression": 2
+  }
+}

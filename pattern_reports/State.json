@@ -1,0 +1,200 @@
+{
+  "pattern_type": "State",
+  "implementations": [
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "35",
+      "roles": {
+        "context": [
+          "org.acm.seguin.print.xml.XMLLinePrinter"
+        ],
+        "state": [
+          "org.acm.seguin.print.xml.State"
+        ],
+        "concreteState": [
+          "org.acm.seguin.print.xml.AttributeState",
+          "org.acm.seguin.print.xml.AttributeValueState",
+          "org.acm.seguin.print.xml.QuoteAttributeValueState",
+          "org.acm.seguin.print.xml.TagState",
+          "org.acm.seguin.print.xml.TextState"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "3 - JRefactory v2.6.24",
+      "micro_id": "36",
+      "roles": {
+        "context": [
+          "org.acm.seguin.summary.FileSummary"
+        ],
+        "state": [],
+        "concreteState": [
+          "org.acm.seguin.summary.SummaryLoaderState"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "87",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.standard.StandardDrawingView"
+        ],
+        "state": [
+          "CH.ifa.draw.framework.Tool"
+        ],
+        "concreteState": [
+          "CH.ifa.draw.standard.AbstractTool",
+          "CH.ifa.draw.figures.BorderTool",
+          "CH.ifa.draw.standard.ConnectionTool",
+          "CH.ifa.draw.standard.CreationTool",
+          "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+          "CH.ifa.draw.figures.TextTool",
+          "CH.ifa.draw.figures.ConnectedTextTool",
+          "CH.ifa.draw.standard.DragTracker",
+          "CH.ifa.draw.samples.javadraw.FollowURLTool",
+          "CH.ifa.draw.standard.HandleTracker",
+          "CH.ifa.draw.contrib.PolygonTool",
+          "CH.ifa.draw.figures.ScribbleTool",
+          "CH.ifa.draw.standard.SelectAreaTracker",
+          "CH.ifa.draw.standard.SelectionTool",
+          "CH.ifa.draw.samples.javadraw.MySelectionTool",
+          "CH.ifa.draw.samples.javadraw.URLTool"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "88",
+      "roles": {
+        "context": [
+          "CH.ifa.draw.standard.SelectionTool"
+        ],
+        "state": [
+          "CH.ifa.draw.framework.Tool"
+        ],
+        "concreteState": [
+          "CH.ifa.draw.standard.DragTracker",
+          "CH.ifa.draw.standard.HandleTracker",
+          "CH.ifa.draw.standard.SelectAreaTracker"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "155",
+      "roles": {
+        "context": [
+          "src.STATE.AccountManager"
+        ],
+        "state": [
+          "src.STATE.State"
+        ],
+        "concreteState": [
+          "src.STATE.TransactionFreeState",
+          "src.STATE.NoTransactionFreeState",
+          "src.STATE.OverDrawnState"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "Design Pattern Group",
+      "micro_id": "142",
+      "roles": {
+        "context": [
+          "org.bouncycastle.crypto.encodings.PKCS1Encoding",
+          "org.bouncycastle.crypto.encodings.OAEPEncoding"
+        ],
+        "state": [
+          "org.bouncycastle.crypto.params.AsymmetricKeyParameter"
+        ],
+        "concreteState": [
+          "org.bouncycastle.crypto.params.DSAPublicKeyParameters",
+          "org.bouncycastle.crypto.params.DSAPrivateKeyParameters"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2050",
+      "roles": {},
+      "comments": "ReducedModelState update permet de connaitre l'tat exact du model."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2085",
+      "roles": {},
+      "comments": "La mthode indentLine est commune  tous les tests et fait des set et get. La mthode indent(DefinitionsDocument doc) de Indenter appelle les indentLine."
+    },
+    {
+      "project": "15 - DrJava v20020703",
+      "micro_id": "2079",
+      "roles": {},
+      "comments": "Ce state est group avec un strategy et un template methode. La difference est fait  selon les methodes utiliss"
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2050",
+      "roles": {},
+      "comments": "ReducedModelState update permet de connaitre l'tat exact du model."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2085",
+      "roles": {},
+      "comments": "La mthode indentLine est commune  tous les tests et fait des set et get. La mthode indent(DefinitionsDocument doc) de Indenter appelle les indentLine."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "2079",
+      "roles": {},
+      "comments": "Ce state est group avec un strategy et un template methode. La difference est fait  selon les methodes utiliss"
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2050",
+      "roles": {},
+      "comments": "ReducedModelState update permet de connaitre l'tat exact du model."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2085",
+      "roles": {},
+      "comments": "La mthode indentLine est commune  tous les tests et fait des set et get. La mthode indent(DefinitionsDocument doc) de Indenter appelle les indentLine."
+    },
+    {
+      "project": "18 - DrJava v20040326",
+      "micro_id": "2079",
+      "roles": {},
+      "comments": "Ce state est group avec un strategy et un template methode. La difference est fait  selon les methodes utiliss"
+    }
+  ],
+  "total_implementations": 15,
+  "projects_using": [
+    "3 - JRefactory v2.6.24",
+    "15 - DrJava v20020703",
+    "18 - DrJava v20040326",
+    "6 - JHotDraw v5.1",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "Design Pattern Group"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.framework.Tool": 2,
+    "CH.ifa.draw.standard.DragTracker": 2,
+    "CH.ifa.draw.standard.HandleTracker": 2,
+    "CH.ifa.draw.standard.SelectAreaTracker": 2,
+    "CH.ifa.draw.standard.SelectionTool": 2
+  },
+  "common_roles": {
+    "context": 6,
+    "state": 6,
+    "concreteState": 6
+  }
+}

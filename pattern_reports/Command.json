@@ -1,0 +1,265 @@
+{
+  "pattern_type": "Command",
+  "implementations": [
+    {
+      "project": "1 - QuickUML 2001",
+      "micro_id": "3",
+      "roles": {
+        "client": [
+          "uml.ui.DiagramContainer"
+        ],
+        "invoker": [
+          "javax.swing.JMenuItem"
+        ],
+        "command": [],
+        "concreteCommand": [
+          "uml.ui.ExportAction",
+          "uml.ui.DiagramContainer.ExportGIFAction",
+          "uml.ui.DiagramContainer.OpenAction",
+          "uml.ui.DiagramContainer.SaveAction"
+        ],
+        "receiver": []
+      },
+      "comments": ""
+    },
+    {
+      "project": "4 - Netbeans v1.0.x",
+      "micro_id": "59",
+      "roles": {
+        "client": [
+          "org.netbeans.lib.ddl.impl.Specification",
+          "org.netbeans.modules.db.explorer.infos.ProcedureListNodeInfo"
+        ],
+        "invoker": [
+          "org.netbeans.modules.db.explorer.infos.ColumnNodeInfo",
+          "org.netbeans.modules.db.explorer.infos.IndexNodeInfo",
+          "org.netbeans.modules.db.explorer.infos.TableNodeInfo",
+          "org.netbeans.modules.db.explorer.infos.ViewNodeInfo",
+          "org.netbeans.lib.ddl.util.CommandBuffer",
+          "org.netbeans.modules.db.explorer.nodes.IndexNode.IndexPasteType",
+          "org.netbeans.modules.db.explorer.nodes.TableNode.ColumnPasteType",
+          "org.netbeans.modules.db.explorer.actions.AddIndexAction",
+          "org.netbeans.modules.db.explorer.actions.AddToIndexAction",
+          "org.netbeans.modules.db.explorer.actions.CreateViewAction",
+          "org.netbeans.modules.db.explorer.actions.RecreateTableAction",
+          "org.netbeans.modules.db.explorer.nodes.ColumnNode",
+          "org.netbeans.modules.db.explorer.nodes.TableNode",
+          "org.netbeans.modules.db.explorer.nodes.ViewNode"
+        ],
+        "command": [
+          "db.liborg.netbeans.lib.ddl.DDLCommand"
+        ],
+        "concreteCommand": [
+          "org.netbeans.lib.ddl.impl.AbstractCommand",
+          "org.netbeans.lib.ddl.impl.ColumnCommand",
+          "org.netbeans.lib.ddl.impl.ModifyColumn",
+          "org.netbeans.lib.ddl.impl.RemoveColumn",
+          "org.netbeans.lib.ddl.impl.RenameColumn",
+          "org.netbeans.lib.ddl.impl.ColumnListCommand",
+          "org.netbeans.lib.ddl.impl.AddColumn",
+          "org.netbeans.lib.ddl.impl.CreateIndex",
+          "org.netbeans.lib.ddl.impl.CreateTable",
+          "org.netbeans.lib.ddl.impl.CommentTable",
+          "org.netbeans.lib.ddl.impl.CommentView",
+          "org.netbeans.lib.ddl.impl.CreateProcedure",
+          "org.netbeans.lib.ddl.impl.CreateFunction",
+          "org.netbeans.lib.ddl.impl.CreateTrigger",
+          "org.netbeans.lib.ddl.impl.CreateView",
+          "org.netbeans.lib.ddl.impl.RenameTable",
+          "org.netbeans.lib.ddl.impl.RenameView"
+        ],
+        "receiver": [
+          "java.sql.Connection"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "6 - JHotDraw v5.1",
+      "micro_id": "74",
+      "roles": {
+        "client": [
+          "CH.ifa.draw.application.DrawApplication",
+          "CH.ifa.draw.applet.DrawApplet",
+          "CH.ifa.draw.standard.StandardDrawingView",
+          "CH.ifa.draw.samples.javadraw.JavaDrawApp"
+        ],
+        "invoker": [
+          "CH.ifa.draw.standard.StandardDrawingView",
+          "CH.ifa.draw.util.CommandButton",
+          "CH.ifa.draw.util.CommandChoice",
+          "CH.ifa.draw.util.CommandMenu"
+        ],
+        "command": [
+          "CH.ifa.draw.util.Command"
+        ],
+        "concreteCommand": [
+          "CH.ifa.draw.standard.AlignCommand",
+          "CH.ifa.draw.standard.BringToFrontCommand",
+          "CH.ifa.draw.standard.ChangeAttributeCommand",
+          "CH.ifa.draw.standard.CopyCommand",
+          "CH.ifa.draw.standard.CutCommand",
+          "CH.ifa.draw.standard.DeleteCommand",
+          "CH.ifa.draw.standard.DuplicateCommand",
+          "CH.ifa.draw.standard.PasteCommand",
+          "CH.ifa.draw.figures.GroupCommand",
+          "CH.ifa.draw.figures.InsertImageCommand",
+          "CH.ifa.draw.standard.SendToBackCommand",
+          "CH.ifa.draw.standard.ToggleGridCommand",
+          "CH.ifa.draw.figures.UngroupCommand"
+        ],
+        "receiver": [
+          "CH.ifa.draw.framework.Figure",
+          "CH.ifa.draw.framework.FigureSelection",
+          "CH.ifa.draw.framework.Drawing",
+          "CH.ifa.draw.framework.DrawingView"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "113",
+      "roles": {
+        "command": [
+          "net.nutch.db.DistributedWebDBWriter.CloseProcessor"
+        ],
+        "concreteCommand": [
+          "net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor",
+          "net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor",
+          "net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor"
+        ],
+        "client": [
+          "net.nutch.db.DistributedWebDBWriter"
+        ],
+        "invoker": [
+          "net.nutch.db.DistributedWebDBWriter"
+        ],
+        "receiver": [
+          "net.nutch.db.Page",
+          "net.nutch.db.Link"
+        ]
+      },
+      "comments": "Ici,nous avons une architecture assez similaire a celle\n\t\t\t\t\t\tdecrite par le GoF, a l'exception pres que l'objet Command\n\t\t\t\t\t\test une abstract class et non une interface. Dans la plupart\n\t\t\t\t\t\tdes cas nous pourrions dire que l'utilisation de l'un ou\n\t\t\t\t\t\tl'autre changerait l'essence meme de la structure d'un module.\n\t\t\t\t\t\tMais pour ce cas, nous pensons que la ou les personnes qui\n\t\t\t\t\t\tont ecrit ce code ont choisi d'utiliser une abstract class\n\t\t\t\t\t\tseulement dans le but de ne pas alourdir le code. Car en\n\t\t\t\t\t\tregardant de plus pres, nous pouvons remarquer que la methode\n\t\t\t\t\t\tcloseDown() de la class en question fournit des actions\n\t\t\t\t\t\tstandards. Par suite ces actions utiliserons des methodes\n\t\t\t\t\t\tmergeEdit() qui elles sont specialise et initialise dans\n\t\t\t\t\t\tles concreteCommandes."
+    },
+    {
+      "project": "10 - Nutch v0.4",
+      "micro_id": "114",
+      "roles": {
+        "command": [
+          "net.nutch.db.WebDBWriter.CloseProcessor"
+        ],
+        "concreteCommand": [
+          "net.nutch.db.WebDBWriter.LinksByMD5Processor",
+          "net.nutch.db.WebDBWriter.LinksByURLProcessor",
+          "net.nutch.db.WebDBWriter.PagesByMD5Processor",
+          "net.nutch.db.WebDBWriter.PagesByURLProcessor"
+        ],
+        "client": [
+          "net.nutch.db.WebDBWriter"
+        ],
+        "invoker": [
+          "net.nutch.db.WebDBWriter"
+        ],
+        "receiver": [
+          "net.nutch.db.Page",
+          "net.nutch.db.Link"
+        ]
+      },
+      "comments": "Ici, nous avons une architecture assez similaire a celle\n\t\t\t\t\t\tdecrite par le GoF, a l'exception pres que l'objet Command\n\t\t\t\t\t\test une abstract class et non une interface. Dans la plupart\n\t\t\t\t\t\tdes cas nous pourrions dire que l'utilisation de l'un ou\n\t\t\t\t\t\tl'autre changerait l'essence meme de la structure d'un module.\n\t\t\t\t\t\tMais pour ce cas, nous pensons que la ou les personnes qui ont\n\t\t\t\t\t\tecrit ce code ont choisi d'utiliser une abstract class\n\t\t\t\t\t\tseulement dans le but de ne pas alourdir le code. Car en\n\t\t\t\t\t\tregardant de plus pres, nous pouvons remarquer que la methode\n\t\t\t\t\t\tcloseDown() de la class en question fournit des actions\n\t\t\t\t\t\tstandards. Par suite ces actions utiliserons des methodes\n\t\t\t\t\t\tmergeEdit() qui elles sont specialise et initialise dans\n\t\t\t\t\t\tles concreteCommandes"
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "160",
+      "roles": {
+        "client": [],
+        "invoker": [],
+        "command": [],
+        "concreteCommand": [
+          "src.COMMAND.GUI.after.ExitButton",
+          "src.COMMAND.GUI.after.UploadButton",
+          "src.COMMAND.GUI.after.DeleteButton",
+          "src.COMMAND.GUI.after.DownloadButton"
+        ],
+        "receiver": [
+          "src.COMMAND.GUI.after.buttonHandler"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "13 - Software architecture design patterns in Java",
+      "micro_id": "160",
+      "roles": {
+        "client": [],
+        "invoker": [],
+        "command": [
+          "src.COMMAND.GUI.after.FTPGUI"
+        ]
+      },
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "412",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "14 - DrJava v20020619",
+      "micro_id": "415",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de Invoker et de client ."
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "412",
+      "roles": {},
+      "comments": ""
+    },
+    {
+      "project": "16 - DrJava v20020804",
+      "micro_id": "415",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de Invoker et de client ."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "417",
+      "roles": {},
+      "comments": "DefinitionsDocument joue le role de Invoker et de client ."
+    },
+    {
+      "project": "17 - DrJava v20030203",
+      "micro_id": "425",
+      "roles": {},
+      "comments": ""
+    }
+  ],
+  "total_implementations": 13,
+  "projects_using": [
+    "17 - DrJava v20030203",
+    "1 - QuickUML 2001",
+    "14 - DrJava v20020619",
+    "6 - JHotDraw v5.1",
+    "10 - Nutch v0.4",
+    "16 - DrJava v20020804",
+    "13 - Software architecture design patterns in Java",
+    "4 - Netbeans v1.0.x"
+  ],
+  "common_classes": {
+    "CH.ifa.draw.standard.StandardDrawingView": 2,
+    "net.nutch.db.DistributedWebDBWriter": 2,
+    "net.nutch.db.Page": 2,
+    "net.nutch.db.Link": 2,
+    "net.nutch.db.WebDBWriter": 2
+  },
+  "common_roles": {
+    "client": 7,
+    "invoker": 7,
+    "command": 7,
+    "concreteCommand": 6,
+    "receiver": 6
+  }
+}
