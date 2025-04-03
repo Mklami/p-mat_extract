@@ -1,0 +1,66 @@
+{
+  "project_name": "2 - Lexi v0.1.1 alpha",
+  "patterns_used": [
+    "Builder",
+    "Observer",
+    "Singleton"
+  ],
+  "pattern_count": 3,
+  "class_participation": {
+    "com.jmonkey.office.lexi.Main.DocumentFrame": [
+      "Builder"
+    ],
+    "com.jmonkey.office.lexi.support.Editor": [
+      "Builder",
+      "Observer"
+    ],
+    "com.jmonkey.office.lexi.support.editors.HTMLEditor": [
+      "Builder",
+      "Observer"
+    ],
+    "com.jmonkey.office.lexi.support.editors.RTFEditor": [
+      "Builder"
+    ],
+    "com.jmonkey.office.lexi.support.editors.TEXTEditor": [
+      "Builder"
+    ],
+    "java.awt.event.FocusListener": [
+      "Observer"
+    ],
+    "java.beans.VetoableChangeListener": [
+      "Observer"
+    ],
+    "javax.swing.event.ChangeListener": [
+      "Observer"
+    ],
+    "javax.swing.event.DocumentListener": [
+      "Observer"
+    ],
+    "javax.swing.event.HyperlinkListener": [
+      "Observer"
+    ],
+    "javax.swing.event.UndoableEditListener": [
+      "Observer"
+    ],
+    "com.jmonkey.office.lexi.support.editors.HTMLEditor.E": [
+      "Observer"
+    ],
+    "java.awt.event.MouseListener": [
+      "Observer"
+    ],
+    "java.awt.event.KeyListener": [
+      "Observer"
+    ],
+    "com.jmonkey.export.Registry": [
+      "Singleton"
+    ],
+    "com.jmonkey.office.lexi.support.EditorActionManager": [
+      "Singleton"
+    ]
+  },
+  "pattern_frequency": {
+    "Builder": 1,
+    "Observer": 1,
+    "Singleton": 1
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "project_name": "Design Pattern Group",
+  "patterns_used": [
+    "Flyweight",
+    "Interpreter",
+    "Visitor",
+    "State",
+    "Factory Method",
+    "Template Method",
+    "Bridge"
+  ],
+  "pattern_count": 7,
+  "class_participation": {
+    "org.bouncycastle.crypto.BlockCipher": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.CFBBlockCipher": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.OFBBlocCipher": [
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.CBCBlocCipher": [
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.SICBlocCipher": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.PGPCFBBlockCipher": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.modes.OpenPGPCFBBlocCipher": [
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.CipherParameters": [
+      "Factory Method",
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.BufferedBlockCipher": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "org.bouncycastle.crypto.params.ParametersWithRandom": [
+      "Visitor"
+    ],
+    "org.bouncycastle.crypto.params.ParametersWithIV": [
+      "Visitor"
+    ],
+    "org.bouncycastle.crypto.modes.OFBBlockCipher": [
+      "Visitor"
+    ],
+    "org.bouncycastle.crypto.modes.CBCBlockCipher": [
+      "Visitor"
+    ],
+    "org.bouncycastle.crypto.modes.OpenPGPCFBBlockCipher": [
+      "Visitor"
+    ],
+    "org.bouncycastle.crypto.encodings.PKCS1Encoding": [
+      "State"
+    ],
+    "org.bouncycastle.crypto.encodings.OAEPEncoding": [
+      "State"
+    ],
+    "org.bouncycastle.crypto.params.AsymmetricKeyParameter": [
+      "State"
+    ],
+    "org.bouncycastle.crypto.params.DSAPublicKeyParameters": [
+      "State"
+    ],
+    "org.bouncycastle.crypto.params.DSAPrivateKeyParameters": [
+      "State"
+    ],
+    "org.bouncycastle.crypto.params.KeyParameter": [
+      "Factory Method"
+    ],
+    "org.bouncycastle.crypto.PBEParametersGenerator": [
+      "Factory Method",
+      "Template Method"
+    ],
+    "org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator": [
+      "Factory Method",
+      "Template Method"
+    ],
+    "org.bouncycastle.crypto.generators.PKCS12ParametersGenerator": [
+      "Factory Method",
+      "Template Method"
+    ],
+    "org.bouncycastle.crypto.CipherKeyGenerator": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.generators.DESKeyGenerator": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.KeyGenerationParameters": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.params.RSAKeyGenerationParameters": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.params.ECKeyGenerationParameters": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.params.ElGamalKeyGenerationParameters": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.params.DSAKeyGenerationParameters": [
+      "Bridge"
+    ],
+    "org.bouncycastle.crypto.params.DHKeyGenerationParameters": [
+      "Bridge"
+    ]
+  },
+  "pattern_frequency": {
+    "Flyweight": 1,
+    "Interpreter": 1,
+    "Visitor": 1,
+    "State": 1,
+    "Factory Method": 1,
+    "Template Method": 1,
+    "Bridge": 1
+  }
+}

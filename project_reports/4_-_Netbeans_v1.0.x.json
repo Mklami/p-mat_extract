@@ -1,0 +1,880 @@
+{
+  "project_name": "4 - Netbeans v1.0.x",
+  "patterns_used": [
+    "Abstract Factory",
+    "Adapter",
+    "Command",
+    "Iterator",
+    "Observer"
+  ],
+  "pattern_count": 5,
+  "class_participation": {
+    "org.netbeans.modules.beans.EventSetPatternNode": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.clazz.ClassDataObject": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.JavaDataObject": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.beans.BeansModule": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.javadoc.JavadocModule": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.rmi.RMIModule": [
+      "Abstract Factory"
+    ],
+    "org.openide.nodes.ElementNodeFactory": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.DefaultFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.clazz.ClassElementNodeFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.JavaElementNodeFactory": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.FilterFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.javadoc.comments.JavaDocPropertySupportFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.beans.PatternsBrowserFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.beans.PatternsExplorerFactory": [
+      "Abstract Factory"
+    ],
+    "org.openide.nodes.Node": [
+      "Adapter",
+      "Abstract Factory"
+    ],
+    "org.openide.nodes.AbstractNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.ElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.MemberElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.ClassElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.ConstructorElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.FieldElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.InitializerElementNode": [
+      "Abstract Factory"
+    ],
+    "org.openide.src.nodes.MethodElementNode": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.infos.ConnectionNodeInfo": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.actions.TestDriverAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.RootNode": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.DatabaseSpecificationFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.DriverSpecificationFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.impl.SpecificationFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.DatabaseSpecification": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.impl.DriverSpecification": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.impl.Specification": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.editor.DefaultSettings": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.SyntaxSupport": [
+      "Abstract Factory",
+      "Iterator"
+    ],
+    "org.netbeans.editor.ext.JavaSyntaxSupport": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Formatter": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Abbrev": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.BaseDocument": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.ext.ExtSettings": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.AcceptorFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Acceptor": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.BaseCaret": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.GuardedDocument": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FindSupport": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.ExtUI": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.BookmarkLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.CaretLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.ColorLineLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.GuardedLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.HighlightSearchLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.IncSearchLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.StyleLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.SyntaxLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DrawLayerFactory.WordColoringLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DocOp": [
+      "Abstract Factory",
+      "Iterator"
+    ],
+    "org.netbeans.editor.ext.BaseFormatter": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.ActionFactory.SelectNextParameterAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FindSupport.DefaultFinderCreator": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Utilities": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Finder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.AcceptorBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.AcceptorFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.BOLBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.CharArrayBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.CharBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.CharFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.FalseBlocksFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.FalseFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.NextWordFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.NonWhiteBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.NonWhiteFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.PosVisColFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.PreviousWordBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.StringBlocksFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.StringBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.StringFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.TrueFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.VisColPosFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.WhiteBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.WhiteFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.WholeWordsBlocksFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.WholeWordsBwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FinderFactory.WholeWordsFwdFinder": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.advanced.CommandLineVcsFileSystem": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.cmdline.CvsFileSystem": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.VcsFileSystem": [
+      "Adapter",
+      "Abstract Factory"
+    ],
+    "vcscore.org.netbeans.modules.vcscore.VcsFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.advanced.CommandLineVcsFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.cmdline.CvsFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.VcsAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.VcsAdvancedCustomizer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.VcsDirReader": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.advanced.CommandLineAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.advanced.CommandLineVcsAdvancedCustomizer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.cmdline.CommandLineVcsDirReader": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.cmdline.CommandLineVcsDirReaderRecursive": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.vcs.cmdline.CvsAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkChain": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkBlockChain": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Drawer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.EditorDebug": [
+      "Abstract Factory",
+      "Iterator"
+    ],
+    "org.netbeans.editor.BaseDocument.LineRootElement": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.ext.ExtCaret": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Analyzer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.BaseDocument.LineElement": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Drawer.DrawMarkRenderer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.DocOp.SyntaxUpdateRenderer": [
+      "Abstract Factory",
+      "Iterator"
+    ],
+    "org.netbeans.editor.ext.ExtCaret.HighlightBracketLayer": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.Mark": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkFactory.ChainDrawMark": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkFactory.ContextMark": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkFactory.DrawMark": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.MarkFactory.SyntaxMark": [
+      "Abstract Factory"
+    ],
+    "org.openide.filesystems.Repository": [
+      "Adapter",
+      "Abstract Factory"
+    ],
+    "org.openide.execution.NbfsStreamHandlerFactory": [
+      "Abstract Factory"
+    ],
+    "java.net.URLStreamHandler": [
+      "Abstract Factory"
+    ],
+    "org.openide.execution.NbfsURLStreamHandler": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.ParseObjectRequest": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.V8ParseRequest": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.ElementFactory": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.ElementFactory.Item": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.ClassElementImpl": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.ConstructorElementImpl": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.FieldElementImpl": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.InitializerElementImpl": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.java.MethodElementImpl": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.dlg.AddTableColumnDialog": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.TableNode.ColumnPasteType": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.infos.ColumnNodeInfo": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.infos.TableNodeInfo": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.infos.ViewNodeInfo": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.dlg.CreateTableDialog": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.IndexNode.IndexPasteType": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.actions.AddIndexAction": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.actions.AddToIndexAction": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.actions.GrabTableAction": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.db.explorer.actions.CreateViewAction": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.infos.IndexNodeInfo": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.infos.ProcedureListNodeInfo": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.ColumnNode": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.TableNode": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.nodes.ViewNode": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.DDLCommand": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.lib.ddl.impl.AbstractCommand": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.ColumnCommand": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.ModifyColumn": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.RemoveColumn": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.RenameColumn": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.ColumnListCommand": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.AddColumn": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateIndex": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateTable": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CommentTable": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CommentView": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateProcedure": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateFunction": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateTrigger": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.CreateView": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.RenameTable": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.lib.ddl.impl.RenameView": [
+      "Abstract Factory",
+      "Command"
+    ],
+    "org.netbeans.editor.view.DialogSupport": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.view.DialogCreator": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.view.DefaultDialogCreator": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.editor.NbDialogCreator": [
+      "Abstract Factory"
+    ],
+    "java.awt.Dialog": [
+      "Abstract Factory"
+    ],
+    "javax.swing.JDialog": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.editor.FindSupport.FinderCreator": [
+      "Abstract Factory"
+    ],
+    "org.netbeans.modules.form.FormManager2": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.FormListener": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.FormAdapter": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.compat2.layouts.GridBagControlCenter": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.compat2.layouts.GridBagCustomizer.GBContainerProxy": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.JavaCodeGenerator": [
+      "Adapter"
+    ],
+    "org.openidex.search.Scanner": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.search.SearchResultIntersection": [
+      "Adapter"
+    ],
+    "org.openidex.search.ScannerListener": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.search.SearchTaskImpl.AcceptAdapter": [
+      "Adapter"
+    ],
+    "org.openide.nodes.NodeAcceptor": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener.Repository": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener.Factory": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener12": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener13": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.FormEditorModule": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.RepositoryListener": [
+      "Adapter"
+    ],
+    "org.netbeans.core.ClassLoaderSupport": [
+      "Adapter"
+    ],
+    "org.netbeans.core.DataSystem": [
+      "Adapter"
+    ],
+    "org.netbeans.core.FSPoolNode": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.javadoc.search.JavaDocChildren": [
+      "Adapter"
+    ],
+    "org.netbeans.core.Packages": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.objectbrowser.TreeNode.RootChildren": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.vcs.VcsCache": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.FileObject": [
+      "Adapter"
+    ],
+    "org.netbeans.core.DataSystem.DSMap": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.FileSystem": [
+      "Adapter"
+    ],
+    "org.openide.loaders.DataLoaderPool": [
+      "Adapter"
+    ],
+    "org.openide.loaders.OperationListener": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener.Operation": [
+      "Adapter"
+    ],
+    "org.openide.loaders.OperationAdapter": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.projects.Listener": [
+      "Adapter"
+    ],
+    "org.netbeans.core.NbMainExplorer.RepositoryTab": [
+      "Adapter"
+    ],
+    "org.openide.util.RequestProcessor": [
+      "Adapter"
+    ],
+    "org.openide.explorer.propertysheet.BeansDetails": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.palette.ComponentPalette": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener.Node": [
+      "Adapter"
+    ],
+    "org.netbeans.core.execution.ProcessNode": [
+      "Adapter"
+    ],
+    "org.openide.nodes.NodeListener": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.projects.settings.GlobalOptionsChildren.ChildrenAdapter": [
+      "Adapter"
+    ],
+    "org.openide.nodes.FilterNode.ChildrenAdapter": [
+      "Adapter"
+    ],
+    "org.netbeans.core.ControlPanelNode.ControlPanelChildren": [
+      "Adapter"
+    ],
+    "org.openide.loaders.DataFolder.Listener": [
+      "Adapter"
+    ],
+    "org.openide.awt.MenuBar.MenuFolder": [
+      "Adapter"
+    ],
+    "org.openide.nodes.FilterNode.NodeAdapter": [
+      "Adapter"
+    ],
+    "org.openide.loaders.DataShadow.PropL": [
+      "Adapter"
+    ],
+    "org.openide.nodes.NodeAdapter": [
+      "Adapter"
+    ],
+    "org.openide.explorer.propertysheet.PropertySheet.BeansListener": [
+      "Adapter"
+    ],
+    "org.openide.nodes.ChildrenArray": [
+      "Adapter"
+    ],
+    "org.openide.util.actions.CookieAction.CookiesChangeListener": [
+      "Adapter"
+    ],
+    "org.openide.explorer.ExplorerManager.Listener": [
+      "Adapter"
+    ],
+    "org.openide.windows.TopComponent.NodeName": [
+      "Adapter"
+    ],
+    "org.openide.util.actions.ProjectSensitiveAction.NodesL": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.form.palette.PaletteButton": [
+      "Adapter"
+    ],
+    "org.openide.explorer.view.VisualizerNode": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.projects.settings.GlobalOptionsChildren": [
+      "Adapter"
+    ],
+    "org.openide.nodes.FilterNode.Children": [
+      "Adapter"
+    ],
+    "org.openide.nodes.Children.Keys": [
+      "Adapter"
+    ],
+    "org.openide.nodes.Index.Support": [
+      "Adapter"
+    ],
+    "org.openide.nodes.FilterNode": [
+      "Adapter"
+    ],
+    "org.openide.explorer.propertysheet.PropertySheet": [
+      "Adapter"
+    ],
+    "org.openide.util.actions.CookieAction": [
+      "Adapter"
+    ],
+    "org.openide.explorer.ExplorerManager": [
+      "Adapter"
+    ],
+    "org.openide.windows.TopComponent": [
+      "Adapter"
+    ],
+    "org.openide.util.actions.ProjectSensitiveAction": [
+      "Adapter"
+    ],
+    "org.openide.explorer.view.VisualizerEvent": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.debugger.support.nodes.ThreadNode": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.debugger.support.nodes.ThreadNode.ThreadListener": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.debugger.support.AbstractDebugger": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.debugger.support.AbstractThread": [
+      "Adapter"
+    ],
+    "org.openide.awt.SpinButton": [
+      "Adapter"
+    ],
+    "org.openide.awt.SpinButtonListener": [
+      "Adapter"
+    ],
+    "org.openide.awt.SpinButtonAdapter": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.AbstractFileObject.Invalid": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.AbstractFolder": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.FileChangeListener": [
+      "Adapter"
+    ],
+    "org.openide.util.WeakListener.FileChange": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.FileChangeAdapter": [
+      "Adapter"
+    ],
+    "org.openide.loaders.MultiDataObject.EntryL": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.corba.IDLDataObject.FileListener": [
+      "Adapter"
+    ],
+    "org.openide.loaders.FolderList": [
+      "Adapter"
+    ],
+    "org.openide.loaders.XMLDataObject.InfoParser": [
+      "Adapter"
+    ],
+    "org.openide.filesystems.MultiFileObject": [
+      "Adapter"
+    ],
+    "org.openide.loaders.DataObject": [
+      "Adapter"
+    ],
+    "org.netbeans.modules.corba.IDLDataObject": [
+      "Adapter"
+    ],
+    "org.openide.loaders.XMLDataObject": [
+      "Adapter"
+    ],
+    "org.netbeans.lib.ddl.util.CommandBuffer": [
+      "Command"
+    ],
+    "org.netbeans.modules.db.explorer.actions.RecreateTableAction": [
+      "Command"
+    ],
+    "db.liborg.netbeans.lib.ddl.DDLCommand": [
+      "Command"
+    ],
+    "java.sql.Connection": [
+      "Command"
+    ],
+    "org.openide.WizardDescriptor": [
+      "Iterator"
+    ],
+    "org.openide.WizardDescriptor.Iterator": [
+      "Iterator"
+    ],
+    "org.openide.WizardDescriptor.ArrayIterator": [
+      "Iterator"
+    ],
+    "char[]": [
+      "Iterator"
+    ],
+    "java.text.CharacterIterator": [
+      "Iterator"
+    ],
+    "org.netbeans.editor.ext.CharacterArrayIterator": [
+      "Iterator"
+    ],
+    "org.netbeans.editor.SyntaxSeg.Slot": [
+      "Iterator"
+    ],
+    "org.netbeans.editor.SyntaxSeg": [
+      "Iterator"
+    ],
+    "org.openide.text.DefaultPrintable": [
+      "Iterator"
+    ],
+    "org.openide.text.AttributedCharacters": [
+      "Iterator"
+    ],
+    "org.openide.text.AttributedCharacters.AttributedCharacterIteratorImpl": [
+      "Iterator"
+    ],
+    "org.netbeans.modules.editor.PrintSupport.NbPrintContainer": [
+      "Iterator"
+    ]
+  },
+  "pattern_frequency": {
+    "Abstract Factory": 1,
+    "Adapter": 1,
+    "Command": 1,
+    "Iterator": 1,
+    "Observer": 1
+  }
+}

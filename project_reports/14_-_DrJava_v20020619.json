@@ -1,0 +1,25 @@
+{
+  "project_name": "14 - DrJava v20020619",
+  "patterns_used": [
+    "Proxy",
+    "Iterator",
+    "Singleton",
+    "Visitor",
+    "Adapter",
+    "Command",
+    "Memento",
+    "Strategy"
+  ],
+  "pattern_count": 8,
+  "class_participation": {},
+  "pattern_frequency": {
+    "Proxy": 1,
+    "Iterator": 1,
+    "Singleton": 8,
+    "Visitor": 1,
+    "Adapter": 2,
+    "Command": 2,
+    "Memento": 1,
+    "Strategy": 1
+  }
+}

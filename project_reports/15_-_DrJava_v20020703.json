@@ -1,0 +1,23 @@
+{
+  "project_name": "15 - DrJava v20020703",
+  "patterns_used": [
+    "Factory Method",
+    "Adapter",
+    "Bridge",
+    "Proxy",
+    "State",
+    "Strategy",
+    "Template Method"
+  ],
+  "pattern_count": 7,
+  "class_participation": {},
+  "pattern_frequency": {
+    "Factory Method": 1,
+    "Adapter": 1,
+    "Bridge": 1,
+    "Proxy": 1,
+    "State": 1,
+    "Strategy": 1,
+    "Template Method": 1
+  }
+}

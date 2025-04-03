@@ -1,0 +1,236 @@
+{
+  "project_name": "5 - JUnit v3.7",
+  "patterns_used": [
+    "Composite",
+    "Decorator",
+    "Iterator",
+    "Observer",
+    "Singleton"
+  ],
+  "pattern_count": 5,
+  "class_participation": {
+    "junit.framework.Test": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.framework.TestSuite": [
+      "Composite"
+    ],
+    "junit.extensions.ActiveTestSuite": [
+      "Composite"
+    ],
+    "junit.tests.TestImplementorTest.DoubleTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ActiveTestTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.AssertTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.extensions.ExceptionTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExceptionTestCaseTest.ThrowExceptionTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExceptionTestCaseTest.ThrowNoExceptionTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExceptionTestCaseTest.ThrowRuntimeExceptionTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExceptionTestCaseTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExtensionTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.Failure": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.samples.money.MoneyTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.NoTestCases": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.NotPublicTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.NotVoidTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.OneTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.InheritedTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.OverrideTestCase": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.RepeatedTestTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.samples.SimpleTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.SorterTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.StackFilterTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.Success": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ActiveTestTest.SuccessTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.RepeatedTestTest.SuccessTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.SuiteTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.TestCaseClassLoaderTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.TestCaseTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.TestImplementorTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.TestListenerTest": [
+      "Composite",
+      "Decorator",
+      "Observer"
+    ],
+    "junit.tests.TextRunnerTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.ExtensionTest.TornDown": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.samples.VectorTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.tests.WasRun": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.extensions.TestDecorator": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.extensions.RepeatedTest": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.extensions.TestSetup": [
+      "Composite",
+      "Decorator"
+    ],
+    "junit.swingui.TestSelector": [
+      "Iterator",
+      "Observer"
+    ],
+    "junit.runner.TestCollector": [
+      "Iterator"
+    ],
+    "junit.runner.LoadingTestCollector": [
+      "Iterator"
+    ],
+    "junit.runner.SimpleTestCollector": [
+      "Iterator"
+    ],
+    "java.util.Enumeration": [
+      "Iterator"
+    ],
+    "java.util.Hashtable.Enumerator": [
+      "Iterator"
+    ],
+    "junit.framework.TestResult": [
+      "Observer"
+    ],
+    "junit.framework.TestListener": [
+      "Observer"
+    ],
+    "junit.awtui.TestRunner": [
+      "Observer"
+    ],
+    "junit.ui.TestRunner": [
+      "Observer"
+    ],
+    "junit.swingui.TestRunner": [
+      "Observer"
+    ],
+    "junit.textui.TestRunner": [
+      "Observer"
+    ],
+    "junit.swingui.TestSuitePanel": [
+      "Observer"
+    ],
+    "java.awt.Component": [
+      "Observer"
+    ],
+    "java.awt.event.MouseListener": [
+      "Observer"
+    ],
+    "junit.swingui.TestSelector.DoubleClickListener": [
+      "Observer"
+    ],
+    "java.awt.event.KeyListener": [
+      "Observer"
+    ],
+    "junit.swingui.TestSelector.KeySelectListener": [
+      "Observer"
+    ],
+    "junit.framework.Assert": [
+      "Singleton"
+    ],
+    "junit.runner.Version": [
+      "Singleton"
+    ]
+  },
+  "pattern_frequency": {
+    "Composite": 1,
+    "Decorator": 1,
+    "Iterator": 1,
+    "Observer": 1,
+    "Singleton": 1
+  }
+}

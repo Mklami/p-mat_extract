@@ -1,0 +1,562 @@
+{
+  "project_name": "6 - JHotDraw v5.1",
+  "patterns_used": [
+    "Adapter",
+    "Command",
+    "Composite",
+    "Decorator",
+    "Factory Method",
+    "Null Object",
+    "Observer",
+    "Prototype",
+    "Singleton",
+    "State",
+    "Strategy",
+    "Template Method"
+  ],
+  "pattern_count": 12,
+  "class_participation": {
+    "CH.ifa.draw.standard.StandardDrawingView": [
+      "Adapter",
+      "State",
+      "Observer",
+      "Command",
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.HandleTracker": [
+      "Adapter",
+      "State",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.framework.Handle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.ChangeConnectionEndHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.ChangeConnectionStartHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.figures.ElbowHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.LocatorHandle": [
+      "Adapter",
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.ConnectionHandle": [
+      "Adapter",
+      "Strategy",
+      "Factory Method",
+      "Prototype"
+    ],
+    "CH.ifa.draw.standard.EastHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.figures.FontSizeHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.NorthEastHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.NorthHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.NorthWestHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.NullHandle": [
+      "Adapter",
+      "Null Object",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.figures.GroupHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.figures.PolyLineHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.SouthEastHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.SouthHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.SouthWestHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.standard.WestHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.contrib.PolygonHandle": [
+      "Adapter",
+      "Strategy",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.contrib.PolygonScaleHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.figures.RadiusHandle": [
+      "Adapter"
+    ],
+    "CH.ifa.draw.contrib.TriangleRotationHandle": [
+      "Adapter",
+      "Factory Method"
+    ],
+    "CH.ifa.draw.framework.Figure": [
+      "Adapter",
+      "Composite",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Command",
+      "Prototype"
+    ],
+    "CH.ifa.draw.framework.ConnectionFigure": [
+      "Adapter",
+      "Strategy",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.LineConnection": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.framework.Locator": [
+      "Adapter",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.TextFigure": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.PolyLineFigure": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.contrib.PolygonFigure": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.RoundRectangleFigure": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.application.DrawApplication": [
+      "Composite",
+      "Command"
+    ],
+    "CH.ifa.draw.applet.DrawApplet": [
+      "Composite",
+      "Command"
+    ],
+    "CH.ifa.draw.samples.javadraw.JavaDrawApp": [
+      "Composite",
+      "Command"
+    ],
+    "CH.ifa.draw.util.CommandButton": [
+      "Command"
+    ],
+    "CH.ifa.draw.util.CommandChoice": [
+      "Command"
+    ],
+    "CH.ifa.draw.util.CommandMenu": [
+      "Command"
+    ],
+    "CH.ifa.draw.util.Command": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.AlignCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.BringToFrontCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.ChangeAttributeCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.CopyCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.CutCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.DeleteCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.DuplicateCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.PasteCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.figures.GroupCommand": [
+      "Composite",
+      "Command"
+    ],
+    "CH.ifa.draw.figures.InsertImageCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.SendToBackCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.standard.ToggleGridCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.figures.UngroupCommand": [
+      "Command"
+    ],
+    "CH.ifa.draw.framework.FigureSelection": [
+      "Command"
+    ],
+    "CH.ifa.draw.framework.Drawing": [
+      "Observer",
+      "Command"
+    ],
+    "CH.ifa.draw.framework.DrawingView": [
+      "Command"
+    ],
+    "CH.ifa.draw.samples.pert.PertDependency": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.samples.pert.PertFigureCreationTool": [
+      "Composite",
+      "State"
+    ],
+    "CH.ifa.draw.samples.javadraw.JavaDrawViewer": [
+      "Composite"
+    ],
+    "CH.ifa.draw.samples.javadraw.JavaDrawApplet": [
+      "Composite"
+    ],
+    "CH.ifa.draw.standard.CompositeFigure": [
+      "Composite"
+    ],
+    "CH.ifa.draw.figures.GroupFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.samples.pert.PertFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.standard.StandardDrawing": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.samples.javadraw.BouncingDrawing": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.EllipseFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.ImageFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.RectangleFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.contrib.DiamondFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.contrib.TriangleFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.samples.net.NodeFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.NumberTextFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.samples.javadraw.AnimationDecorator": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.BorderDecorator": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.ElbowConnection": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.figures.LineFigure": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Decorator",
+      "Prototype"
+    ],
+    "CH.ifa.draw.standard.DecoratorFigure": [
+      "Decorator",
+      "Strategy"
+    ],
+    "CH.ifa.draw.framework.Connector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.ChopBoxConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.ChopEllipseConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.contrib.ChopPolygonConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.PolyLineConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.LocatorConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.ShortestDistanceConnector": [
+      "Factory Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.AbstractFigure": [
+      "Factory Method",
+      "Template Method",
+      "Strategy"
+    ],
+    "CH.ifa.draw.framework.Tool": [
+      "Factory Method",
+      "State"
+    ],
+    "CH.ifa.draw.standard.DragTracker": [
+      "Factory Method",
+      "State"
+    ],
+    "CH.ifa.draw.standard.SelectAreaTracker": [
+      "Factory Method",
+      "State"
+    ],
+    "CH.ifa.draw.standard.SelectionTool": [
+      "Factory Method",
+      "State"
+    ],
+    "CH.ifa.draw.framework.FigureChangeListener": [
+      "Observer"
+    ],
+    "CH.ifa.draw.standard.FigureChangeEventMulticaster": [
+      "Observer"
+    ],
+    "CH.ifa.draw.framework.DrawingChangeListener": [
+      "Observer"
+    ],
+    "CH.ifa.draw.standard.ConnectionTool": [
+      "State",
+      "Strategy",
+      "Prototype"
+    ],
+    "CH.ifa.draw.standard.CreationTool": [
+      "State",
+      "Prototype"
+    ],
+    "CH.ifa.draw.util.Clipboard": [
+      "Singleton"
+    ],
+    "CH.ifa.draw.util.Iconkit": [
+      "Singleton"
+    ],
+    "CH.ifa.draw.standard.AbstractTool": [
+      "State"
+    ],
+    "CH.ifa.draw.figures.BorderTool": [
+      "State"
+    ],
+    "CH.ifa.draw.figures.TextTool": [
+      "State"
+    ],
+    "CH.ifa.draw.figures.ConnectedTextTool": [
+      "State"
+    ],
+    "CH.ifa.draw.samples.javadraw.FollowURLTool": [
+      "State"
+    ],
+    "CH.ifa.draw.contrib.PolygonTool": [
+      "State"
+    ],
+    "CH.ifa.draw.figures.ScribbleTool": [
+      "State"
+    ],
+    "CH.ifa.draw.samples.javadraw.MySelectionTool": [
+      "State"
+    ],
+    "CH.ifa.draw.samples.javadraw.URLTool": [
+      "State"
+    ],
+    "CH.ifa.draw.standard.ChangeConnectionHandle": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.framework.Painter": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.BufferedUpdateStrategy": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.samples.javadraw.PatternPainter": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.SimpleUpdateStrategy": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.ElbowTextLocator": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.OffsetLocator": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.PolyLineLocator": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.RelativeLocator": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.framework.PointConstrainer": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.standard.GridConstrainer": [
+      "Strategy"
+    ],
+    "CH.ifa.draw.figures.AttributeFigure": [
+      "Template Method"
+    ]
+  },
+  "pattern_frequency": {
+    "Adapter": 1,
+    "Command": 1,
+    "Composite": 1,
+    "Decorator": 1,
+    "Factory Method": 1,
+    "Null Object": 1,
+    "Observer": 1,
+    "Prototype": 1,
+    "Singleton": 1,
+    "State": 1,
+    "Strategy": 1,
+    "Template Method": 1
+  }
+}

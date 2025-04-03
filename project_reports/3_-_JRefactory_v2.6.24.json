@@ -1,0 +1,644 @@
+{
+  "project_name": "3 - JRefactory v2.6.24",
+  "patterns_used": [
+    "Adapter",
+    "Builder",
+    "Factory Method",
+    "Singleton",
+    "State",
+    "Visitor"
+  ],
+  "pattern_count": 6,
+  "class_participation": {
+    "org.acm.seguin.awt.OrderableList": [
+      "Adapter"
+    ],
+    "java.awt.event.ActionListener": [
+      "Adapter"
+    ],
+    "org.acm.seguin.awt.MoveItemAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.awt.OrderableListModel": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.cafe.CafeSetup": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.cafe.ReloadActionAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.MultipleDirClassDiagramReloader": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.command.CommandLineMenu": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.command.ZoomAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.line.LinedPanel": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.ClassListPanel": [
+      "Adapter"
+    ],
+    "java.awt.event.MouseAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.JumpToTypeAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLPackage": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLPopupMenu": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.SourceBrowserAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.SourceBrowser": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.elixir.UndoMenuItem": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.common.UndoAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.refactor.undo.UndoAction": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.UMLNode": [
+      "Adapter",
+      "Builder"
+    ],
+    "org.acm.seguin.ide.jbuilder.BrowserAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.NewProjectAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.RefactoringAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.ConvertAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLField": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLType": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.line.SizableLabel": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLMethod": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLNestedType": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLMouseAdapter": [
+      "Adapter"
+    ],
+    "javaw.swing.JPopupMenu": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.JPGFileAction": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.jpg.SaveAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.jpg.Save": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.JBuilderAction": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.UMLLine": [
+      "Adapter"
+    ],
+    "java.awt.event.MouseListener": [
+      "Adapter"
+    ],
+    "java.awt.event.MouseMotionListener": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.line.DragPanelAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.line.EndPointPanel": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.line.LineMouseAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.print.PrintAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.print.PrintingThread": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.print.PrintSetupAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.print.UMLPagePrinter": [
+      "Adapter"
+    ],
+    "javax.swing.JTextField": [
+      "Adapter"
+    ],
+    "javax.swing.event.DocumentListener": [
+      "Adapter"
+    ],
+    "java.awt.event.FocusListener": [
+      "Adapter"
+    ],
+    "javax.swing.event.ListDataListener": [
+      "Adapter"
+    ],
+    "javax.swing.event.ListSelectionListener": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.refactor.SignatureUpdateAdapter": [
+      "Adapter"
+    ],
+    "org.acm.seguin.uml.refactor.ExtractMethodDialog": [
+      "Adapter"
+    ],
+    "org.acm.seguin.ide.jbuilder.refactor.MenuBuilder": [
+      "Builder"
+    ],
+    "???.ActionGroup": [
+      "Builder"
+    ],
+    "org.acm.seguin.refactor.method.ExtractMethodRefactoring": [
+      "Builder"
+    ],
+    "org.acm.seguin.refactor.method.EMBuilder": [
+      "Builder"
+    ],
+    "org.acm.seguin.parser.Node": [
+      "Builder",
+      "Visitor"
+    ],
+    "com.borland.primetime.ide.NodeViewer": [
+      "Factory Method"
+    ],
+    "org.acm.seguin.ide.jbuilder.UMLNodeViewer": [
+      "Factory Method"
+    ],
+    "com.borland.primetime.ide.NodeViewerFactory": [
+      "Factory Method"
+    ],
+    "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory": [
+      "Factory Method",
+      "Singleton"
+    ],
+    "org.acm.seguin.uml.loader.ReloaderSingleton": [
+      "Singleton"
+    ],
+    "org.acm.seguin.print.xml.XMLLinePrinter": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.State": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.AttributeState": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.AttributeValueState": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.QuoteAttributeValueState": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.TagState": [
+      "State"
+    ],
+    "org.acm.seguin.print.xml.TextState": [
+      "State"
+    ],
+    "org.acm.seguin.summary.FileSummary": [
+      "State",
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.SummaryLoaderState": [
+      "State"
+    ],
+    "org.acm.seguin.parser.JavaParserVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ChildrenVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.field.AddFieldVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.AddImplementedInterfaceVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.AddMethodVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.FindLocalVariableDeclVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.IdentifyMethodVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.ChangeMethodScopeVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.RemoveMethodVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.RenameParameterVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.MoveMethodVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.field.RemoveFieldVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.RenameParentVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.RenameTypeVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.tools.international.StringListVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.query.CompareParseTreeVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.query.EqualTree": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.LineCountVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.SummaryLoadVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.pretty.PrettyPrintVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.pretty.SpecialTokenVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.tools.stub.StubPrintVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.SimpleNode": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTAdditiveExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTAllocationExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTAndExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTArgumentList": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTArguments": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTArrayDimsAndInits": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTArrayInitializer": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTAssignmentOperator": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTBlock": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTBlockStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTBooleanLiteral": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTBreakStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTCastExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTCastLookahead": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTClassBody": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTClassBodyDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTClassDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTCompilationUnit": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTConditionalAndExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTConditionalExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTConditionalOrExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTConstructorDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTContinueStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTDoStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTEmptyStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTEqualityExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTExclusiveOrExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTExplicitConstructorInvocation": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTFieldDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTForInit": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTForStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTForUpdate": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTFormalParameter": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTFormalParameters": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTIfStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTImportDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInclusiveOrExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInitializer": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInstanceOfExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInterfaceBody": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInterfaceDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTInterfaceMemberDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTLabeledStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTLiteral": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTLocalVariableDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTMethodDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTMethodDeclarationLookahead": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTMethodDeclarator": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTMultiplicativeExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTName": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTNameList": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTNestedClassDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTNestedInterfaceDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTNullLiteral": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPackageDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPostfixExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPreDecrementExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPreIncrementExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPrimaryExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPrimaryPrefix": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPrimarySuffix": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTPrimitiveType": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTRelationalExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTResultType": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTReturnStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTShiftExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTStatementExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTStatementExpressionList": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTSwitchLabel": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTSwitchStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTSynchronizedStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTThrowStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTTryStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTType": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTTypeDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTUnaryExpression": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTUnaryExpressionNotPlusMinus": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTUnmodifiedClassDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTUnmodifiedInterfaceDeclaration": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTVariableDeclarator": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTVariableDeclaratorId": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTVariableInitializer": [
+      "Visitor"
+    ],
+    "org.acm.seguin.parser.ast.ASTWhileStatement": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.SummaryVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.metrics.GatherData": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.TraversalVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.AddMethodTypeVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.query.ChildClassSearcher": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.NearMissVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.PrintVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.field.RemoveFieldFromSubclassVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.method.RemoveMethodFromSubclassVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.field.RenameSystemTraversal": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.EliminatePackageImportVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.MoveClassVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.RenameClassVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.refactor.type.RemoveClassVisitor": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.Summary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.FieldAccessSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.ImportSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.MessageSendSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.MethodSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.PackageSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.TypeDeclSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.TypeSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.VariableSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.FieldSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.LocalVariableSummary": [
+      "Visitor"
+    ],
+    "org.acm.seguin.summary.ParameterSummary": [
+      "Visitor"
+    ]
+  },
+  "pattern_frequency": {
+    "Adapter": 1,
+    "Builder": 1,
+    "Factory Method": 1,
+    "Singleton": 1,
+    "State": 1,
+    "Visitor": 1
+  }
+}

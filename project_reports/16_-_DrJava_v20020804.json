@@ -1,0 +1,35 @@
+{
+  "project_name": "16 - DrJava v20020804",
+  "patterns_used": [
+    "Factory Method",
+    "Singleton",
+    "Adapter",
+    "Bridge",
+    "Proxy",
+    "Command",
+    "Iterator",
+    "Mediator",
+    "Memento",
+    "State",
+    "Strategy",
+    "Template Method",
+    "Visitor"
+  ],
+  "pattern_count": 13,
+  "class_participation": {},
+  "pattern_frequency": {
+    "Factory Method": 1,
+    "Singleton": 1,
+    "Adapter": 1,
+    "Bridge": 1,
+    "Proxy": 1,
+    "Command": 1,
+    "Iterator": 1,
+    "Mediator": 1,
+    "Memento": 1,
+    "State": 1,
+    "Strategy": 1,
+    "Template Method": 1,
+    "Visitor": 1
+  }
+}

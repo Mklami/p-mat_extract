@@ -1,0 +1,343 @@
+{
+  "project_name": "8 - MapperXML v1.9.7",
+  "patterns_used": [
+    "Abstract Factory",
+    "Adapter",
+    "Composite",
+    "Facade",
+    "Factory Method",
+    "Observer",
+    "Singleton",
+    "Strategy",
+    "Template Method"
+  ],
+  "pattern_count": 9,
+  "class_participation": {
+    "com.taursys.html.test.HTMLComponentFactoryTest": [
+      "Abstract Factory",
+      "Observer"
+    ],
+    "com.taursys.xml.ComponentFactory": [
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.HTMLComponentFactory": [
+      "Factory Method",
+      "Abstract Factory",
+      "Singleton"
+    ],
+    "com.taursys.xml.Component": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.DispatchingContainer": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.DocumentElement": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.Form": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.servlet.ServletForm": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory",
+      "Facade"
+    ],
+    "com.taursys.servlet.DefaultMessageForm": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.Template": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.test.HTMLComponentFactoryTest.TestContainer": [
+      "Adapter",
+      "Composite",
+      "Template Method",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.Parameter": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.CheckBoxField": [
+      "Factory Method",
+      "Abstract Factory",
+      "Composite"
+    ],
+    "com.taursys.html.HTMLCheckBox": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.xml.SelectField": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.HTMLSelect": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.servlet.test.TestComponent": [
+      "Factory Method",
+      "Abstract Factory",
+      "Composite",
+      "Observer"
+    ],
+    "com.taursys.xml.event.test.TestComponent": [
+      "Factory Method",
+      "Abstract Factory",
+      "Composite",
+      "Observer"
+    ],
+    "com.taursys.xml.TextField": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.HTMLAnchorURL": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.HTMLInputText": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.html.HTMLTextArea": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.servlet.test.TestParameter": [
+      "Factory Method",
+      "Abstract Factory",
+      "Composite"
+    ],
+    "com.taursys.xml.event.test.TestParameter": [
+      "Factory Method",
+      "Abstract Factory",
+      "Composite"
+    ],
+    "com.taursys.xml.Trigger": [
+      "Composite",
+      "Template Method",
+      "Observer",
+      "Factory Method",
+      "Abstract Factory"
+    ],
+    "com.taursys.dom.DocumentAdapter": [
+      "Adapter",
+      "Facade"
+    ],
+    "com.taursys.dom.DOM_1_20000929_DocumentAdapter": [
+      "Adapter",
+      "Strategy"
+    ],
+    "org.w3c.dom.Document": [
+      "Adapter"
+    ],
+    "com.taursys.debug.Debug": [
+      "Adapter",
+      "Singleton"
+    ],
+    "com.taursys.debug.LoggerAdapter": [
+      "Adapter"
+    ],
+    "com.taursys.debug.SimpleLogger": [
+      "Adapter"
+    ],
+    "java.lang.System": [
+      "Adapter"
+    ],
+    "com.taursys.xml.render.AbstractRenderer": [
+      "Composite"
+    ],
+    "com.taursys.xml.event.CloseFormDispatcher": [
+      "Composite",
+      "Template Method"
+    ],
+    "com.taursys.xml.event.OpenFormDispatcher": [
+      "Composite",
+      "Template Method"
+    ],
+    "com.taursys.xml.event.InitFormDispatcher": [
+      "Composite",
+      "Template Method"
+    ],
+    "com.taursys.xml.event.InitContextDispatcher": [
+      "Composite",
+      "Template Method"
+    ],
+    "com.taursys.xml.Container": [
+      "Composite",
+      "Template Method"
+    ],
+    "com.taursys.xml.Button": [
+      "Composite",
+      "Template Method",
+      "Observer"
+    ],
+    "com.taursys.servlet.respond.Responser": [
+      "Facade"
+    ],
+    "com.taursys.servlet.respond.HTMLResponser": [
+      "Facade"
+    ],
+    "com.taursys.servlet.Dispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.ServletFormDispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.respond.ServletInputDispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.respond.RenderDispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.respond.ServletTriggerDispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.respond.RecycleDispatcher": [
+      "Facade"
+    ],
+    "com.taursys.servlet.HttpMultiPartServletRequest": [
+      "Facade"
+    ],
+    "com.taursys.xml.CheckboxField": [
+      "Observer"
+    ],
+    "com.taursys.servlet.test.ServletInputDispatcherTest.TestComponent": [
+      "Observer"
+    ],
+    "com.taursys.xml.event.test.InputDispatcherTest.TestComponent": [
+      "Observer"
+    ],
+    "com.taursys.servlet.test.ServletParameterDispatcherTest.TestParameter": [
+      "Observer"
+    ],
+    "com.taursys.xml.test.ParameterDispatcherTest.TestParameter": [
+      "Observer"
+    ],
+    "com.taursys.xml.event.ParameterListener": [
+      "Observer"
+    ],
+    "com.taursys.xml.event.RecycleListener": [
+      "Observer"
+    ],
+    "com.taursys.xml.event.RenderListener": [
+      "Observer"
+    ],
+    "com.taursys.xml.TriggerListener": [
+      "Observer"
+    ],
+    "com.taursys.tools.CodeGenerator": [
+      "Singleton"
+    ],
+    "com.taursys.dom.AbstractWriter": [
+      "Strategy"
+    ],
+    "com.taursys.dom.XMLWriter": [
+      "Strategy"
+    ],
+    "com.taursys.xml.CheckBox": [
+      "Template Method"
+    ],
+    "com.taursys.xml.AbstractField": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.Dispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.InputDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.TemplateInputDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.ParameterDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.RecycleDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.RenderDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.servlet.ServletInputDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.servlet.ServletParameterDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.servlet.ServletTriggerDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.TriggerDispatcher": [
+      "Template Method"
+    ],
+    "com.taursys.xml.event.TemplateTriggerDispatcher": [
+      "Template Method"
+    ]
+  },
+  "pattern_frequency": {
+    "Abstract Factory": 1,
+    "Adapter": 1,
+    "Composite": 1,
+    "Facade": 1,
+    "Factory Method": 1,
+    "Observer": 1,
+    "Singleton": 1,
+    "Strategy": 1,
+    "Template Method": 1
+  }
+}

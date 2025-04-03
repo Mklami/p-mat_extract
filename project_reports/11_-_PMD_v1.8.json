@@ -1,0 +1,209 @@
+{
+  "project_name": "11 - PMD v1.8",
+  "patterns_used": [
+    "Adapter",
+    "Builder",
+    "Composite",
+    "Factory Method",
+    "Interpreter",
+    "Iterator",
+    "Proxy",
+    "Template Method",
+    "Observer",
+    "Visitor"
+  ],
+  "pattern_count": 10,
+  "class_participation": {
+    "net.sourceforge.pmd.ast.JavaParserVisitorAdapter": [
+      "Adapter",
+      "Visitor"
+    ],
+    "net.sourceforge.pmd.AbstractRule": [
+      "Adapter"
+    ],
+    "net.sourceforge.pmd.Rule": [
+      "Adapter"
+    ],
+    "net.sourceforge.pmd.ant.PMDTask": [
+      "Adapter",
+      "Template Method"
+    ],
+    "net.sourceforge.pmd.CommandLineOptions": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.Renderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.IDEAJRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.EmacsRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.PapariTextRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.SummaryHTMLRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.VBHTMLRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.HTMLRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.XMLRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.TextRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.ant.Formatter": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.renderers.CVSRenderer": [
+      "Builder"
+    ],
+    "net.sourceforge.pmd.TargetJDK1_4": [
+      "Factory Method",
+      "Composite"
+    ],
+    "net.sourceforge.pmd.ast.JavaCharStream": [
+      "Composite"
+    ],
+    "net.sourceforge.pmd.ast.CharStream": [
+      "Composite"
+    ],
+    "net.sourceforge.pmd.ast.SimpleStream": [
+      "Composite"
+    ],
+    "net.sourceforge.pmd.ast.JavaParser": [
+      "Factory Method",
+      "Composite",
+      "Proxy",
+      "Interpreter"
+    ],
+    "net.sourceforge.pmd.ast.JavaParserTokenManager": [
+      "Factory Method",
+      "Composite",
+      "Proxy"
+    ],
+    "net.sourceforge.pmd.ast.ASTVariableDeclaratorID": [
+      "Composite"
+    ],
+    "net.sourceforge.pmd.ast.Node": [
+      "Composite",
+      "Visitor"
+    ],
+    "net.sourceforge.pmd.symboltable.ScopeFactory": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.BasicScopeFactory": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.ScopeCreationVisitorTest.MySF": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.Scope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.ClassScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.AbstractScopeTest.IsEnclosingClassScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.GlobalScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.LocalScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.MethodScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.symboltable.AbstractScopeTest.MyScope": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.TargetJDKVersion": [
+      "Factory Method"
+    ],
+    "net.sourceforge.pmd.ast.JavaParserConstants": [
+      "Factory Method",
+      "Proxy"
+    ],
+    "net.sourceforge.pmd.ast.JavaParserState": [
+      "Interpreter"
+    ],
+    "net.sourceforge.pmd.ast.SimpleNode": [
+      "Visitor",
+      "Interpreter"
+    ],
+    "java.lang.Iterator": [
+      "Iterator"
+    ],
+    "net.sourceforge.pmd.jaxen.NodeIterator": [
+      "Iterator"
+    ],
+    "org.jaxen.DefaultNavigator": [
+      "Iterator"
+    ],
+    "net.sourceforge.pmd.jaxen.DocumentNavigator": [
+      "Iterator"
+    ],
+    "org.apache.tools.ant.Task": [
+      "Template Method"
+    ],
+    "net.sourceforge.pmd.util.viewer.model.ViewerModel": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.model.ViewerModelListener": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.gui.ASTPanel": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.gui.EvaluationResultsPanel": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.gui.MainFrame": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.gui.SourceCodePanel": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.util.viewer.gui.XPathPanel": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.ReportListener": [
+      "Observer"
+    ],
+    "test.net.sourceforge.pmd.ReportTest": [
+      "Observer"
+    ],
+    "test.net.sourceforge.pmd.rules.design.UseSingletonRuleTest": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.Report": [
+      "Observer"
+    ],
+    "net.sourceforge.pmd.ast.ASTVariableDeclaratorId": [
+      "Visitor"
+    ],
+    "net.sourceforge.pmd.ast.JavaParserVisitor": [
+      "Visitor"
+    ]
+  },
+  "pattern_frequency": {
+    "Adapter": 1,
+    "Builder": 1,
+    "Composite": 1,
+    "Factory Method": 1,
+    "Interpreter": 1,
+    "Iterator": 1,
+    "Proxy": 1,
+    "Template Method": 1,
+    "Observer": 1,
+    "Visitor": 1
+  }
+}

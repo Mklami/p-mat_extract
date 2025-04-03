@@ -1,0 +1,233 @@
+{
+  "project_name": "10 - Nutch v0.4",
+  "patterns_used": [
+    "Singleton",
+    "Bridge",
+    "Command",
+    "Memento",
+    "Template Method",
+    "Adapter",
+    "Strategy",
+    "Iterator"
+  ],
+  "pattern_count": 8,
+  "class_participation": {
+    "net.nutch.io.NullWritable": [
+      "Singleton"
+    ],
+    "net.nutch.db.DistributedWebDBReader.EnumCall": [
+      "Bridge",
+      "Template Method"
+    ],
+    "net.nutch.db.DistributedWebDBReader.LinkEnumCall": [
+      "Bridge",
+      "Template Method"
+    ],
+    "net.nutch.db.DistributedWebDBReader.PageEnumCall": [
+      "Bridge",
+      "Template Method"
+    ],
+    "net.nutch.db.DistributedWebDBReader.PageByMD5EnumCall": [
+      "Bridge",
+      "Template Method"
+    ],
+    "java.util.Enumeration": [
+      "Bridge"
+    ],
+    "net.nutch.db.DBSectionReader.MapEnumerator": [
+      "Bridge"
+    ],
+    "net.nutch.db.DBSectionReader.IndexEnumerator": [
+      "Bridge"
+    ],
+    "net.nutch.db.DBSectionReader.TableEnumerator": [
+      "Bridge"
+    ],
+    "net.nutch.db.DistributedWebDBReader.MetaEnumerator": [
+      "Bridge"
+    ],
+    "net.nutch.db.EditSectionGroupWriter.KeyExtractor": [
+      "Bridge"
+    ],
+    "net.nutch.db.EditSectionGroupWriter.PageURLExtractor": [
+      "Bridge",
+      "Memento"
+    ],
+    "net.nutch.db.EditSectionGroupWriter.PageMD5Extractor": [
+      "Bridge",
+      "Memento"
+    ],
+    "net.nutch.db.EditSectionGroupWriter.LinkURLExtractor": [
+      "Bridge",
+      "Memento"
+    ],
+    "net.nutch.db.EditSectionGroupWriter.LinkMD5Extractor": [
+      "Bridge",
+      "Memento"
+    ],
+    "net.nutch.io.WritableComparable": [
+      "Bridge",
+      "Adapter"
+    ],
+    "net.nutch.db.Link": [
+      "Bridge",
+      "Command"
+    ],
+    "net.nutch.db.Page": [
+      "Bridge",
+      "Adapter",
+      "Command"
+    ],
+    "net.nutch.db.WebDBWriter.PageInstruction": [
+      "Bridge"
+    ],
+    "net.nutch.db.WebDBWriter.LinkInstruction": [
+      "Bridge"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.PageInstruction": [
+      "Bridge"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.LinkInstruction": [
+      "Bridge"
+    ],
+    "net.nutch.io.IntWritable": [
+      "Bridge"
+    ],
+    "net.nutch.io.LongWritable": [
+      "Bridge"
+    ],
+    "net.nutch.io.MD5Hash": [
+      "Bridge"
+    ],
+    "net.nutch.io.UTF8": [
+      "Bridge"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.CloseProcessor": [
+      "Template Method",
+      "Command"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.PagesByURLProcessor": [
+      "Template Method",
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.PagesByMD5Processor": [
+      "Template Method",
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.LinksByURLProcessor": [
+      "Template Method",
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.DistributedWebDBWriter.LinksByMD5Processor": [
+      "Template Method",
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.DistributedWebDBWriter": [
+      "Strategy",
+      "Iterator",
+      "Command"
+    ],
+    "net.nutch.db.WebDBWriter.CloseProcessor": [
+      "Command"
+    ],
+    "net.nutch.db.WebDBWriter.LinksByMD5Processor": [
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.WebDBWriter.LinksByURLProcessor": [
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.WebDBWriter.PagesByMD5Processor": [
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.WebDBWriter.PagesByURLProcessor": [
+      "Command",
+      "Memento"
+    ],
+    "net.nutch.db.WebDBWriter": [
+      "Strategy",
+      "Iterator",
+      "Command"
+    ],
+    "net.nutch.db.EditSectionGroupWriter": [
+      "Memento"
+    ],
+    "net.nutch.io.SequenceFile.Writer": [
+      "Memento"
+    ],
+    "Originator": [
+      "Memento"
+    ],
+    "net.nutch.db.KeyExtractor": [
+      "Template Method"
+    ],
+    "net.nutch.db.PageURLExtractor": [
+      "Template Method"
+    ],
+    "net.nutch.db.PageMD5Extractor": [
+      "Template Method"
+    ],
+    "net.nutch.db.LinkURLExtractor": [
+      "Template Method"
+    ],
+    "net.nutch.db.LinkMD5Extractor": [
+      "Template Method"
+    ],
+    "net.nutch.io.Writable": [
+      "Adapter"
+    ],
+    "net.nutch.db.WebDBWriter.PageInstructionWriter": [
+      "Adapter"
+    ],
+    "Cloneable": [
+      "Adapter"
+    ],
+    "\"Still searching\"": [
+      "Adapter"
+    ],
+    "net.nutch.pagedb.FetchListEntry": [
+      "Adapter"
+    ],
+    "net.nutch.db.IWebDBWriter": [
+      "Strategy",
+      "Iterator"
+    ],
+    "net.nutch.db.WebDBInjector": [
+      "Strategy"
+    ],
+    "net.nutch.db.IWebDBReader": [
+      "Strategy",
+      "Iterator"
+    ],
+    "net.nutch.db.DistributedWebDBReader": [
+      "Strategy",
+      "Iterator"
+    ],
+    "net.nutch.db.WebDBReader": [
+      "Strategy",
+      "Iterator"
+    ],
+    "net.nutch.tools.FetchListTool": [
+      "Strategy"
+    ],
+    "net.nutch.tools.DistributedAnalysisTool": [
+      "Iterator"
+    ]
+  },
+  "pattern_frequency": {
+    "Singleton": 1,
+    "Bridge": 1,
+    "Command": 1,
+    "Memento": 1,
+    "Template Method": 1,
+    "Adapter": 1,
+    "Strategy": 1,
+    "Iterator": 1
+  }
+}

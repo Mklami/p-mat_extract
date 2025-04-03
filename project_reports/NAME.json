@@ -1,0 +1,11 @@
+{
+  "project_name": "NAME",
+  "patterns_used": [
+    "NAME"
+  ],
+  "pattern_count": 1,
+  "class_participation": {},
+  "pattern_frequency": {
+    "NAME": 1
+  }
+}
